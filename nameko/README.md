@@ -8,7 +8,7 @@ http://localhost:15672 <br/>
 nameko run helloworld <br/>
 
 # On Another Terminal
-python3 -m venv env <br/>
+source env/bin/activate <br/>
 nameko shell <br/>
 
   n.rpc.greeting_service.hello("world0") <br/>
