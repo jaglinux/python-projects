@@ -3,4 +3,4 @@ nameko run helloworld <br/>
 
 # On Another Terminal
 nameko shell <br/>
->>> n.rpc.greeting_service.hello("world0") <br/>
+  n.rpc.greeting_service.hello("world0") <br/>
