@@ -1,4 +1,4 @@
-# First Terminal
+# 1. First Terminal
 mkdir nameko && cd nameko <br/>
 python3 -m venv env <br/>
 source env/bin/activate <br/>
@@ -7,11 +7,12 @@ http://localhost:15672 <br/>
 
 nameko run helloworld <br/>
 
-# On Another Terminal
+# 2. On Another Terminal
 source env/bin/activate <br/>
 nameko shell <br/>
 
   n.rpc.greeting_service.hello("world0") <br/>
 
-At the end, <br/> 
+# Repeat the step 2 on multiple Terminals to produce n number of messages consumed by n number consumers of nameko microservice
+At the end, in all terminals, <br/> 
 deactivate <br/>
