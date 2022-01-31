@@ -1,3 +1,4 @@
+# First Terminal
 mkdir nameko && cd nameko <br/>
 python3 -m venv env <br/>
 source env/bin/activate <br/>
@@ -7,6 +8,10 @@ http://localhost:15672 <br/>
 nameko run helloworld <br/>
 
 # On Another Terminal
+python3 -m venv env <br/>
 nameko shell <br/>
 
   n.rpc.greeting_service.hello("world0") <br/>
+
+At the end, <br/> 
+deactivate <br/>
