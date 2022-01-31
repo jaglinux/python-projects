@@ -13,6 +13,7 @@ nameko shell <br/>
 
   n.rpc.greeting_service.hello("world0") <br/>
 
-# Repeat the step 2 on multiple Terminals to produce n number of messages consumed by n number consumers of nameko microservice
+Repeat the step 2 on multiple Terminals to produce n number of messages consumed by n number consumers of nameko microservice <br/>
+
 At the end, in all terminals, <br/> 
 deactivate <br/>
