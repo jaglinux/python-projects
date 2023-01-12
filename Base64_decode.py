@@ -33,6 +33,9 @@ def base64Decode(base64String: str) -> bytearray:
     elif pad == 1:
         result_str = result_str[:-1]
     result = bytearray(result_str, "utf-8")
+    
+# Decoded string is  aa and len is  2
+# bytearray(b'aa')
     print("Decoded string is ", result_str, "and len is ", len(result_str))
     return result
 
