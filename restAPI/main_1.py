@@ -14,7 +14,7 @@ class Video(Resource):
         print(param)
         return param
     
-    def post(self, video_id):
+    def post(self):
         param = request.args.get('id')
         print(param)
 
