@@ -6,12 +6,6 @@ api = Api(app)
 
 data = {}
 
-video_post_args = reqparse.RequestParser()
-
-video_post_args.add_argument("name", type=str, help="Enter name of video", required=True)
-video_post_args.add_argument("likes", type=int, help="Enter video likes", required=True)
-video_post_args.add_argument("views", type=int, help="Enter video views", required=True)
-
 class Video(Resource):
     def get(self):
         param = request.args.get('id')
