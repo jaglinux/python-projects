@@ -1,4 +1,5 @@
-# snapshot.py
+#!/usr/bin/env python3
+
 import yfinance as yf
 import pandas as pd
 import dataframe_image as dfi
@@ -16,7 +17,7 @@ def fetch_quote(ticker: str):
     market_cap = None
     yr_high = None
 
-    # fast_info path (faster, has year_high in recent versions)[web:128]
+    # fast_info first
     try:
         fi = t.fast_info
         price = getattr(fi, "last_price", None) or getattr(fi, "last_close", None)
@@ -34,11 +35,10 @@ def fetch_quote(ticker: str):
             if market_cap is None:
                 market_cap = info.get("marketCap")
             if yr_high is None:
-                yr_high = info.get("fiftyTwoWeekHigh")  # standard key[web:72][web:123]
+                yr_high = info.get("fiftyTwoWeekHigh")
         except Exception:
             pass
 
-    # % below 52-week high (negative if below)
     pct_from_high = None
     if price is not None and yr_high not in (None, 0):
         pct_from_high = (price / yr_high - 1.0) * 100.0
@@ -61,14 +61,14 @@ def main() -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
 
-    # sort by market cap ascending (None goes last)
+    # sort by market cap ascending
     df = df.sort_values(
         by="Market Cap (B)",
         key=lambda s: s.fillna(s.max() + 1),
         ascending=True,
     )
 
-    # pretty print to terminal
+    # print table
     print(
         tabulate(
             df,
@@ -79,7 +79,7 @@ def main() -> pd.DataFrame:
         )
     )
 
-    # style for image
+    # export PNG
     styled = df.style.format(
         {
             "Price": "{:.2f}",
@@ -88,8 +88,6 @@ def main() -> pd.DataFrame:
             "% From 52W High": "{:.2f}",
         }
     ).hide(axis="index")
-
-    # export to PNG
     dfi.export(styled, "stocks_table.png")
     print("Saved stocks_table.png – share this image on WhatsApp.")
 
