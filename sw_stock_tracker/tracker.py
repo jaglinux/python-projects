@@ -7,6 +7,7 @@ import pandas as pd
 
 import snapshot
 import sentiment
+import agent
 
 HISTORY_FILE = "stock_history.txt"
 
@@ -171,6 +172,8 @@ def main():
         print("\n=== Daily & Weekly Changes + Sentiment ===")
         print(df_changes.sort_values("Ticker"))
 
+    # 7) Generate AI recommendation
+    agent.main()
 
 if __name__ == "__main__":
     main()
