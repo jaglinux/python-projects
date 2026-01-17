@@ -1,0 +1,47 @@
+name: Daily Stock Tracker
+
+on:
+  workflow_dispatch:  # Manual trigger only for now
+
+jobs:
+  run-tracker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        working-directory: python-projects/sw_stock_tracker
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tracker script
+        working-directory: python-projects/sw_stock_tracker
+        run: |
+          python tracker.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push results
+        run: |
+          git add python-projects/sw_stock_tracker/stock_history.txt python-projects/sw_stock_tracker/stocks_table.png python-projects/sw_stock_tracker/news_summary.png python-projects/sw_stock_tracker/recommendations.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily stock snapshot"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
