@@ -1,0 +1,8 @@
+yfinance
+pandas
+dataframe-image
+tabulate
+matplotlib
+nltk
+langchain
+langchain-openai
