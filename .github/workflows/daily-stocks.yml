@@ -17,13 +17,13 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        working-directory: python-projects/sw_stock_tracker
+        working-directory: sw_stock_tracker
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run tracker script
-        working-directory: python-projects/sw_stock_tracker
+        working-directory: sw_stock_tracker
         run: |
           python tracker.py
         env:
@@ -36,7 +36,7 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git add python-projects/sw_stock_tracker/stock_history.txt python-projects/sw_stock_tracker/stocks_table.png python-projects/sw_stock_tracker/news_summary.png python-projects/sw_stock_tracker/recommendations.md || true
+          git add sw_stock_tracker/stock_history.txt sw_stock_tracker/stocks_table.png sw_stock_tracker/news_summary.png sw_stock_tracker/recommendations.md || true
           if ! git diff --cached --quiet; then
             git commit -m "Update daily stock snapshot"
             git push
