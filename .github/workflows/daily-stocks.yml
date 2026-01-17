@@ -2,6 +2,12 @@ name: Daily Stock Tracker
 
 on:
   workflow_dispatch:  # Manual trigger only for now
+    inputs:
+      force_update:
+        description: 'Force clean start (delete history and regenerate)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   run-tracker:
@@ -15,6 +21,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: Clean generated files (if force update)
+        if: ${{ github.event.inputs.force_update == 'true' }}
+        working-directory: sw_stock_tracker
+        run: |
+          rm -f stock_history.txt stocks_table.png news_summary.png recommendations.md
+          echo "Cleaned all generated files for fresh start"
 
       - name: Install dependencies
         working-directory: sw_stock_tracker
