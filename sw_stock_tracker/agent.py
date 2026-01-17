@@ -55,7 +55,7 @@ Be concise and actionable. Format: "Buy TICKER1, TICKER2 because [brief reason].
     ])
     
     # Initialize LLM (GPT-4 or GPT-3.5-turbo)
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.3)
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
     
     # Create chain
     chain = prompt_template | llm
