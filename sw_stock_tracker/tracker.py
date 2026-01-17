@@ -5,9 +5,10 @@ from datetime import datetime, timezone, timedelta
 
 import pandas as pd
 
-import snapshot  # same directory
+import snapshot
+import sentiment
 
-HISTORY_FILE = "stock_history.txt"  # CSV-format text
+HISTORY_FILE = "stock_history.txt"
 
 
 def load_history() -> pd.DataFrame:
@@ -22,6 +23,7 @@ def load_history() -> pd.DataFrame:
                 "Market Cap (B)",
                 "52W High",
                 "% From 52W High",
+                "Sentiment",
             ]
         )
 
@@ -39,7 +41,6 @@ def latest_prices_by_ticker(df_hist: pd.DataFrame) -> pd.Series:
 
 def prices_changed(df_snap: pd.DataFrame, last_prices: pd.Series) -> bool:
     if last_prices.empty:
-        # first ever run -> treat as "changed" so we create baseline
         return True
 
     for _, row in df_snap.iterrows():
@@ -47,22 +48,20 @@ def prices_changed(df_snap: pd.DataFrame, last_prices: pd.Series) -> bool:
         new_price = row["Price"]
         old_price = last_prices.get(ticker, None)
 
-        # skip if new_price is missing
         if pd.isna(new_price):
             continue
 
-        # if old_price missing -> changed
         if old_price is None or pd.isna(old_price):
             return True
 
-        # compare as floats with small tolerance to avoid float precision issues
         try:
-            if abs(float(new_price) - float(old_price)) > 0.01:  # tolerance for rounding
+            if abs(float(new_price) - float(old_price)) > 0.01:
                 return True
         except Exception:
             return True
 
     return False
+
 
 def compute_changes(df_hist: pd.DataFrame) -> pd.DataFrame:
     df_hist = df_hist.sort_values(["Ticker", "timestamp"])
@@ -90,7 +89,7 @@ def compute_changes(df_hist: pd.DataFrame) -> pd.DataFrame:
         else:
             daily_change = None
 
-        # weekly: last vs most recent row at least 5 days earlier
+        # weekly
         cutoff_time = last_time - timedelta(days=5)
         weekly_candidates = g[g["timestamp"] <= cutoff_time]
 
@@ -116,6 +115,7 @@ def compute_changes(df_hist: pd.DataFrame) -> pd.DataFrame:
                 "Daily Change %": daily_change,
                 "Weekly Change %": weekly_change,
                 "% From 52W High": last_row.get("% From 52W High"),
+                "Sentiment": last_row.get("Sentiment"),
             }
         )
 
@@ -123,35 +123,52 @@ def compute_changes(df_hist: pd.DataFrame) -> pd.DataFrame:
 
 
 def main():
-    # fresh snapshot only (no history writes here)
-    df_snap = snapshot.main()
+    # 1) Fetch prices
+    print("=== Fetching stock prices ===")
+    df_prices = snapshot.main()
 
+    # 2) Check if prices changed
     df_hist_before = load_history()
     last_prices = latest_prices_by_ticker(df_hist_before)
 
-    if not prices_changed(df_snap, last_prices):
+    if not prices_changed(df_prices, last_prices):
         print("\nNo price changes vs last stored snapshot; not appending or recomputing.")
         return
 
-    # append new snapshot
+    # 3) Fetch sentiment only if prices changed
+    print("\n=== Fetching sentiment ===")
+    df_sentiment = sentiment.main()  # calls sentiment.main() which creates news_summary.png
+
+    # 4) Merge price + sentiment
+    df_snap = df_prices.merge(df_sentiment, on="Ticker", how="left")
+
+    # 5) Append merged snapshot (price + sentiment)
     now = datetime.now(timezone.utc)
     df_append = df_snap.copy()
     df_append["timestamp"] = now
 
-    for col in ["Ticker", "Price", "Market Cap (B)", "52W High", "% From 52W High"]:
+    for col in ["Ticker", "Price", "Market Cap (B)", "52W High", "% From 52W High", "Sentiment"]:
         if col not in df_append.columns:
             df_append[col] = pd.NA
 
-    cols = ["timestamp", "Ticker", "Price", "Market Cap (B)", "52W High", "% From 52W High"]
+    cols = [
+        "timestamp",
+        "Ticker",
+        "Price",
+        "Market Cap (B)",
+        "52W High",
+        "% From 52W High",
+        "Sentiment",
+    ]
     df_append = df_append[cols]
 
     df_hist_after = pd.concat([df_hist_before, df_append], ignore_index=True)
     save_history(df_hist_after)
 
-    # compute changes
+    # 6) Compute changes
     df_changes = compute_changes(df_hist_after)
     with pd.option_context("display.float_format", "{:.2f}".format):
-        print("\n=== Daily & Weekly Changes ===")
+        print("\n=== Daily & Weekly Changes + Sentiment ===")
         print(df_changes.sort_values("Ticker"))
 
 
