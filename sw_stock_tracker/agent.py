@@ -9,6 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 HISTORY_FILE = "stock_history.txt"
 RECOMMENDATIONS_FILE = "recommendations.md"
 
+
 def load_latest_snapshot() -> pd.DataFrame:
     """
     Load stock_history.txt and return only the latest timestamp's data.
@@ -50,11 +51,13 @@ def generate_recommendation(df_latest: pd.DataFrame) -> str:
 - Strong daily/weekly momentum (positive % changes)
 - Not too far from 52-week high (reasonable entry point)
 
-Be concise and actionable. Format: "Buy TICKER1, TICKER2 because [brief reason]." Keep under 100 words."""),
+Be concise and actionable. Format: "Buy TICKER1 ($XX.XX), TICKER2 ($XX.XX) because [brief reason]."
+Always include the current price in parentheses next to each ticker symbol.
+Keep under 100 words."""),
         ("human", "Here is today's stock data:\n\n{table}")
     ])
     
-    # Initialize LLM (GPT-4 or GPT-3.5-turbo)
+    # Initialize LLM with temperature=0 for deterministic recommendations
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
     
     # Create chain
