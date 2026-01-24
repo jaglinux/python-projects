@@ -1,0 +1,64 @@
+name: Daily High Tracker
+
+on:
+  workflow_dispatch:  # Manual trigger only
+    inputs:
+      force_update:
+        description: 'Force clean start (delete history and regenerate)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  run-tracker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Clean generated files (if force update)
+        if: ${{ github.event.inputs.force_update == 'true' }}
+        working-directory: nasdaq_high_tracker
+        run: |
+          rm -rf output
+          echo "Cleaned all generated files for fresh start"
+
+      - name: Install dependencies
+        working-directory: nasdaq_high_tracker
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -c "import nltk; nltk.download('vader_lexicon', quiet=True)"
+
+      - name: Fetch S&P 500 tickers
+        working-directory: nasdaq_high_tracker
+        run: python fetch_tickers.py
+
+      - name: Run tracker script
+        working-directory: nasdaq_high_tracker
+        run: python tracker.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push results
+        run: |
+          git add nasdaq_high_tracker/output/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update S&P 500 high tracker"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
