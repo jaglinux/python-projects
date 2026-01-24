@@ -4,6 +4,8 @@ Fetch all S&P 500 tickers from Wikipedia and save to ticker.txt.
 Run this manually to update the ticker list.
 """
 
+import io
+import requests
 import pandas as pd
 
 
@@ -16,8 +18,16 @@ def fetch_sp500_tickers() -> list:
     
     print("Fetching S&P 500 tickers from Wikipedia...")
     
-    # Read the first table from the Wikipedia page
-    tables = pd.read_html(url)
+    # Use requests with a User-Agent header to avoid 403 Forbidden
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    
+    # Parse HTML tables from the response content
+    tables = pd.read_html(io.StringIO(response.text))
     df = tables[0]
     
     # The ticker column is named "Symbol"
