@@ -5,6 +5,7 @@ Orchestrates snapshots, tracks history, and identifies high breakouts.
 """
 
 import os
+import argparse
 from datetime import datetime, timezone, timedelta
 
 import pandas as pd
@@ -13,7 +14,11 @@ import snapshot
 import sentiment
 import agent
 
-HISTORY_FILE = "high_tracker_history.csv"
+# Get the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
+HISTORY_FILE = os.path.join(OUTPUT_DIR, "stocks_at_highs.txt")
+SNAPSHOT_FILE = os.path.join(OUTPUT_DIR, "snapshot.txt")
 
 
 def load_history() -> pd.DataFrame:
@@ -25,6 +30,7 @@ def load_history() -> pd.DataFrame:
             columns=[
                 "timestamp",
                 "Ticker",
+                "Name",
                 "Price",
                 "Market Cap (B)",
                 "52W High",
@@ -43,6 +49,61 @@ def load_history() -> pd.DataFrame:
 def save_history(df_hist: pd.DataFrame):
     """Save historical data to CSV file."""
     df_hist.to_csv(HISTORY_FILE, index=False)
+
+
+def load_snapshot_from_file() -> pd.DataFrame:
+    """
+    Load snapshot data from output/snapshot.txt file.
+    Used for testing without making API calls to yfinance.
+    """
+    if not os.path.exists(SNAPSHOT_FILE):
+        print(f"Error: {SNAPSHOT_FILE} not found.")
+        print("Run 'python snapshot.py' first to generate the snapshot.")
+        exit(1)
+    
+    with open(SNAPSHOT_FILE, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    
+    # Find the table header line (starts with | Ticker)
+    header_idx = None
+    for i, line in enumerate(lines):
+        if line.strip().startswith("| Ticker"):
+            header_idx = i
+            break
+    
+    if header_idx is None:
+        print("Error: Could not find table header in snapshot.txt")
+        exit(1)
+    
+    # Parse header
+    header_line = lines[header_idx]
+    headers = [h.strip() for h in header_line.split("|") if h.strip()]
+    
+    # Parse data rows (skip header and separator line)
+    rows = []
+    for line in lines[header_idx + 2:]:  # Skip header and |---|---| line
+        if not line.strip() or not line.strip().startswith("|"):
+            continue
+        values = [v.strip() for v in line.split("|") if v.strip() != ""]
+        if len(values) == len(headers):
+            rows.append(values)
+    
+    df = pd.DataFrame(rows, columns=headers)
+    
+    # Convert numeric columns
+    numeric_cols = ["Price", "52W High", "% From 52W High", "All-Time High", "% From ATH"]
+    for col in numeric_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+    
+    # Convert boolean columns
+    bool_cols = ["At 52W High", "At ATH"]
+    for col in bool_cols:
+        if col in df.columns:
+            df[col] = df[col].str.strip().str.lower() == "true"
+    
+    print(f"Loaded {len(df)} stocks from {SNAPSHOT_FILE}")
+    return df
 
 
 def latest_prices_by_ticker(df_hist: pd.DataFrame) -> pd.Series:
@@ -112,6 +173,7 @@ def detect_new_highs(df_hist: pd.DataFrame) -> pd.DataFrame:
         if new_52w or new_ath:
             breakouts.append({
                 "Ticker": ticker,
+                "Name": current.get("Name"),
                 "Price": current["Price"],
                 "New 52W High": new_52w,
                 "New ATH": new_ath,
@@ -168,6 +230,7 @@ def compute_momentum(df_hist: pd.DataFrame) -> pd.DataFrame:
 
         results.append({
             "Ticker": ticker,
+            "Name": last_row.get("Name"),
             "Price": last_price,
             "Market Cap (B)": last_row.get("Market Cap (B)"),
             "Daily Change %": daily_change,
@@ -195,16 +258,20 @@ def print_summary(df_momentum: pd.DataFrame, df_breakouts: pd.DataFrame):
     if not at_52w.empty:
         print(f"\n🔥 Stocks at 52-Week High ({len(at_52w)}):")
         for _, row in at_52w.iterrows():
-            print(f"   {row['Ticker']:6} ${row['Price']:8.2f}  "
-                  f"({row['% From 52W High']:+.2f}% from high)")
+            name = row.get('Name', '') or ''
+            name_short = name[:25] + "..." if len(name) > 25 else name
+            print(f"   {row['Ticker']:6} {name_short:28} ${row['Price']:8.2f}  "
+                  f"({row['% From 52W High']:+.2f}%)")
     
     # Stocks at ATH
     at_ath = df_momentum[df_momentum["At ATH"] == True]
     if not at_ath.empty:
         print(f"\n🚀 Stocks at All-Time High ({len(at_ath)}):")
         for _, row in at_ath.iterrows():
-            print(f"   {row['Ticker']:6} ${row['Price']:8.2f}  "
-                  f"({row['% From ATH']:+.2f}% from ATH)")
+            name = row.get('Name', '') or ''
+            name_short = name[:25] + "..." if len(name) > 25 else name
+            print(f"   {row['Ticker']:6} {name_short:28} ${row['Price']:8.2f}  "
+                  f"({row['% From ATH']:+.2f}%)")
     
     # New breakouts
     if not df_breakouts.empty:
@@ -215,7 +282,9 @@ def print_summary(df_momentum: pd.DataFrame, df_breakouts: pd.DataFrame):
                 breakout_type.append("52W High")
             if row.get("New ATH"):
                 breakout_type.append("ATH")
-            print(f"   {row['Ticker']:6} ${row['Price']:8.2f}  "
+            name = row.get('Name', '') or ''
+            name_short = name[:25] + "..." if len(name) > 25 else name
+            print(f"   {row['Ticker']:6} {name_short:28} ${row['Price']:8.2f}  "
                   f"→ New {', '.join(breakout_type)}!")
     
     # Top momentum stocks (moving toward highs)
@@ -224,23 +293,35 @@ def print_summary(df_momentum: pd.DataFrame, df_breakouts: pd.DataFrame):
         top_momentum = momentum_df.nlargest(5, "High Momentum")
         print(f"\n📈 Top 5 Stocks Moving Toward Highs:")
         for _, row in top_momentum.iterrows():
-            print(f"   {row['Ticker']:6} ${row['Price']:8.2f}  "
-                  f"Momentum: {row['High Momentum']:+.2f}%  "
-                  f"({row['% From 52W High']:+.2f}% from high)")
+            name = row.get('Name', '') or ''
+            name_short = name[:25] + "..." if len(name) > 25 else name
+            print(f"   {row['Ticker']:6} {name_short:28} ${row['Price']:8.2f}  "
+                  f"Momentum: {row['High Momentum']:+.2f}%")
     
     print("\n" + "=" * 70)
 
 
-def main():
-    """Main execution function."""
+def main(use_cache: bool = False):
+    """
+    Main execution function.
+    
+    Args:
+        use_cache: If True, load from output/snapshot.txt instead of calling yfinance API.
+    """
     print("=" * 70)
     print("🎯 NASDAQ HIGH TRACKER")
     print(f"   {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+    if use_cache:
+        print("   [CACHE MODE - using saved snapshot]")
     print("=" * 70)
     
     # 1) Fetch price data
-    print("\n=== Fetching stock prices ===")
-    df_prices = snapshot.main()
+    if use_cache:
+        print("\n=== Loading from cached snapshot ===")
+        df_prices = load_snapshot_from_file()
+    else:
+        print("\n=== Fetching stock prices ===")
+        df_prices = snapshot.main()
 
     # 2) Check if prices changed
     df_hist_before = load_history()
@@ -250,9 +331,14 @@ def main():
         print("\nNo price changes vs last stored snapshot; skipping update.")
         return
 
-    # 3) Fetch sentiment
-    print("\n=== Fetching sentiment ===")
-    df_sentiment = sentiment.main()
+    # 3) Fetch sentiment only for stocks at 52W high or ATH
+    high_stocks = df_prices[
+        (df_prices["At 52W High"] == True) | (df_prices["At ATH"] == True)
+    ]
+    high_tickers = high_stocks["Ticker"].tolist()
+    
+    print(f"\n=== Fetching sentiment for {len(high_tickers)} stocks at highs ===")
+    df_sentiment = sentiment.main(tickers=high_tickers)
 
     # 4) Merge price + sentiment data
     df_snap = df_prices.merge(df_sentiment, on="Ticker", how="left")
@@ -264,7 +350,7 @@ def main():
 
     # Ensure all columns exist
     expected_cols = [
-        "timestamp", "Ticker", "Price", "Market Cap (B)", "52W High", "52W Low",
+        "timestamp", "Ticker", "Name", "Price", "Market Cap (B)", "52W High", "52W Low",
         "% From 52W High", "All-Time High", "% From ATH", "At 52W High", 
         "At ATH", "Sentiment", "Sentiment Score"
     ]
@@ -273,9 +359,19 @@ def main():
             df_append[col] = pd.NA
 
     df_append = df_append[expected_cols]
+    
+    # Filter to only stocks at 52W high or ATH
+    df_append = df_append[
+        (df_append["At 52W High"] == True) | (df_append["At ATH"] == True)
+    ]
+    print(f"\n{len(df_append)} stocks at 52W high or ATH")
+    
     df_hist_after = pd.concat([df_hist_before, df_append], ignore_index=True)
+    
+    # Create output directory if needed
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     save_history(df_hist_after)
-    print(f"\nHistory saved to {HISTORY_FILE}")
+    print(f"History saved to {HISTORY_FILE}")
 
     # 6) Detect breakouts
     df_breakouts = detect_new_highs(df_hist_after)
@@ -291,4 +387,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="NASDAQ High Tracker")
+    parser.add_argument(
+        "--use-cache", "-c",
+        action="store_true",
+        help="Use cached snapshot.txt instead of fetching from yfinance API"
+    )
+    args = parser.parse_args()
+    
+    main(use_cache=args.use_cache)

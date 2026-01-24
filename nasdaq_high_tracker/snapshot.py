@@ -7,33 +7,34 @@ Fetches current quotes, 52-week high, and all-time high data for S&P 500 stocks.
 import os
 import yfinance as yf
 import pandas as pd
-import dataframe_image as dfi
 from tabulate import tabulate
 from datetime import datetime, timezone
 
-TICKER_FILE = "ticker.txt"
-
-# Fallback tickers if ticker.txt doesn't exist
-DEFAULT_TICKERS = [
-    "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA",
-    "AMD", "AVGO", "QCOM", "CRM", "ADBE", "NOW", "INTU",
-]
+# Get the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TICKER_FILE = os.path.join(SCRIPT_DIR, "ticker.txt")
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
 
 def load_tickers() -> list:
     """
-    Load tickers from ticker.txt file.
-    Falls back to DEFAULT_TICKERS if file doesn't exist.
+    Load tickers from ticker.txt file (in same folder as this script).
+    Exits with error if file doesn't exist.
     """
-    if os.path.exists(TICKER_FILE):
-        with open(TICKER_FILE, "r", encoding="utf-8") as f:
-            tickers = [line.strip() for line in f if line.strip()]
-        print(f"Loaded {len(tickers)} tickers from {TICKER_FILE}")
-        return tickers
-    else:
-        print(f"Warning: {TICKER_FILE} not found. Using default tickers.")
-        print(f"Run 'python fetch_tickers.py' to generate the full S&P 500 list.")
-        return DEFAULT_TICKERS
+    if not os.path.exists(TICKER_FILE):
+        print(f"Error: ticker.txt not found at {TICKER_FILE}")
+        print(f"Run 'python fetch_tickers.py' first to generate the S&P 500 ticker list.")
+        exit(1)
+    
+    with open(TICKER_FILE, "r", encoding="utf-8") as f:
+        tickers = [line.strip() for line in f if line.strip()]
+    
+    if not tickers:
+        print(f"Error: ticker.txt is empty.")
+        exit(1)
+    
+    print(f"Loaded {len(tickers)} tickers from ticker.txt")
+    return tickers
 
 
 TICKERS = load_tickers()
@@ -50,6 +51,7 @@ def fetch_quote(ticker: str) -> dict:
     yr_high = None
     yr_low = None
     all_time_high = None
+    company_name = None
 
     # Try fast_info first (faster)
     try:
@@ -61,20 +63,20 @@ def fetch_quote(ticker: str) -> dict:
     except Exception:
         pass
 
-    # Fallback to info for missing values
-    if price is None or market_cap is None or yr_high is None:
-        try:
-            info = t.info
-            if price is None:
-                price = info.get("regularMarketPrice")
-            if market_cap is None:
-                market_cap = info.get("marketCap")
-            if yr_high is None:
-                yr_high = info.get("fiftyTwoWeekHigh")
-            if yr_low is None:
-                yr_low = info.get("fiftyTwoWeekLow")
-        except Exception:
-            pass
+    # Get company name and fallback values from info
+    try:
+        info = t.info
+        company_name = info.get("shortName") or info.get("longName")
+        if price is None:
+            price = info.get("regularMarketPrice")
+        if market_cap is None:
+            market_cap = info.get("marketCap")
+        if yr_high is None:
+            yr_high = info.get("fiftyTwoWeekHigh")
+        if yr_low is None:
+            yr_low = info.get("fiftyTwoWeekLow")
+    except Exception:
+        pass
 
     # Fetch all-time high from historical data (max available)
     try:
@@ -100,6 +102,7 @@ def fetch_quote(ticker: str) -> dict:
 
     return {
         "Ticker": ticker,
+        "Name": company_name,
         "Price": price,
         "Market Cap (B)": None if market_cap is None else market_cap / 1e9,
         "52W High": yr_high,
@@ -128,44 +131,44 @@ def main() -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
 
-    # Sort by % from 52W High (closest to high first)
+    # Sort by: At 52W High (True first), then At ATH (True first), then % From 52W High
     df = df.sort_values(
-        by="% From 52W High",
-        key=lambda s: s.fillna(-999),
-        ascending=False,
+        by=["At 52W High", "At ATH", "% From 52W High"],
+        ascending=[False, False, False],
     )
 
     # Print table (selected columns for readability)
     display_cols = [
-        "Ticker", "Price", "52W High", "% From 52W High", 
+        "Ticker", "Name", "Price", "52W High", "% From 52W High", 
         "All-Time High", "% From ATH", "At 52W High", "At ATH"
     ]
     
-    print("\n" + tabulate(
+    # Format table output
+    table_output = tabulate(
         df[display_cols],
         headers="keys",
         tablefmt="github",
         showindex=False,
         floatfmt=".2f",
-    ))
-
-    # Export PNG with styling
-    styled = df[display_cols].style.format(
-        {
-            "Price": "{:.2f}",
-            "52W High": "{:.2f}",
-            "% From 52W High": "{:+.2f}%",
-            "All-Time High": "{:.2f}",
-            "% From ATH": "{:+.2f}%",
-        },
-        na_rep="N/A"
-    ).applymap(
-        lambda x: "background-color: #90EE90" if x == True else "",
-        subset=["At 52W High", "At ATH"]
-    ).hide(axis="index")
+    )
     
-    dfi.export(styled, "nasdaq_highs_table.png")
-    print("\nSaved nasdaq_highs_table.png")
+    print("\n" + table_output)
+
+    # Create output directory if it doesn't exist
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    # Save to single output file (overwrite each time)
+    output_file = os.path.join(OUTPUT_DIR, "snapshot.txt")
+    
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(f"S&P 500 High Tracker Snapshot\n")
+        f.write(f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+        f.write(f"Total stocks: {len(df)}\n")
+        f.write("=" * 80 + "\n\n")
+        f.write(table_output)
+        f.write("\n")
+    
+    print(f"\nSaved to {output_file}")
 
     return df
 

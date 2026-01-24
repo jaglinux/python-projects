@@ -12,8 +12,10 @@ import pandas as pd
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
-HISTORY_FILE = "high_tracker_history.csv"
-ANALYSIS_FILE = "high_analysis.md"
+# Get the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
+HISTORY_FILE = os.path.join(OUTPUT_DIR, "stocks_at_highs.txt")
 
 
 def load_latest_snapshot() -> pd.DataFrame:
@@ -64,35 +66,48 @@ def generate_high_analysis(df_momentum: pd.DataFrame, df_breakouts: pd.DataFrame
     
     # Create prompt for high-focused analysis
     prompt_template = ChatPromptTemplate.from_messages([
-        ("system", """You are an expert technical analyst specializing in breakout trading and momentum strategies.
+        ("system", """You are an expert technical analyst. The data provided contains S&P 500 stocks at 52-Week High or All-Time High.
 
-Analyze the provided NASDAQ stock data focusing on:
-1. **Stocks at 52-Week Highs** - These show strong momentum; identify the best ones to buy on continuation
-2. **Stocks at All-Time Highs** - Ultimate strength; look for low-risk entries on pullbacks
-3. **Approaching Highs** - Stocks within 5% of 52W high with bullish sentiment = potential breakout candidates
-4. **Momentum Leaders** - Positive "High Momentum" means they're moving toward highs
+List ALL stocks in priority order:
 
-Your analysis should:
-- Identify 2-3 TOP PICKS for breakout trading (stocks at or near highs with bullish sentiment)
-- Identify 1-2 WATCH LIST stocks approaching highs
-- Provide brief reasoning based on the data (momentum, sentiment, distance from high)
-- Include current price for each recommendation
+## 🏆 AT ALL-TIME HIGH (Highest Priority)
+(Stocks where At ATH = True)
+These are the strongest stocks - making new all-time highs.
 
-Format your response in clear sections:
-## 🎯 TOP PICKS (Buy Now)
-## 👀 WATCH LIST (Approaching Breakout)
-## ⚠️ CAUTION (Overbought/Risky)
+## 🔥 AT 52-WEEK HIGH ONLY
+(Stocks where At 52W High = True but At ATH = False)
+These stocks are at 52-week highs but were higher at some point in the past.
 
-Keep analysis under 200 words. Be specific with prices and percentages."""),
-        ("human", """Here is today's NASDAQ high tracker data:
+For each stock show: Ticker, Name, Price, % from high, Sentiment
+Within each section, group by sentiment: Bullish first, then Neutral, then Bearish.
+
+Include ALL stocks from the data provided.
+
+## 💡 AI INSIGHTS - TOP Stock PICKS
+From the stocks listed above, pick up to 3-5 top stocks (if available) based on:
+- Bullish sentiment preferred
+- Stocks at ATH have priority over 52W high only
+- Strong momentum indicators
+
+For each recommendation, briefly explain why (1 sentence). Skip if none qualify.
+
+## 💡 AI INSIGHTS - TECH & AI Stock PICKS
+From the stocks listed above, pick up to 3-5 (if available) that are in these sectors:
+- Technology companies (software, hardware, cloud)
+- AI and machine learning companies
+- Semiconductors and chip makers
+- New-age digital/tech companies
+
+Only pick from the ATH or 52W high stocks listed above. Skip this section if no tech stocks are at highs."""),
+        ("human", """S&P 500 stocks at highs:
 
 {at_highs_summary}
 
-### Full Momentum Data:
+### Data:
 {momentum_table}
 {breakouts_section}
 
-Provide your breakout trading analysis:""")
+Provide the complete list in priority order:""")
     ])
     
     # Initialize LLM
@@ -110,23 +125,37 @@ Provide your breakout trading analysis:""")
     return response.content.strip()
 
 
-def append_analysis_md(analysis_text: str, path: str = ANALYSIS_FILE):
-    """Append timestamped analysis to the markdown log."""
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    p = Path(path)
-
-    if not p.exists():
-        p.write_text("# NASDAQ High Tracker - AI Analysis Log\n\n", encoding="utf-8")
-
-    entry = f"""
----
-### {now}
+def save_analysis_md(analysis_text: str):
+    """Save analysis to markdown file, prepending new entries at the top."""
+    now = datetime.now(timezone.utc)
+    timestamp = now.strftime("%Y-%m-%d %H:%M UTC")
+    
+    filepath = os.path.join(OUTPUT_DIR, "ai_analysis.md")
+    
+    new_entry = f"""---
+## {timestamp}
 
 {analysis_text}
 
 """
-    with p.open("a", encoding="utf-8") as f:
-        f.write(entry)
+    
+    # Read existing content if file exists
+    existing_content = ""
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            existing_content = f.read()
+    
+    # Prepend new entry (newest at top)
+    header = "# S&P 500 High Tracker - AI Analysis\n\n"
+    if existing_content.startswith(header):
+        existing_content = existing_content[len(header):]
+    
+    content = header + new_entry + existing_content
+    
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(content)
+    
+    return filepath
 
 
 def main(df_momentum: pd.DataFrame = None, df_breakouts: pd.DataFrame = None):
@@ -156,9 +185,9 @@ def main(df_momentum: pd.DataFrame = None, df_breakouts: pd.DataFrame = None):
     
     print(f"\n{analysis}\n")
     
-    # Append to log
-    append_analysis_md(analysis)
-    print(f"Analysis saved to {ANALYSIS_FILE}")
+    # Save to new file with date
+    filepath = save_analysis_md(analysis)
+    print(f"Analysis saved to {filepath}")
 
 
 if __name__ == "__main__":

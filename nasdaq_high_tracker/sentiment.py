@@ -159,22 +159,30 @@ def create_news_image(news_dict: dict, filename: str = "news_summary.png"):
     print(f"Saved {filename}")
 
 
-def main() -> pd.DataFrame:
+def main(tickers: list = None) -> pd.DataFrame:
     """
-    Main function to fetch sentiment for all tickers.
+    Main function to fetch sentiment for specified tickers.
+    
+    Args:
+        tickers: List of ticker symbols. If None, uses all TICKERS from snapshot.
     """
-    print("Fetching sentiment scores (VADER)...")
-    df, news_dict = fetch_sentiment(TICKERS)
+    if tickers is None:
+        tickers = TICKERS
+    
+    if not tickers:
+        print("No tickers to fetch sentiment for.")
+        return pd.DataFrame(columns=["Ticker", "Sentiment", "Sentiment Score"])
+    
+    print(f"Fetching sentiment scores for {len(tickers)} stocks...")
+    df, news_dict = fetch_sentiment(tickers)
     
     # Sort by sentiment score descending
     df = df.sort_values("Sentiment Score", ascending=False)
     print(df.to_string(index=False))
     
-    # Create shareable news image
-    create_news_image(news_dict)
-    
     return df
 
 
 if __name__ == "__main__":
+    # When run standalone, fetch for all tickers
     main()
