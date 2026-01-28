@@ -46,7 +46,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update daily stock snapshot (scheduled)"
             git push
-          else:
+          else
             echo "No changes to commit"
           fi
         env:
