@@ -2,6 +2,7 @@
 
 import os
 from datetime import datetime, timezone
+from pathlib import Path
 import pandas as pd
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -71,18 +72,36 @@ Keep under 100 words."""),
 
 def append_recommendation_md(recommendation_text: str, path: str = RECOMMENDATIONS_FILE):
     """
-    Append a timestamped recommendation to recommendations.md
+    Prepend a timestamped recommendation so newest is at the top (after header).
     """
-    from pathlib import Path
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     p = Path(path)
-
+    new_line = f"- {now} — {recommendation_text}\n"
+    
     if not p.exists():
-        p.write_text("# Daily Stock Recommendations\n\n", encoding="utf-8")
+        # Create file with header + first line
+        p.write_text("# Daily Stock Recommendations\n\n" + new_line, encoding="utf-8")
+        return
 
-    line = f"- {now} — {recommendation_text}\n"
-    with p.open("a", encoding="utf-8") as f:
-        f.write(line)
+    # Read existing content
+    existing = p.read_text(encoding="utf-8")
+    lines = existing.splitlines(keepends=True)
+
+    if not lines:
+        # Empty file, just write header + line
+        p.write_text("# Daily Stock Recommendations\n\n" + new_line, encoding="utf-8")
+        return
+
+    # Assume first line is the header
+    header = lines[0]
+    rest = lines[1:]  # keep whatever is after header as-is
+
+    # Ensure there is exactly one blank line after header
+    if rest and rest[0].strip() != "":
+        rest = ["\n"] + rest
+
+    new_content = header + "\n" + new_line + "".join(rest[1:])
+    p.write_text(new_content, encoding="utf-8")
 
 
 def main():
