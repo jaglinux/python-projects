@@ -3,6 +3,7 @@
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+
 import pandas as pd
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -12,91 +13,130 @@ RECOMMENDATIONS_FILE = "recommendations.md"
 
 
 def load_latest_snapshot() -> pd.DataFrame:
-    """
-    Load stock_history.txt and return only the latest timestamp's data.
-    """
+    """Load stock_history.txt and return only the latest timestamp's data."""
     if not os.path.exists(HISTORY_FILE):
         return pd.DataFrame()
-    
+
     df = pd.read_csv(HISTORY_FILE, parse_dates=["timestamp"])
-    
     if df.empty:
         return pd.DataFrame()
-    
-    # Get latest timestamp
+
     latest_time = df["timestamp"].max()
-    
-    # Filter to latest snapshot only
     df_latest = df[df["timestamp"] == latest_time].copy()
-    
     return df_latest
 
 
-def generate_recommendation(df_latest: pd.DataFrame) -> str:
+def load_recommendation_history(path: str = RECOMMENDATIONS_FILE) -> str:
+    """
+    Load existing recommendations.md as plain text (without the heading),
+    so the LLM can see what was recommended before.
+    """
+    p = Path(path)
+    if not p.exists():
+        return ""
+
+    text = p.read_text(encoding="utf-8")
+
+    # Strip the top-level heading if present to keep it cleaner
+    lines = text.splitlines()
+    if lines and lines[0].lstrip().startswith("#"):
+        lines = lines[1:]
+    return "\n".join(lines).strip()
+
+
+def generate_recommendation(df_latest: Pd.DataFrame) -> str:
     """
     Use LangChain + GPT to analyze the latest stock data and generate
     buy recommendations based on sentiment, market cap, price changes, etc.
-    Returns a concise recommendation string.
+    The model is free to recommend any number of stocks and use its own style.
     """
     if df_latest.empty:
         return "No data available for analysis."
-    
-    # Convert DataFrame to a clean markdown table for the LLM
-    table_md = df_latest.to_markdown(index=False)
-    
-    # Create prompt
-    prompt_template = ChatPromptTemplate.from_messages([
-        ("system", """You are an expert stock analyst. Analyze the provided stock data and identify 2-3 BUY opportunities based on:
-- Positive sentiment
-- Low market cap (higher growth potential)
-- Strong daily/weekly momentum (positive % changes)
-- Not too far from 52-week high (reasonable entry point)
 
-Be concise and actionable. Format: "Buy TICKER1 ($XX.XX), TICKER2 ($XX.XX) because [brief reason]."
-Always include the current price in parentheses next to each ticker symbol.
-Keep under 100 words."""),
-        ("human", "Here is today's stock data:\n\n{table}")
-    ])
-    
-    # Initialize LLM with temperature=0 for deterministic recommendations
+    # Latest snapshot as markdown table
+    table_md = df_latest.to_markdown(index=False)
+
+    # Load prior recommendation history (optional context)
+    history_text = load_recommendation_history()
+
+    prompt_template = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                """You are an expert stock analyst.
+
+You are given:
+1) A table with today's data for a small set of stocks.
+2) A history of past daily recommendations (if any).
+
+Your task:
+- Recommend any number of BUY ideas you think make sense today (including zero, if nothing is attractive).
+- Focus especially on:
+  - Positive sentiment.
+  - Lower market cap (more upside potential).
+  - Strong recent momentum in daily/weekly % changes when available.
+- You do NOT need to consider the 52-week high distance as a constraint.
+  - Even if a stock is far below its 52-week high, it can still be a good BUY if sentiment and other factors are strong.
+
+Style:
+- You are free to choose your own clear, concise style.
+- Always include the current price in parentheses next to each ticker symbol, e.g. KVYO ($25.62).
+- Keep the whole answer under about 120 words.
+- It is okay to recommend only one stock or even none if you think nothing meets the bar.""",
+            ),
+            (
+                "human",
+                """Here is today's stock data:
+
+{table}
+
+Here is the history of previous daily recommendations (most recent first, may be empty):
+
+{history}
+
+Please provide today's BUY recommendation(s) now.""",
+            ),
+        ]
+    )
+
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-    
-    # Create chain
+
     chain = prompt_template | llm
-    
-    # Run
-    response = chain.invoke({"table": table_md})
-    
+    response = chain.invoke(
+        {
+            "table": table_md,
+            "history": history_text or "No prior recommendations available.",
+        }
+    )
+
     return response.content.strip()
 
 
-def append_recommendation_md(recommendation_text: str, path: str = RECOMMENDATIONS_FILE):
+def append_recommendation_md(
+    recommendation_text: str, path: str = RECOMMENDATIONS_FILE
+):
     """
     Prepend a timestamped recommendation so newest is at the top (after header).
     """
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     p = Path(path)
+
     new_line = f"- {now} — {recommendation_text}\n"
-    
+
     if not p.exists():
-        # Create file with header + first line
         p.write_text("# Daily Stock Recommendations\n\n" + new_line, encoding="utf-8")
         return
 
-    # Read existing content
     existing = p.read_text(encoding="utf-8")
     lines = existing.splitlines(keepends=True)
 
     if not lines:
-        # Empty file, just write header + line
         p.write_text("# Daily Stock Recommendations\n\n" + new_line, encoding="utf-8")
         return
 
-    # Assume first line is the header
     header = lines[0]
-    rest = lines[1:]  # keep whatever is after header as-is
+    rest = lines[1:]
 
-    # Ensure there is exactly one blank line after header
     if rest and rest[0].strip() != "":
         rest = ["\n"] + rest
 
@@ -106,18 +146,16 @@ def append_recommendation_md(recommendation_text: str, path: str = RECOMMENDATIO
 
 def main():
     print("\n=== Generating AI Recommendation ===")
-    
+
     df_latest = load_latest_snapshot()
-    
     if df_latest.empty:
         print("No recent data to analyze.")
         return
-    
+
     recommendation = generate_recommendation(df_latest)
-    
+
     print(f"\n📊 Recommendation:\n{recommendation}\n")
-    
-    # Append to markdown log
+
     append_recommendation_md(recommendation)
     print(f"Saved to {RECOMMENDATIONS_FILE}")
 
