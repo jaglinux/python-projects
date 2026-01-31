@@ -1,0 +1,1022 @@
+S&P 500 High Tracker Snapshot
+Data Date: 2025-12-26
+Generated: 2026-01-31 08:58:40 UTC
+Total stocks: 503
+================================================================================
+
+| Ticker   | Name                            |   Price |   Market Cap (B) |   52W High |   % From 52W High |   All-Time High |   % From ATH | At 52W High   | At ATH   |
+|----------|---------------------------------|---------|------------------|------------|-------------------|-----------------|--------------|---------------|----------|
+| EA       | Electronic Arts Inc.            |  204.79 |            51.00 |     204.84 |             -0.02 |          204.84 |        -0.02 | True          | True     |
+| NDAQ     | Nasdaq, Inc.                    |   99.35 |            55.60 |      99.42 |             -0.07 |           99.42 |        -0.07 | True          | True     |
+| TPR      | Tapestry, Inc.                  |  131.30 |            26.27 |     131.40 |             -0.08 |          131.40 |        -0.08 | True          | True     |
+| COF      | Capital One Financial Corporati |  249.32 |           139.18 |     249.73 |             -0.16 |          249.73 |        -0.16 | True          | True     |
+| MS       | Morgan Stanley                  |  180.87 |           290.53 |     181.34 |             -0.26 |          181.34 |        -0.26 | True          | True     |
+| CRH      | CRH PLC                         |  128.94 |            81.82 |     129.28 |             -0.26 |          129.28 |        -0.26 | True          | True     |
+| USB      | U.S. Bancorp                    |   54.46 |            87.25 |      54.62 |             -0.29 |           54.62 |        -0.29 | True          | True     |
+| TKO      | TKO Group Holdings, Inc.        |  217.44 |            16.64 |     218.11 |             -0.31 |          218.11 |        -0.31 | True          | True     |
+| PNC      | PNC Financial Services Group, I |  212.26 |            90.28 |     212.96 |             -0.33 |          212.96 |        -0.33 | True          | True     |
+| MAR      | Marriott International          |  315.58 |            85.59 |     316.69 |             -0.35 |          316.69 |        -0.35 | True          | True     |
+| FOX      | Fox Corporation                 |   65.42 |            30.88 |      65.66 |             -0.37 |           65.66 |        -0.37 | True          | True     |
+| SCHW     | Charles Schwab Corporation (The |  101.89 |           188.64 |     102.28 |             -0.38 |          102.28 |        -0.38 | True          | True     |
+| CB       | Chubb Limited                   |  313.47 |           123.42 |     314.68 |             -0.38 |          314.68 |        -0.38 | True          | True     |
+| JBL      | Jabil Inc.                      |  236.11 |            25.34 |     237.05 |             -0.39 |          237.05 |        -0.39 | True          | True     |
+| FOXA     | Fox Corporation                 |   74.30 |            32.31 |      74.63 |             -0.44 |           74.63 |        -0.44 | True          | True     |
+| CFG      | Citizens Financial Group, Inc.  |   59.83 |            27.05 |      60.10 |             -0.45 |           60.10 |        -0.45 | True          | True     |
+| TJX      | TJX Companies, Inc. (The)       |  157.11 |           166.73 |     157.83 |             -0.46 |          157.83 |        -0.46 | True          | True     |
+| HLT      | Hilton Worldwide Holdings Inc.  |  293.48 |            70.21 |     294.92 |             -0.49 |          294.92 |        -0.49 | True          | True     |
+| NEM      | Newmont Corporation             |  105.78 |           123.41 |     106.34 |             -0.53 |          106.34 |        -0.53 | True          | True     |
+| STT      | State Street Corporation        |  131.42 |            36.55 |     132.13 |             -0.54 |          132.13 |        -0.54 | True          | True     |
+| SYF      | Synchrony Financial             |   86.01 |            26.16 |      86.48 |             -0.54 |           86.48 |        -0.54 | True          | True     |
+| KLAC     | KLA Corporation                 | 1279.60 |           188.04 |    1286.81 |             -0.56 |         1286.81 |        -0.56 | True          | True     |
+| HWM      | Howmet Aerospace Inc.           |  211.22 |            83.75 |     212.52 |             -0.61 |          212.52 |        -0.61 | True          | True     |
+| WFC      | Wells Fargo & Company           |   95.26 |           284.06 |      95.85 |             -0.62 |           95.85 |        -0.62 | True          | True     |
+| FITB     | Fifth Third Bancorp             |   48.00 |            33.21 |      48.30 |             -0.62 |           48.30 |        -0.62 | True          | True     |
+| BAC      | Bank of America Corporation     |   56.17 |           388.49 |      56.55 |             -0.67 |           56.55 |        -0.67 | True          | True     |
+| RF       | Regions Financial Corporation   |   27.79 |            24.99 |      27.98 |             -0.68 |           27.98 |        -0.68 | True          | True     |
+| SPG      | Simon Property Group, Inc.      |  187.71 |            72.16 |     189.05 |             -0.71 |          189.05 |        -0.71 | True          | True     |
+| GM       | General Motors Company          |   83.06 |            78.36 |      83.68 |             -0.74 |           83.68 |        -0.74 | True          | True     |
+| NTRS     | Northern Trust Corporation      |  140.14 |            28.26 |     141.25 |             -0.79 |          141.25 |        -0.79 | True          | True     |
+| AME      | AMETEK, Inc.                    |  208.45 |            51.73 |     210.14 |             -0.80 |          210.14 |        -0.80 | True          | True     |
+| JPM      | JP Morgan Chase & Co.           |  326.44 |           832.71 |     329.37 |             -0.89 |          329.37 |        -0.89 | True          | True     |
+| GE       | GE Aerospace                    |  314.78 |           323.61 |     317.70 |             -0.92 |          317.70 |        -0.92 | True          | True     |
+| LRCX     | Lam Research Corporation        |  178.07 |           293.23 |     179.80 |             -0.96 |          179.80 |        -0.96 | True          | True     |
+| XOM      | Exxon Mobil Corporation         |  119.11 |           596.31 |     120.47 |             -1.13 |          120.87 |        -1.46 | True          | True     |
+| HBAN     | Huntington Bancshares Incorpora |   17.74 |            27.53 |      17.95 |             -1.17 |           17.95 |        -1.17 | True          | True     |
+| TRV      | The Travelers Companies, Inc.   |  292.12 |            63.46 |     295.68 |             -1.20 |          295.68 |        -1.20 | True          | True     |
+| MNST     | Monster Beverage Corporation    |   77.31 |            78.90 |      78.31 |             -1.28 |           78.31 |        -1.28 | True          | True     |
+| HIG      | The Hartford Insurance Group, I |  138.67 |            37.67 |     140.50 |             -1.30 |          140.50 |        -1.30 | True          | True     |
+| GS       | Goldman Sachs Group, Inc. (The) |  907.04 |           283.17 |     919.10 |             -1.31 |          919.10 |        -1.31 | True          | True     |
+| FCX      | Freeport-McMoRan, Inc.          |   52.91 |            86.49 |      53.64 |             -1.36 |           53.95 |        -1.93 | True          | True     |
+| JCI      | Johnson Controls International  |  122.06 |            73.00 |     123.78 |             -1.39 |          123.78 |        -1.39 | True          | True     |
+| CMI      | Cummins Inc.                    |  519.12 |            79.90 |     526.50 |             -1.40 |          526.50 |        -1.40 | True          | True     |
+| DD       | DuPont de Nemours, Inc.         |   41.26 |            18.40 |      41.85 |             -1.41 |           41.85 |        -1.41 | True          | True     |
+| WAB      | Westinghouse Air Brake Technolo |  219.31 |            39.34 |     222.47 |             -1.42 |          222.47 |        -1.42 | True          | True     |
+| ULTA     | Ulta Beauty, Inc.               |  607.52 |            29.03 |     616.34 |             -1.43 |          616.34 |        -1.43 | True          | True     |
+| AIZ      | Assurant, Inc.                  |  240.13 |            12.02 |     243.76 |             -1.49 |          243.76 |        -1.49 | True          | True     |
+| MCO      | Moody's Corporation             |  520.04 |            92.47 |     527.90 |             -1.49 |          527.90 |        -1.49 | True          | True     |
+| RTX      | RTX Corporation                 |  185.17 |           269.40 |     188.00 |             -1.51 |          188.00 |        -1.51 | True          | True     |
+| BK       | The Bank of New York Mellon Cor |  116.95 |            83.63 |     118.87 |             -1.62 |          118.87 |        -1.62 | True          | True     |
+| STLD     | Steel Dynamics, Inc.            |  174.95 |            26.43 |     177.84 |             -1.63 |          177.84 |        -1.63 | True          | True     |
+| AXP      | American Express Company        |  380.21 |           242.59 |     386.63 |             -1.66 |          386.63 |        -1.66 | True          | True     |
+| EXPE     | Expedia Group, Inc.             |  287.56 |            32.76 |     292.42 |             -1.66 |          292.42 |        -1.66 | True          | True     |
+| EXPD     | Expeditors International of Was |  152.24 |            21.79 |     155.04 |             -1.81 |          155.04 |        -1.81 | True          | True     |
+| IVZ      | Invesco Ltd                     |   26.96 |            12.15 |      27.48 |             -1.89 |           27.48 |        -1.89 | True          | True     |
+| CHRW     | C.H. Robinson Worldwide, Inc.   |  164.63 |            23.03 |     167.90 |             -1.95 |          167.90 |        -1.95 | True          | True     |
+| UAL      | United Airlines Holdings, Inc.  |  114.04 |            33.12 |     116.32 |             -1.96 |          116.32 |        -1.96 | True          | True     |
+| FDX      | FedEx Corporation               |  296.33 |            76.04 |     296.64 |             -0.10 |          303.59 |        -2.39 | True          | False    |
+| MRK      | Merck & Company, Inc.           |  106.78 |           275.43 |     107.05 |             -0.25 |          127.87 |       -16.49 | True          | False    |
+| KEY      | KeyCorp                         |   21.19 |            23.72 |      21.25 |             -0.28 |           22.12 |        -4.19 | True          | False    |
+| CRL      | Charles River Laboratories Inte |  203.66 |            10.36 |     204.47 |             -0.40 |          460.21 |       -55.75 | True          | False    |
+| DG       | Dollar General Corporation      |  137.25 |            31.57 |     137.87 |             -0.45 |          245.55 |       -44.10 | True          | False    |
+| MTB      | M&T Bank Corporation            |  207.28 |            34.62 |     208.26 |             -0.47 |          217.71 |        -4.79 | True          | False    |
+| TFC      | Truist Financial Corporation    |   50.61 |            65.78 |      50.86 |             -0.49 |           56.29 |       -10.09 | True          | False    |
+| SNA      | Snap-On Incorporated            |  354.00 |            19.10 |     356.07 |             -0.58 |          363.98 |        -2.74 | True          | False    |
+| AIG      | American International Group, I |   86.48 |            41.48 |      87.29 |             -0.93 |         1224.78 |       -92.94 | True          | False    |
+| REGN     | Regeneron Pharmaceuticals, Inc. |  784.97 |            78.58 |     792.77 |             -0.98 |         1204.52 |       -34.83 | True          | False    |
+| NUE      | Nucor Corporation               |  165.78 |            40.67 |     167.50 |             -1.02 |          197.39 |       -16.01 | True          | False    |
+| TXT      | Textron Inc.                    |   90.22 |            15.69 |      91.22 |             -1.10 |           97.17 |        -7.16 | True          | False    |
+| HOLX     | Hologic, Inc.                   |   74.50 |            16.73 |      75.34 |             -1.11 |           87.88 |       -15.23 | True          | False    |
+| PCAR     | PACCAR Inc.                     |  111.79 |            64.58 |     113.11 |             -1.17 |          117.87 |        -5.16 | True          | False    |
+| EW       | Edwards Lifesciences Corporatio |   86.85 |            47.77 |      87.89 |             -1.18 |          131.73 |       -34.07 | True          | False    |
+| VTRS     | Viatris Inc.                    |   12.32 |            15.11 |      12.49 |             -1.36 |           62.69 |       -80.35 | True          | False    |
+| ALB      | Albemarle Corporation           |  150.01 |            20.08 |     152.08 |             -1.36 |          319.45 |       -53.04 | True          | False    |
+| HST      | Host Hotels & Resorts, Inc.     |   18.09 |            12.91 |      18.36 |             -1.50 |           19.15 |        -5.54 | True          | False    |
+| PLD      | Prologis, Inc.                  |  128.71 |           121.27 |     130.68 |             -1.51 |          155.57 |       -17.27 | True          | False    |
+| ACGL     | Arch Capital Group Ltd.         |   95.87 |            35.84 |      97.60 |             -1.77 |          110.75 |       -13.44 | True          | False    |
+| C        | Citigroup, Inc.                 |  120.42 |           207.04 |     122.84 |             -1.97 |          382.43 |       -68.51 | True          | False    |
+| ROL      | Rollins, Inc.                   |   60.60 |            30.48 |      61.84 |             -2.01 |           61.84 |        -2.01 | False         | False    |
+| DAL      | Delta Air Lines, Inc.           |   70.85 |            43.02 |      72.34 |             -2.06 |           72.34 |        -2.06 | False         | False    |
+| MU       | Micron Technology, Inc.         |  284.68 |           466.95 |     290.75 |             -2.09 |          290.75 |        -2.09 | False         | False    |
+| PH       | Parker-Hannifin Corporation     |  888.08 |           118.12 |     908.35 |             -2.23 |          908.35 |        -2.23 | False         | False    |
+| L        | Loews Corporation               |  106.40 |            21.90 |     109.06 |             -2.44 |          109.06 |        -2.44 | False         | False    |
+| CSX      | CSX Corporation                 |   36.62 |            70.40 |      37.54 |             -2.45 |           38.95 |        -5.99 | False         | False    |
+| EL       | Estee Lauder Companies, Inc. (T |  107.65 |            41.54 |     110.37 |             -2.46 |          350.69 |       -69.30 | False         | False    |
+| GILD     | Gilead Sciences, Inc.           |  124.70 |           176.13 |     127.86 |             -2.47 |          127.86 |        -2.47 | False         | False    |
+| CINF     | Cincinnati Financial Corporatio |  164.79 |            25.16 |     168.98 |             -2.48 |          168.98 |        -2.48 | False         | False    |
+| HII      | Huntington Ingalls Industries,  |  351.13 |            16.50 |     360.20 |             -2.52 |          360.20 |        -2.52 | False         | False    |
+| ROST     | Ross Stores, Inc.               |  181.14 |            61.35 |     185.85 |             -2.53 |          185.85 |        -2.53 | False         | False    |
+| CBOE     | Cboe Global Markets, Inc.       |  256.15 |            27.74 |     262.98 |             -2.60 |          262.98 |        -2.60 | False         | False    |
+| ADI      | Analog Devices, Inc.            |  276.84 |           152.22 |     284.23 |             -2.60 |          284.23 |        -2.60 | False         | False    |
+| NDSN     | Nordson Corporation             |  243.99 |            15.33 |     250.60 |             -2.64 |          272.80 |       -10.56 | False         | False    |
+| VTR      | Ventas, Inc.                    |   79.14 |            36.48 |      81.39 |             -2.77 |           81.39 |        -2.77 | False         | False    |
+| MLM      | Martin Marietta Materials, Inc. |  645.01 |            39.32 |     664.29 |             -2.90 |          664.29 |        -2.90 | False         | False    |
+| PFG      | Principal Financial Group Inc   |   89.38 |            21.10 |      92.10 |             -2.95 |           92.10 |        -2.95 | False         | False    |
+| TER      | Teradyne, Inc.                  |  198.90 |            38.34 |     205.00 |             -2.98 |          205.00 |        -2.98 | False         | False    |
+| JBHT     | J.B. Hunt Transport Services, I |  198.28 |            19.30 |     204.43 |             -3.01 |          215.39 |        -7.94 | False         | False    |
+| HAS      | Hasbro, Inc.                    |   82.56 |            12.53 |      85.15 |             -3.04 |           99.25 |       -16.82 | False         | False    |
+| LLY      | Eli Lilly and Company           | 1077.75 |           929.76 |    1111.99 |             -3.08 |         1111.99 |        -3.08 | False         | False    |
+| CAH      | Cardinal Health, Inc.           |  207.77 |            51.05 |     214.40 |             -3.09 |          214.40 |        -3.09 | False         | False    |
+| IQV      | IQVIA Holdings, Inc.            |  226.92 |            39.19 |     234.30 |             -3.15 |          285.61 |       -20.55 | False         | False    |
+| NSC      | Norfolk Southern Corporation    |  290.96 |            65.36 |     300.79 |             -3.27 |          300.79 |        -3.27 | False         | False    |
+| LHX      | L3Harris Technologies, Inc.     |  296.77 |            64.15 |     306.84 |             -3.28 |          306.84 |        -3.28 | False         | False    |
+| TTWO     | Take-Two Interactive Software,  |  256.09 |            40.71 |     264.79 |             -3.29 |          264.79 |        -3.29 | False         | False    |
+| CSCO     | Cisco Systems, Inc.             |   77.74 |           309.45 |      80.39 |             -3.29 |           80.39 |        -3.29 | False         | False    |
+| ALL      | Allstate Corporation (The)      |  207.80 |            52.43 |     214.88 |             -3.29 |          214.88 |        -3.29 | False         | False    |
+| MCD      | McDonald's Corporation          |  310.68 |           224.79 |     321.79 |             -3.45 |          321.79 |        -3.45 | False         | False    |
+| CME      | CME Group Inc.                  |  276.73 |           103.92 |     286.76 |             -3.50 |          286.76 |        -3.50 | False         | False    |
+| JNJ      | Johnson & Johnson               |  207.63 |           547.51 |     215.19 |             -3.51 |          215.19 |        -3.51 | False         | False    |
+| MA       | Mastercard Incorporated         |  578.73 |           481.38 |     600.08 |             -3.56 |          600.08 |        -3.56 | False         | False    |
+| GL       | Globe Life Inc.                 |  141.93 |            11.36 |     147.26 |             -3.62 |          147.26 |        -3.62 | False         | False    |
+| PRU      | Prudential Financial, Inc.      |  113.97 |            39.10 |     118.31 |             -3.67 |          124.11 |        -8.17 | False         | False    |
+| CBRE     | CBRE Group Inc                  |  164.71 |            50.69 |     171.00 |             -3.68 |          171.00 |        -3.68 | False         | False    |
+| WDC      | Western Digital Corporation     |  181.54 |            84.84 |     188.77 |             -3.83 |          188.77 |        -3.83 | False         | False    |
+| ROK      | Rockwell Automation, Inc.       |  399.79 |            47.41 |     415.89 |             -3.87 |          415.89 |        -3.87 | False         | False    |
+| AMGN     | Amgen Inc.                      |  332.93 |           184.10 |     346.38 |             -3.88 |          346.38 |        -3.88 | False         | False    |
+| KEYS     | Keysight Technologies Inc.      |  206.04 |            37.17 |     214.58 |             -3.98 |          214.58 |        -3.98 | False         | False    |
+| WBD      | Warner Bros. Discovery, Inc. -  |   28.80 |            68.29 |      30.00 |             -4.00 |           78.14 |       -63.14 | False         | False    |
+| JKHY     | Jack Henry & Associates, Inc.   |  186.13 |            13.02 |     194.03 |             -4.07 |          203.32 |        -8.46 | False         | False    |
+| GOOG     | Alphabet Inc.                   |  314.96 |          4086.68 |     328.46 |             -4.11 |          328.46 |        -4.11 | False         | False    |
+| KO       | Coca-Cola Company (The)         |   69.87 |           321.96 |      72.91 |             -4.17 |           72.91 |        -4.17 | False         | False    |
+| APP      | Applovin Corporation            |  714.23 |           160.03 |     745.61 |             -4.21 |          745.61 |        -4.21 | False         | False    |
+| CTSH     | Cognizant Technology Solutions  |   85.57 |            40.08 |      89.37 |             -4.26 |           89.37 |        -4.26 | False         | False    |
+| BIIB     | Biogen Inc.                     |  177.08 |            26.39 |     185.17 |             -4.37 |          480.18 |       -63.12 | False         | False    |
+| GOOGL    | Alphabet Inc.                   |  313.51 |          4093.90 |     328.62 |             -4.60 |          328.62 |        -4.60 | False         | False    |
+| TMO      | Thermo Fisher Scientific Inc    |  580.74 |           217.39 |     608.82 |             -4.61 |          664.90 |       -12.66 | False         | False    |
+| APH      | Amphenol Corporation            |  137.43 |           176.36 |     144.09 |             -4.62 |          144.09 |        -4.62 | False         | False    |
+| AFL      | AFLAC Incorporated              |  109.90 |            59.34 |     115.24 |             -4.63 |          115.24 |        -4.63 | False         | False    |
+| TSLA     | Tesla, Inc.                     |  475.19 |          1615.08 |     498.83 |             -4.74 |          498.83 |        -4.74 | False         | False    |
+| D        | Dominion Energy, Inc.           |   59.20 |            51.38 |      62.17 |             -4.77 |           74.37 |       -20.40 | False         | False    |
+| LUV      | Southwest Airlines Company      |   41.28 |            24.96 |      43.35 |             -4.78 |           60.59 |       -31.87 | False         | False    |
+| YUM      | Yum! Brands, Inc.               |  153.24 |            43.18 |     160.96 |             -4.79 |          160.96 |        -4.79 | False         | False    |
+| F        | Ford Motor Company              |   13.31 |            55.30 |      13.99 |             -4.86 |           19.73 |       -32.53 | False         | False    |
+| WMT      | Walmart Inc.                    |  111.74 |           949.89 |     117.45 |             -4.86 |          117.45 |        -4.86 | False         | False    |
+| STE      | STERIS plc (Ireland)            |  255.42 |            25.86 |     268.60 |             -4.91 |          268.60 |        -4.91 | False         | False    |
+| CNP      | CenterPoint Energy, Inc (Holdin |   38.29 |            25.91 |      40.28 |             -4.93 |           40.28 |        -4.93 | False         | False    |
+| AVY      | Avery Dennison Corporation      |  182.54 |            14.34 |     192.30 |             -5.08 |          226.70 |       -19.48 | False         | False    |
+| GD       | General Dynamics Corporation    |  340.81 |            94.93 |     359.03 |             -5.08 |          359.03 |        -5.08 | False         | False    |
+| V        | Visa Inc.                       |  355.00 |           620.50 |     374.11 |             -5.11 |          374.11 |        -5.11 | False         | False    |
+| AMAT     | Applied Materials, Inc.         |  261.90 |           255.83 |     276.10 |             -5.14 |          276.10 |        -5.14 | False         | False    |
+| WTW      | Willis Towers Watson Public Lim |  333.68 |            30.97 |     351.82 |             -5.16 |          351.82 |        -5.16 | False         | False    |
+| ETR      | Entergy Corporation             |   92.85 |            42.82 |      97.93 |             -5.18 |           97.93 |        -5.18 | False         | False    |
+| AAPL     | Apple Inc.                      |  273.40 |          3813.82 |     288.62 |             -5.27 |          288.62 |        -5.27 | False         | False    |
+| ABBV     | AbbVie Inc.                     |  228.14 |           394.14 |     241.12 |             -5.38 |          241.12 |        -5.38 | False         | False    |
+| FRT      | Federal Realty Investment Trust |  101.20 |             8.78 |     107.04 |             -5.45 |          118.75 |       -14.78 | False         | False    |
+| VMC      | Vulcan Materials Company (Holdi |  294.20 |            39.71 |     311.21 |             -5.47 |          311.21 |        -5.47 | False         | False    |
+| RL       | Ralph Lauren Corporation        |  358.11 |            21.43 |     379.04 |             -5.52 |          379.04 |        -5.52 | False         | False    |
+| PNW      | Pinnacle West Capital Corporati |   88.40 |            11.20 |      93.67 |             -5.62 |           93.67 |        -5.62 | False         | False    |
+| LMT      | Lockheed Martin Corporation     |  483.03 |           146.76 |     512.11 |             -5.68 |          597.48 |       -19.16 | False         | False    |
+| FSLR     | First Solar, Inc.               |  269.69 |            24.20 |     285.99 |             -5.70 |          317.00 |       -14.92 | False         | False    |
+| HUBB     | Hubbell Inc                     |  454.94 |            25.93 |     482.66 |             -5.74 |          482.66 |        -5.74 | False         | False    |
+| HAL      | Halliburton Company             |   27.96 |            28.58 |      29.67 |             -5.76 |           59.79 |       -53.24 | False         | False    |
+| AEE      | Ameren Corporation              |   99.81 |            27.94 |     105.97 |             -5.81 |          105.97 |        -5.81 | False         | False    |
+| BEN      | Franklin Resources, Inc.        |   23.86 |            13.86 |      25.37 |             -5.96 |           35.73 |       -33.21 | False         | False    |
+| HSY      | The Hershey Company             |  184.20 |            39.49 |     195.98 |             -6.01 |          256.47 |       -28.18 | False         | False    |
+| LVS      | Las Vegas Sands Corp.           |   66.20 |            36.20 |      70.45 |             -6.03 |           94.73 |       -30.12 | False         | False    |
+| O        | Realty Income Corporation       |   56.17 |            56.15 |      59.78 |             -6.03 |           62.13 |        -9.60 | False         | False    |
+| FE       | FirstEnergy Corp.               |   44.85 |            27.35 |      47.73 |             -6.04 |           47.73 |        -6.04 | False         | False    |
+| IBM      | International Business Machines |  305.09 |           286.68 |     324.90 |             -6.10 |          324.90 |        -6.10 | False         | False    |
+| ISRG     | Intuitive Surgical, Inc.        |  577.81 |           180.75 |     616.00 |             -6.20 |          616.00 |        -6.20 | False         | False    |
+| MET      | MetLife, Inc.                   |   80.30 |            52.46 |      85.61 |             -6.20 |           86.54 |        -7.21 | False         | False    |
+| LNT      | Alliant Energy Corporation      |   64.71 |            16.94 |      69.03 |             -6.25 |           69.03 |        -6.25 | False         | False    |
+| ATO      | Atmos Energy Corporation        |  168.13 |            26.91 |     179.62 |             -6.40 |          179.62 |        -6.40 | False         | False    |
+| NI       | NiSource Inc                    |   41.72 |            20.96 |      44.58 |             -6.42 |           44.58 |        -6.42 | False         | False    |
+| DLTR     | Dollar Tree, Inc.               |  123.95 |            23.98 |     132.48 |             -6.44 |          177.19 |       -30.05 | False         | False    |
+| BKNG     | Booking Holdings Inc. Common St | 5440.14 |           162.11 |    5818.24 |             -6.50 |         5818.24 |        -6.50 | False         | False    |
+| CVS      | CVS Health Corporation          |   78.96 |            94.60 |      84.46 |             -6.51 |           96.73 |       -18.37 | False         | False    |
+| TSN      | Tyson Foods, Inc.               |   58.56 |            23.07 |      62.66 |             -6.55 |           88.63 |       -33.93 | False         | False    |
+| ECL      | Ecolab Inc.                     |  265.75 |            79.98 |     284.56 |             -6.61 |          284.56 |        -6.61 | False         | False    |
+| CCL      | Carnival Corporation            |   30.70 |            41.50 |      32.89 |             -6.66 |           66.92 |       -54.12 | False         | False    |
+| RJF      | Raymond James Financial, Inc.   |  164.74 |            32.67 |     176.55 |             -6.69 |          176.55 |        -6.69 | False         | False    |
+| MSCI     | MSCI Inc.                       |  584.99 |            45.78 |     627.03 |             -6.70 |          650.23 |       -10.03 | False         | False    |
+| DVN      | Devon Energy Corporation        |   35.67 |            25.53 |      38.23 |             -6.71 |           80.38 |       -55.62 | False         | False    |
+| SRE      | DBA Sempra                      |   88.61 |            56.79 |      95.03 |             -6.75 |           95.03 |        -6.75 | False         | False    |
+| HPE      | Hewlett Packard Enterprise Comp |   24.49 |            28.72 |      26.28 |             -6.82 |           26.28 |        -6.82 | False         | False    |
+| MTD      | Mettler-Toledo International, I | 1420.10 |            28.29 |    1525.17 |             -6.89 |         1714.75 |       -17.18 | False         | False    |
+| UNP      | Union Pacific Corporation       |  233.44 |           139.45 |     250.85 |             -6.94 |          255.44 |        -8.61 | False         | False    |
+| FIX      | Comfort Systems USA, Inc.       |  963.83 |            40.29 |    1036.67 |             -7.03 |         1036.67 |        -7.03 | False         | False    |
+| PNR      | Pentair plc.                    |  105.42 |            17.27 |     113.41 |             -7.05 |          113.41 |        -7.05 | False         | False    |
+| OMC      | Omnicom Group Inc.              |   80.03 |            24.45 |      86.12 |             -7.07 |          102.31 |       -21.77 | False         | False    |
+| CAT      | Caterpillar, Inc.               |  581.64 |           307.96 |     626.04 |             -7.09 |          626.04 |        -7.09 | False         | False    |
+| STX      | Seagate Technology Holdings PLC |  286.22 |            88.82 |     308.12 |             -7.11 |          308.12 |        -7.11 | False         | False    |
+| MMM      | 3M Company                      |  162.08 |            81.36 |     174.69 |             -7.22 |          174.69 |        -7.22 | False         | False    |
+| TEL      | TE Connectivity plc             |  232.49 |            65.39 |     250.67 |             -7.25 |          250.67 |        -7.25 | False         | False    |
+| AEP      | American Electric Power Company |  115.67 |            64.11 |     124.80 |             -7.32 |          124.80 |        -7.32 | False         | False    |
+| GLW      | Corning Incorporated            |   89.57 |            88.52 |      96.64 |             -7.32 |           96.64 |        -7.32 | False         | False    |
+| REG      | Regency Centers Corporation     |   69.55 |            13.41 |      75.09 |             -7.37 |           75.09 |        -7.37 | False         | False    |
+| CMS      | CMS Energy Corporation          |   69.96 |            21.76 |      75.54 |             -7.39 |           75.54 |        -7.39 | False         | False    |
+| EVRG     | Evergy, Inc.                    |   72.77 |            17.66 |      78.59 |             -7.41 |           78.59 |        -7.41 | False         | False    |
+| PEP      | Pepsico, Inc.                   |  143.78 |           210.33 |     155.29 |             -7.41 |          179.53 |       -19.91 | False         | False    |
+| MCK      | McKesson Corporation            |  828.26 |           103.39 |     894.75 |             -7.43 |          894.75 |        -7.43 | False         | False    |
+| VLTO     | Veralto Corp                    |  101.62 |            24.58 |     109.85 |             -7.50 |          114.35 |       -11.14 | False         | False    |
+| UHS      | Universal Health Services, Inc. |  227.64 |            12.81 |     246.13 |             -7.51 |          246.13 |        -7.51 | False         | False    |
+| NEE      | NextEra Energy, Inc.            |   80.41 |           183.06 |      86.94 |             -7.51 |           86.94 |        -7.51 | False         | False    |
+| ITW      | Illinois Tool Works Inc.        |  250.84 |            76.16 |     271.32 |             -7.55 |          271.32 |        -7.55 | False         | False    |
+| PPL      | PPL Corporation                 |   35.08 |            26.82 |      37.96 |             -7.59 |           37.96 |        -7.59 | False         | False    |
+| WYNN     | Wynn Resorts, Limited           |  124.36 |            11.17 |     134.72 |             -7.69 |          208.24 |       -40.28 | False         | False    |
+| HSIC     | Henry Schein, Inc.              |   76.13 |             9.15 |      82.49 |             -7.71 |           92.68 |       -17.86 | False         | False    |
+| PFE      | Pfizer, Inc.                    |   24.68 |           150.33 |      26.76 |             -7.79 |           49.42 |       -50.07 | False         | False    |
+| WM       | Waste Management, Inc.          |  221.10 |            89.53 |     239.91 |             -7.84 |          239.91 |        -7.84 | False         | False    |
+| DAY      | Dayforce, Inc.                  |   69.16 |            11.09 |      75.14 |             -7.96 |          130.37 |       -46.95 | False         | False    |
+| BRK-B    | Berkshire Hathaway Inc. New     |  498.30 |          1036.66 |     542.07 |             -8.07 |          542.07 |        -8.07 | False         | False    |
+| HCA      | HCA Healthcare, Inc.            |  477.13 |           114.25 |     519.23 |             -8.11 |          519.23 |        -8.11 | False         | False    |
+| CVX      | Chevron Corporation             |  150.02 |           353.69 |     163.27 |             -8.11 |          165.94 |        -9.59 | False         | False    |
+| AES      | The AES Corporation             |   13.91 |            10.43 |      15.14 |             -8.13 |           46.47 |       -70.08 | False         | False    |
+| SPGI     | S&P Global Inc.                 |  529.45 |           161.13 |     576.91 |             -8.23 |          576.91 |        -8.23 | False         | False    |
+| DIS      | Walt Disney Company (The)       |  113.56 |           201.38 |     123.85 |             -8.31 |          198.35 |       -42.75 | False         | False    |
+| TRMB     | Trimble Inc.                    |   80.20 |            16.09 |      87.50 |             -8.34 |           96.49 |       -16.88 | False         | False    |
+| INCY     | Incyte Corporation              |  100.11 |            19.65 |     109.28 |             -8.39 |          153.15 |       -34.63 | False         | False    |
+| WMB      | Williams Companies, Inc. (The)  |   59.52 |            82.14 |      65.01 |             -8.45 |           65.01 |        -8.45 | False         | False    |
+| EG       | Everest Group, Ltd.             |  337.53 |            13.91 |     368.99 |             -8.53 |          404.12 |       -16.48 | False         | False    |
+| ADSK     | Autodesk, Inc.                  |  300.71 |            53.86 |     329.09 |             -8.62 |          344.39 |       -12.68 | False         | False    |
+| PWR      | Quanta Services, Inc.           |  432.56 |            70.77 |     473.87 |             -8.72 |          473.87 |        -8.72 | False         | False    |
+| SOLV     | Solventum Corporation           |   80.46 |            13.35 |      88.20 |             -8.78 |           96.05 |       -16.23 | False         | False    |
+| MGM      | MGM Resorts International       |   37.68 |             9.17 |      41.32 |             -8.81 |           94.92 |       -60.30 | False         | False    |
+| WAT      | Waters Corporation              |  386.06 |            22.08 |     423.56 |             -8.85 |          428.22 |        -9.85 | False         | False    |
+| EMR      | Emerson Electric Company        |  135.71 |            82.64 |     149.03 |             -8.94 |          149.03 |        -8.94 | False         | False    |
+| DOV      | Dover Corporation               |  200.15 |            27.64 |     219.84 |             -8.96 |          219.84 |        -8.96 | False         | False    |
+| PLTR     | Palantir Technologies Inc.      |  188.71 |           349.39 |     207.52 |             -9.06 |          207.52 |        -9.06 | False         | False    |
+| DUK      | Duke Energy Corporation (Holdin |  117.18 |            94.37 |     128.91 |             -9.10 |          128.91 |        -9.10 | False         | False    |
+| WRB      | W.R. Berkley Corporation        |   70.57 |            26.06 |      77.72 |             -9.20 |           77.72 |        -9.20 | False         | False    |
+| TROW     | T. Rowe Price Group, Inc.       |  104.75 |            23.22 |     115.38 |             -9.22 |          185.32 |       -43.48 | False         | False    |
+| MDT      | Medtronic plc.                  |   96.52 |           132.06 |     106.33 |             -9.23 |          119.06 |       -18.93 | False         | False    |
+| GEV      | GE Vernova Inc.                 |  662.97 |           197.08 |     730.46 |             -9.24 |          730.46 |        -9.24 | False         | False    |
+| GWW      | W.W. Grainger, Inc.             | 1024.28 |            51.66 |    1129.04 |             -9.28 |         1216.77 |       -15.82 | False         | False    |
+| EXC      | Exelon Corporation              |   43.56 |            45.23 |      48.09 |             -9.42 |           48.09 |        -9.42 | False         | False    |
+| DTE      | DTE Energy Company              |  129.05 |            27.91 |     142.50 |             -9.44 |          142.50 |        -9.44 | False         | False    |
+| LDOS     | Leidos Holdings, Inc.           |  185.86 |            24.16 |     205.30 |             -9.47 |          205.30 |        -9.47 | False         | False    |
+| NOC      | Northrop Grumman Corporation    |  577.37 |            98.25 |     638.31 |             -9.55 |          638.31 |        -9.55 | False         | False    |
+| ES       | Eversource Energy (D/B/A)       |   67.24 |            25.94 |      74.42 |             -9.64 |           81.42 |       -17.41 | False         | False    |
+| CVNA     | Carvana Co.                     |  438.47 |            86.96 |     485.33 |             -9.66 |          485.33 |        -9.66 | False         | False    |
+| COR      | Cencora, Inc.                   |  341.05 |            69.88 |     377.54 |             -9.67 |          377.54 |        -9.67 | False         | False    |
+| IBKR     | Interactive Brokers Group, Inc. |   66.16 |           127.29 |      73.26 |             -9.69 |           73.26 |        -9.69 | False         | False    |
+| XYL      | Xylem Inc.                      |  138.80 |            33.57 |     153.83 |             -9.77 |          153.83 |        -9.77 | False         | False    |
+| KMI      | Kinder Morgan, Inc.             |   27.19 |            67.83 |      30.15 |             -9.82 |           30.15 |        -9.82 | False         | False    |
+| BG       | Bunge Limited                   |   89.08 |            22.02 |      98.82 |             -9.86 |          115.54 |       -22.90 | False         | False    |
+| WEC      | WEC Energy Group, Inc.          |  105.50 |            36.00 |     117.25 |            -10.02 |          117.25 |       -10.02 | False         | False    |
+| AMZN     | Amazon.com, Inc.                |  232.52 |          2558.17 |     258.60 |            -10.09 |          258.60 |       -10.09 | False         | False    |
+| WELL     | Welltower Inc.                  |  187.86 |           129.28 |     209.05 |            -10.14 |          209.05 |       -10.14 | False         | False    |
+| ADM      | Archer-Daniels-Midland Company  |   57.91 |            32.35 |      64.46 |            -10.16 |           89.08 |       -34.99 | False         | False    |
+| NVDA     | NVIDIA Corporation              |  190.53 |          4653.44 |     212.18 |            -10.20 |          212.18 |       -10.20 | False         | False    |
+| KIM      | Kimco Realty Corporation (HC)   |   20.36 |            14.28 |      22.68 |            -10.22 |           24.38 |       -16.50 | False         | False    |
+| VZ       | Verizon Communications Inc.     |   39.79 |           187.74 |      44.33 |            -10.23 |           45.13 |       -11.83 | False         | False    |
+| DHR      | Danaher Corporation             |  230.32 |           154.73 |     256.62 |            -10.25 |          290.14 |       -20.62 | False         | False    |
+| CPT      | Camden Property Trust           |  109.26 |            11.65 |     121.85 |            -10.34 |          156.27 |       -30.08 | False         | False    |
+| XEL      | Xcel Energy Inc.                |   73.85 |            44.99 |      82.37 |            -10.35 |           82.37 |       -10.35 | False         | False    |
+| BLK      | BlackRock, Inc.                 | 1088.11 |           173.60 |    1214.03 |            -10.37 |         1214.03 |       -10.37 | False         | False    |
+| ABT      | Abbott Laboratories             |  124.21 |           190.23 |     138.63 |            -10.40 |          138.63 |       -10.40 | False         | False    |
+| BMY      | Bristol-Myers Squibb Company    |   54.00 |           112.07 |      60.28 |            -10.42 |           70.48 |       -23.37 | False         | False    |
+| PEG      | Public Service Enterprise Group |   80.39 |            41.11 |      89.82 |            -10.50 |           91.62 |       -12.25 | False         | False    |
+| IDXX     | IDEXX Laboratories, Inc.        |  688.48 |            53.64 |     769.98 |            -10.58 |          769.98 |       -10.58 | False         | False    |
+| LOW      | Lowe's Companies, Inc.          |  243.40 |           149.81 |     272.41 |            -10.65 |          278.93 |       -12.74 | False         | False    |
+| NRG      | NRG Energy, Inc.                |  160.88 |            29.52 |     180.08 |            -10.66 |          180.08 |       -10.66 | False         | False    |
+| SYY      | Sysco Corporation               |   73.69 |            40.16 |      82.52 |            -10.71 |           82.75 |       -10.95 | False         | False    |
+| BA       | Boeing Company (The)            |  216.44 |           183.02 |     242.69 |            -10.82 |          435.56 |       -50.31 | False         | False    |
+| FTV      | Fortive Corporation             |   55.69 |            17.87 |      62.51 |            -10.91 |           65.14 |       -14.50 | False         | False    |
+| VRTX     | Vertex Pharmaceuticals Incorpor |  462.90 |           120.48 |     519.68 |            -10.93 |          519.88 |       -10.96 | False         | False    |
+| DGX      | Quest Diagnostics Incorporated  |  175.14 |            20.91 |     196.65 |            -10.94 |          196.65 |       -10.94 | False         | False    |
+| ALLE     | Allegion plc                    |  160.79 |            14.23 |     180.68 |            -11.01 |          180.68 |       -11.01 | False         | False    |
+| VLO      | Valero Energy Corporation       |  164.01 |            56.36 |     184.46 |            -11.08 |          184.46 |       -11.08 | False         | False    |
+| NXPI     | NXP Semiconductors N.V.         |  222.87 |            57.01 |     250.74 |            -11.11 |          288.03 |       -22.62 | False         | False    |
+| CTRA     | Coterra Energy Inc.             |   25.79 |            22.02 |      29.04 |            -11.20 |           31.16 |       -17.23 | False         | False    |
+| GPC      | Genuine Parts Company           |  125.90 |            19.33 |     141.97 |            -11.32 |          172.26 |       -26.91 | False         | False    |
+| ED       | Consolidated Edison, Inc.       |   99.30 |            38.49 |     112.03 |            -11.37 |          112.03 |       -11.36 | False         | False    |
+| AOS      | A.O. Smith Corporation          |   67.43 |            10.30 |      76.15 |            -11.45 |           89.40 |       -24.58 | False         | False    |
+| PM       | Philip Morris International Inc |  161.05 |           279.32 |     181.91 |            -11.47 |          181.91 |       -11.47 | False         | False    |
+| BKR      | Baker Hughes Company            |   45.25 |            55.30 |      51.12 |            -11.48 |           51.12 |       -11.48 | False         | False    |
+| COP      | ConocoPhillips                  |   91.54 |           130.18 |     103.48 |            -11.54 |          128.01 |       -28.49 | False         | False    |
+| DE       | Deere & Company                 |  467.31 |           143.13 |     528.42 |            -11.56 |          528.42 |       -11.56 | False         | False    |
+| GEHC     | GE HealthCare Technologies Inc. |   83.58 |            36.05 |      94.63 |            -11.68 |           94.63 |       -11.68 | False         | False    |
+| PKG      | Packaging Corporation of Americ |  208.91 |            20.02 |     236.70 |            -11.74 |          243.29 |       -14.13 | False         | False    |
+| BXP      | BXP, Inc.                       |   68.64 |            11.45 |      77.80 |            -11.77 |          109.70 |       -37.43 | False         | False    |
+| PSX      | Phillips 66                     |  127.75 |            58.02 |     144.96 |            -11.87 |          163.64 |       -21.93 | False         | False    |
+| MSFT     | Microsoft Corporation           |  487.71 |          3195.17 |     553.50 |            -11.89 |          553.50 |       -11.89 | False         | False    |
+| BALL     | Ball Corporation                |   52.66 |            15.48 |      59.82 |            -11.97 |           96.39 |       -45.37 | False         | False    |
+| LIN      | Linde plc                       |  424.77 |           214.28 |     483.05 |            -12.07 |          483.05 |       -12.07 | False         | False    |
+| SNDK     | Sandisk Corporation             |  250.05 |            85.29 |     284.76 |            -12.19 |          284.76 |       -12.19 | False         | False    |
+| BSX      | Boston Scientific Corporation   |   96.06 |           138.71 |     109.50 |            -12.27 |          109.50 |       -12.27 | False         | False    |
+| SYK      | Stryker Corporation             |  353.34 |           141.33 |     402.95 |            -12.31 |          402.95 |       -12.31 | False         | False    |
+| NTAP     | NetApp, Inc.                    |  109.97 |            19.23 |     125.50 |            -12.37 |          132.11 |       -16.76 | False         | False    |
+| HON      | Honeywell International Inc.    |  197.37 |           153.32 |     225.29 |            -12.39 |          225.29 |       -12.39 | False         | False    |
+| CTVA     | Corteva, Inc.                   |   67.44 |            49.44 |      77.02 |            -12.43 |           77.02 |       -12.43 | False         | False    |
+| CEG      | Constellation Energy Corporatio |  360.46 |           101.69 |     412.23 |            -12.56 |          412.23 |       -12.56 | False         | False    |
+| AMP      | Ameriprise Financial, Inc.      |  501.83 |            48.98 |     574.69 |            -12.68 |          574.69 |       -12.68 | False         | False    |
+| SLB      | SLB Limited                     |   37.79 |            72.34 |      43.29 |            -12.70 |           86.48 |       -56.30 | False         | False    |
+| APA      | APA Corporation                 |   23.95 |             9.45 |      27.46 |            -12.77 |          107.76 |       -77.77 | False         | False    |
+| SO       | Southern Company (The)          |   87.17 |            98.34 |     100.02 |            -12.84 |          100.02 |       -12.84 | False         | False    |
+| GEN      | Gen Digital Inc.                |   27.77 |            14.80 |      31.94 |            -13.06 |           31.94 |       -13.06 | False         | False    |
+| MO       | Altria Group, Inc.              |   57.60 |           104.06 |      66.30 |            -13.12 |           66.30 |       -13.12 | False         | False    |
+| ICE      | Intercontinental Exchange Inc.  |  163.52 |            99.48 |     188.26 |            -13.14 |          188.26 |       -13.14 | False         | False    |
+| TDY      | Teledyne Technologies Incorpora |  517.35 |            29.12 |     595.99 |            -13.19 |          595.99 |       -13.19 | False         | False    |
+| WSM      | Williams-Sonoma, Inc.           |  188.00 |            24.43 |     216.63 |            -13.22 |          216.63 |       -13.22 | False         | False    |
+| AON      | Aon plc                         |  356.65 |            75.15 |     411.24 |            -13.27 |          411.24 |       -13.27 | False         | False    |
+| LH       | Labcorp Holdings Inc.           |  253.89 |            22.56 |     292.94 |            -13.33 |          292.94 |       -13.33 | False         | False    |
+| EQT      | EQT Corporation                 |   53.93 |            36.03 |      62.23 |            -13.34 |           62.23 |       -13.34 | False         | False    |
+| APTV     | Aptiv PLC                       |   76.91 |            16.50 |      88.80 |            -13.39 |          180.81 |       -57.46 | False         | False    |
+| SWK      | Stanley Black & Decker, Inc.    |   75.38 |            12.18 |      87.08 |            -13.43 |          191.51 |       -60.64 | False         | False    |
+| ARES     | Ares Management Corporation     |  168.73 |            49.04 |     195.10 |            -13.51 |          195.10 |       -13.51 | False         | False    |
+| EXE      | Expand Energy Corporation       |  109.49 |            26.77 |     126.62 |            -13.53 |          126.62 |       -13.53 | False         | False    |
+| A        | Agilent Technologies, Inc.      |  138.14 |            37.95 |     159.98 |            -13.65 |          174.04 |       -20.62 | False         | False    |
+| DPZ      | Domino's Pizza Inc              |  425.56 |            13.93 |     493.24 |            -13.72 |          537.18 |       -20.78 | False         | False    |
+| TDG      | Transdigm Group Incorporated    | 1309.24 |            80.59 |    1519.36 |            -13.83 |         1519.36 |       -13.83 | False         | False    |
+| APO      | Apollo Global Management, Inc.  |  148.52 |            78.09 |     172.65 |            -13.98 |          186.86 |       -20.52 | False         | False    |
+| SHW      | Sherwin-Williams Company (The)  |  325.44 |            88.42 |     378.76 |            -14.08 |          396.88 |       -18.00 | False         | False    |
+| PPG      | PPG Industries, Inc.            |  104.32 |            26.10 |     121.53 |            -14.16 |          166.98 |       -37.52 | False         | False    |
+| EQR      | Equity Residential              |   62.40 |            24.53 |      72.77 |            -14.26 |           80.96 |       -22.93 | False         | False    |
+| NVR      | NVR, Inc.                       | 7382.16 |            20.87 |    8618.28 |            -14.34 |         9964.77 |       -25.92 | False         | False    |
+| TRGP     | Targa Resources, Inc.           |  181.99 |            43.25 |     212.71 |            -14.44 |          212.71 |       -14.44 | False         | False    |
+| AWK      | American Water Works Company, I |  130.55 |            25.20 |     152.71 |            -14.51 |          174.41 |       -25.15 | False         | False    |
+| MCHP     | Microchip Technology Incorporat |   64.94 |            41.03 |      75.98 |            -14.53 |           96.30 |       -32.56 | False         | False    |
+| KR       | Kroger Company (The)            |   63.25 |            41.65 |      74.13 |            -14.67 |           74.13 |       -14.67 | False         | False    |
+| QCOM     | QUALCOMM Incorporated           |  174.81 |           162.35 |     204.90 |            -14.69 |          223.25 |       -21.70 | False         | False    |
+| AKAM     | Akamai Technologies, Inc.       |   88.42 |            13.98 |     103.75 |            -14.78 |          345.50 |       -74.41 | False         | False    |
+| VICI     | VICI Properties Inc.            |   28.13 |            30.01 |      33.01 |            -14.78 |           33.01 |       -14.78 | False         | False    |
+| ESS      | Essex Property Trust, Inc.      |  259.59 |            17.40 |     304.79 |            -14.83 |          315.02 |       -17.60 | False         | False    |
+| DLR      | Digital Realty Trust, Inc.      |  155.01 |            58.03 |     182.13 |            -14.89 |          190.83 |       -18.77 | False         | False    |
+| AVGO     | Broadcom Inc.                   |  352.13 |          1570.78 |     413.82 |            -14.91 |          413.82 |       -14.91 | False         | False    |
+| IR       | Ingersoll Rand Inc.             |   81.28 |            34.22 |      95.76 |            -15.12 |          105.92 |       -23.27 | False         | False    |
+| CRWD     | CrowdStrike Holdings, Inc.      |  481.19 |           111.28 |     566.90 |            -15.12 |          566.90 |       -15.12 | False         | False    |
+| ORLY     | O'Reilly Automotive, Inc.       |   92.25 |            83.26 |     108.72 |            -15.15 |          108.72 |       -15.15 | False         | False    |
+| CDNS     | Cadence Design Systems, Inc.    |  318.89 |            80.76 |     376.45 |            -15.29 |          376.45 |       -15.29 | False         | False    |
+| BR       | Broadridge Financial Solutions, |  228.19 |            23.01 |     269.71 |            -15.39 |          269.71 |       -15.39 | False         | False    |
+| EBAY     | eBay Inc.                       |   85.21 |            41.69 |     100.76 |            -15.44 |          100.76 |       -15.44 | False         | False    |
+| SJM      | The J.M. Smucker Company        |   99.67 |            11.19 |     117.94 |            -15.49 |          146.54 |       -31.99 | False         | False    |
+| PANW     | Palo Alto Networks, Inc.        |  188.45 |           123.35 |     223.61 |            -15.72 |          223.61 |       -15.72 | False         | False    |
+| MPWR     | Monolithic Power Systems, Inc.  |  944.72 |            53.85 |    1121.48 |            -15.76 |         1121.48 |       -15.76 | False         | False    |
+| NWS      | News Corporation                |   29.87 |            17.28 |      35.47 |            -15.79 |           35.47 |       -15.79 | False         | False    |
+| PSA      | Public Storage                  |  260.66 |            48.46 |     309.54 |            -15.79 |          351.71 |       -25.89 | False         | False    |
+| PHM      | PulteGroup, Inc.                |  119.20 |            24.68 |     141.59 |            -15.81 |          148.01 |       -19.46 | False         | False    |
+| EXR      | Extra Space Storage Inc         |  130.79 |            30.57 |     155.55 |            -15.92 |          194.10 |       -32.62 | False         | False    |
+| DRI      | Darden Restaurants, Inc.        |  186.97 |            23.19 |     223.20 |            -16.23 |          223.20 |       -16.23 | False         | False    |
+| CTAS     | Cintas Corporation              |  191.14 |            76.91 |     228.23 |            -16.25 |          228.23 |       -16.25 | False         | False    |
+| T        | AT&T Inc.                       |   24.36 |           185.81 |      29.13 |            -16.36 |           29.13 |       -16.36 | False         | False    |
+| RMD      | ResMed Inc.                     |  244.76 |            37.70 |     293.11 |            -16.50 |          293.11 |       -16.50 | False         | False    |
+| MTCH     | Match Group, Inc.               |   32.35 |             7.50 |      38.76 |            -16.53 |          176.78 |       -81.70 | False         | False    |
+| ABNB     | Airbnb, Inc.                    |  136.82 |            79.20 |     163.93 |            -16.54 |          219.94 |       -37.79 | False         | False    |
+| META     | Meta Platforms, Inc.            |  663.29 |          1812.43 |     795.06 |            -16.57 |          795.06 |       -16.57 | False         | False    |
+| INTU     | Intuit Inc.                     |  675.31 |           138.90 |     810.72 |            -16.70 |          810.72 |       -16.70 | False         | False    |
+| LYV      | Live Nation Entertainment, Inc. |  145.81 |            33.77 |     175.25 |            -16.80 |          175.25 |       -16.80 | False         | False    |
+| FANG     | Diamondback Energy, Inc.        |  146.31 |            47.46 |     175.92 |            -16.83 |          205.08 |       -28.66 | False         | False    |
+| OTIS     | Otis Worldwide Corporation      |   87.62 |            33.53 |     105.37 |            -16.84 |          105.37 |       -16.84 | False         | False    |
+| NWSA     | News Corporation                |   26.22 |            15.74 |      31.61 |            -17.05 |           31.61 |       -17.05 | False         | False    |
+| RSG      | Republic Services, Inc.         |  212.74 |            67.15 |     256.67 |            -17.11 |          256.67 |       -17.11 | False         | False    |
+| HUM      | Humana Inc.                     |  258.83 |            23.48 |     313.18 |            -17.35 |          552.08 |       -53.12 | False         | False    |
+| TT       | Trane Technologies plc          |  392.59 |            93.59 |     475.11 |            -17.37 |          475.11 |       -17.37 | False         | False    |
+| FAST     | Fastenal Company                |   41.33 |            49.78 |      50.09 |            -17.49 |           50.09 |       -17.49 | False         | False    |
+| HD       | Home Depot, Inc. (The)          |  349.78 |           372.91 |     424.01 |            -17.51 |          426.44 |       -17.98 | False         | False    |
+| BX       | Blackstone Inc.                 |  155.41 |           180.04 |     188.42 |            -17.52 |          194.94 |       -20.28 | False         | False    |
+| COO      | The Cooper Companies, Inc.      |   82.62 |            16.18 |     100.24 |            -17.58 |          115.86 |       -28.69 | False         | False    |
+| INTC     | Intel Corporation               |   36.20 |           232.13 |      44.02 |            -17.76 |           62.29 |       -41.89 | False         | False    |
+| PG       | Procter & Gamble Company (The)  |  143.72 |           354.65 |     175.18 |            -17.96 |          175.18 |       -17.96 | False         | False    |
+| MAA      | Mid-America Apartment Communiti |  136.25 |            16.12 |     166.19 |            -18.01 |          197.60 |       -31.05 | False         | False    |
+| DASH     | DoorDash, Inc.                  |  233.95 |            88.19 |     285.50 |            -18.06 |          285.50 |       -18.06 | False         | False    |
+| FIS      | Fidelity National Information S |   67.19 |            28.86 |      82.10 |            -18.16 |          140.20 |       -52.08 | False         | False    |
+| AVB      | AvalonBay Communities, Inc.     |  181.48 |            25.30 |     222.20 |            -18.33 |          229.18 |       -20.81 | False         | False    |
+| MKC      | McCormick & Company, Incorporat |   68.45 |            16.60 |      84.04 |            -18.55 |           98.35 |       -30.40 | False         | False    |
+| PODD     | Insulet Corporation             |  288.63 |            18.01 |     354.88 |            -18.67 |          354.88 |       -18.67 | False         | False    |
+| COST     | Costco Wholesale Corporation    |  872.16 |           417.43 |    1072.35 |            -18.67 |         1072.35 |       -18.67 | False         | False    |
+| MPC      | Marathon Petroleum Corporation  |  163.69 |            53.57 |     201.29 |            -18.68 |          213.02 |       -23.16 | False         | False    |
+| URI      | United Rentals, Inc.            |  827.94 |            49.76 |    1019.33 |            -18.78 |         1019.33 |       -18.78 | False         | False    |
+| UDR      | UDR, Inc.                       |   36.08 |            13.99 |      44.43 |            -18.79 |           51.50 |       -29.93 | False         | False    |
+| TXN      | Texas Instruments Incorporated  |  175.73 |           195.85 |     216.74 |            -18.92 |          216.74 |       -18.92 | False         | False    |
+| CL       | Colgate-Palmolive Company       |   79.24 |            72.97 |      97.77 |            -18.95 |          105.54 |       -24.92 | False         | False    |
+| TSCO     | Tractor Supply Company          |   51.39 |            26.89 |      63.47 |            -19.04 |           63.47 |       -19.04 | False         | False    |
+| EQIX     | Equinix, Inc.                   |  763.30 |            80.60 |     943.10 |            -19.06 |          971.74 |       -21.45 | False         | False    |
+| ETN      | Eaton Corporation, PLC          |  322.17 |           136.81 |     398.40 |            -19.13 |          398.40 |       -19.13 | False         | False    |
+| ON       | ON Semiconductor Corporation    |   54.93 |            24.49 |      67.95 |            -19.16 |          111.35 |       -50.67 | False         | False    |
+| AMCR     | Amcor plc                       |   41.60 |            20.43 |      51.52 |            -19.26 |           58.78 |       -29.23 | False         | False    |
+| IEX      | IDEX Corporation                |  179.66 |            14.95 |     222.57 |            -19.28 |          239.44 |       -24.97 | False         | False    |
+| EME      | EMCOR Group, Inc.               |  626.72 |            32.26 |     778.18 |            -19.46 |          778.18 |       -19.46 | False         | False    |
+| J        | Jacobs Solutions Inc.           |  135.28 |            16.06 |     168.03 |            -19.49 |          168.03 |       -19.49 | False         | False    |
+| AMD      | Advanced Micro Devices, Inc.    |  214.99 |           385.41 |     267.08 |            -19.50 |          267.08 |       -19.50 | False         | False    |
+| PTC      | PTC Inc.                        |  176.59 |            18.65 |     219.69 |            -19.62 |          219.69 |       -19.62 | False         | False    |
+| MAS      | Masco Corporation               |   64.74 |            13.84 |      80.67 |            -19.75 |           84.80 |       -23.66 | False         | False    |
+| CI       | The Cigna Group                 |  276.51 |            73.22 |     344.64 |            -19.77 |          361.84 |       -23.58 | False         | False    |
+| BBY      | Best Buy Co., Inc.              |   69.61 |            13.68 |      87.00 |            -19.99 |          116.84 |       -40.42 | False         | False    |
+| Q        | Qnity Electronics, Inc.         |   84.21 |            20.15 |     105.32 |            -20.04 |          105.32 |       -20.04 | False         | False    |
+| ANET     | Arista Networks, Inc.           |  131.84 |           178.49 |     164.94 |            -20.07 |          164.94 |       -20.07 | False         | False    |
+| VRSN     | VeriSign, Inc.                  |  246.32 |            22.81 |     308.75 |            -20.22 |          308.75 |       -20.22 | False         | False    |
+| SBAC     | SBA Communications Corporation  |  192.60 |            19.62 |     241.44 |            -20.23 |          367.46 |       -47.59 | False         | False    |
+| ADP      | Automatic Data Processing, Inc. |  258.84 |            99.83 |     324.50 |            -20.23 |          324.50 |       -20.23 | False         | False    |
+| DOC      | Healthpeak Properties, Inc.     |   16.02 |            11.98 |      20.09 |            -20.27 |           29.36 |       -45.44 | False         | False    |
+| ZBH      | Zimmer Biomet Holdings, Inc.    |   90.53 |            17.26 |     113.56 |            -20.28 |          168.35 |       -46.22 | False         | False    |
+| UBER     | Uber Technologies, Inc.         |   81.26 |           166.94 |     101.99 |            -20.33 |          101.99 |       -20.33 | False         | False    |
+| BDX      | Becton, Dickinson and Company   |  196.33 |            58.08 |     246.65 |            -20.40 |          274.48 |       -28.47 | False         | False    |
+| DHI      | D.R. Horton, Inc.               |  146.32 |            43.33 |     183.98 |            -20.47 |          197.03 |       -25.74 | False         | False    |
+| EFX      | Equifax, Inc.                   |  222.06 |            24.81 |     279.27 |            -20.49 |          306.72 |       -27.60 | False         | False    |
+| CMCSA    | Comcast Corporation             |   27.48 |           117.25 |      34.56 |            -20.51 |           50.46 |       -45.55 | False         | False    |
+| FICO     | Fair Isaac Corporation          | 1753.19 |            34.71 |    2217.60 |            -20.94 |         2402.52 |       -27.03 | False         | False    |
+| INVH     | Invitation Homes Inc.           |   27.45 |            16.39 |      34.75 |            -21.00 |           40.02 |       -31.42 | False         | False    |
+| KDP      | Keurig Dr Pepper Inc.           |   27.87 |            37.28 |      35.33 |            -21.11 |           37.59 |       -25.86 | False         | False    |
+| WST      | West Pharmaceutical Services, I |  274.05 |            16.63 |     347.45 |            -21.13 |          469.81 |       -41.67 | False         | False    |
+| GRMN     | Garmin Ltd.                     |  205.51 |            38.81 |     260.57 |            -21.13 |          260.57 |       -21.13 | False         | False    |
+| AZO      | AutoZone, Inc.                  | 3448.70 |            61.61 |    4388.11 |            -21.41 |         4388.11 |       -21.41 | False         | False    |
+| EPAM     | EPAM Systems, Inc.              |  211.41 |            11.62 |     269.00 |            -21.41 |          725.40 |       -70.86 | False         | False    |
+| RCL      | Royal Caribbean Cruises Ltd.    |  285.67 |            88.54 |     364.14 |            -21.55 |          364.14 |       -21.55 | False         | False    |
+| UPS      | United Parcel Service, Inc.     |  100.54 |            90.12 |     128.18 |            -21.56 |          194.22 |       -48.23 | False         | False    |
+| IFF      | International Flavors & Fragran |   67.47 |            17.89 |      86.08 |            -21.62 |          138.89 |       -51.42 | False         | False    |
+| CCI      | Crown Castle Inc.               |   88.28 |            37.80 |     113.13 |            -21.97 |          171.50 |       -48.52 | False         | False    |
+| NCLH     | Norwegian Cruise Line Holdings  |   22.81 |            10.00 |      29.29 |            -22.12 |           64.27 |       -64.51 | False         | False    |
+| HRL      | Hormel Foods Corporation        |   23.95 |            13.54 |      30.78 |            -22.17 |           48.46 |       -50.57 | False         | False    |
+| WDAY     | Workday, Inc.                   |  220.70 |            46.89 |     283.68 |            -22.20 |          311.28 |       -29.10 | False         | False    |
+| EIX      | Edison International            |   58.65 |            23.97 |      75.42 |            -22.24 |           82.53 |       -28.94 | False         | False    |
+| PGR      | Progressive Corporation (The)   |  213.57 |           121.93 |     275.18 |            -22.39 |          275.18 |       -22.39 | False         | False    |
+| PCG      | Pacific Gas & Electric Co.      |   15.72 |            33.89 |      20.27 |            -22.43 |           70.20 |       -77.60 | False         | False    |
+| WY       | Weyerhaeuser Company            |   23.74 |            18.58 |      30.64 |            -22.53 |           37.68 |       -36.99 | False         | False    |
+| ELV      | Elevance Health, Inc.           |  349.88 |            77.85 |     451.93 |            -22.58 |          552.56 |       -36.68 | False         | False    |
+| MDLZ     | Mondelez International, Inc.    |   54.14 |            75.66 |      69.94 |            -22.59 |           72.90 |       -25.73 | False         | False    |
+| CPAY     | Corpay, Inc.                    |  310.18 |            22.22 |     400.81 |            -22.61 |          400.81 |       -22.61 | False         | False    |
+| EOG      | EOG Resources, Inc.             |  102.52 |            61.22 |     132.93 |            -22.88 |          132.93 |       -22.88 | False         | False    |
+| MSI      | Motorola Solutions, Inc.        |  377.04 |            67.06 |     489.48 |            -22.97 |          501.17 |       -24.77 | False         | False    |
+| KKR      | KKR & Co. Inc.                  |  130.41 |           105.80 |     169.44 |            -23.03 |          169.44 |       -23.03 | False         | False    |
+| DELL     | Dell Technologies Inc.          |  128.68 |            76.70 |     167.35 |            -23.11 |          174.49 |       -26.26 | False         | False    |
+| HOOD     | Robinhood Markets, Inc.         |  118.13 |            89.45 |     153.86 |            -23.22 |          153.86 |       -23.22 | False         | False    |
+| ODFL     | Old Dominion Freight Line, Inc. |  159.49 |            36.40 |     208.11 |            -23.36 |          231.32 |       -31.05 | False         | False    |
+| OXY      | Occidental Petroleum Corporatio |   39.85 |            44.72 |      52.05 |            -23.44 |           73.50 |       -45.79 | False         | False    |
+| ROP      | Roper Technologies, Inc.        |  449.91 |            39.96 |     591.26 |            -23.91 |          591.26 |       -23.91 | False         | False    |
+| MRSH     | Marsh                           |  186.06 |            92.20 |     244.59 |            -23.93 |          244.59 |       -23.93 | False         | False    |
+| FFIV     | F5, Inc.                        |  263.14 |            16.01 |     346.00 |            -23.95 |          346.00 |       -23.95 | False         | False    |
+| ADBE     | Adobe Inc.                      |  353.80 |           122.75 |     465.70 |            -24.03 |          699.54 |       -49.42 | False         | False    |
+| AMT      | American Tower Corporation (REI |  174.71 |            83.95 |     230.04 |            -24.05 |          264.88 |       -34.04 | False         | False    |
+| IRM      | Iron Mountain Incorporated (Del |   81.99 |            27.23 |     108.27 |            -24.28 |          124.90 |       -34.36 | False         | False    |
+| KHC      | The Kraft Heinz Company         |   24.13 |            28.10 |      31.87 |            -24.30 |           64.84 |       -62.78 | False         | False    |
+| NKE      | Nike, Inc.                      |   60.93 |            91.50 |      80.55 |            -24.36 |          167.74 |       -63.68 | False         | False    |
+| RVTY     | Revvity, Inc.                   |   96.69 |            12.63 |     127.93 |            -24.42 |          201.11 |       -51.92 | False         | False    |
+| TECH     | Bio-Techne Corp                 |   59.22 |             9.99 |      78.83 |            -24.88 |          133.47 |       -55.63 | False         | False    |
+| CF       | CF Industries Holdings, Inc.    |   77.45 |            15.10 |     103.22 |            -24.97 |          111.10 |       -30.29 | False         | False    |
+| AJG      | Arthur J. Gallagher & Co.       |  261.48 |            64.08 |     348.85 |            -25.04 |          348.85 |       -25.04 | False         | False    |
+| CHD      | Church & Dwight Company, Inc.   |   85.39 |            23.45 |     115.32 |            -25.95 |          115.32 |       -25.95 | False         | False    |
+| SBUX     | Starbucks Corporation           |   85.08 |           104.76 |     115.04 |            -26.05 |          115.04 |       -26.05 | False         | False    |
+| APD      | Air Products and Chemicals, Inc |  245.63 |            60.66 |     332.28 |            -26.08 |          332.28 |       -26.08 | False         | False    |
+| TAP      | Molson Coors Beverage Company   |   46.42 |             9.50 |      62.82 |            -26.10 |           88.81 |       -47.73 | False         | False    |
+| VST      | Vistra Corp.                    |  161.67 |            53.65 |     219.51 |            -26.35 |          219.51 |       -26.35 | False         | False    |
+| TMUS     | T-Mobile US, Inc.               |  201.00 |           221.94 |     273.15 |            -26.41 |          273.15 |       -26.41 | False         | False    |
+| SNPS     | Synopsys, Inc.                  |  477.14 |            88.98 |     651.73 |            -26.79 |          651.73 |       -26.79 | False         | False    |
+| LEN      | Lennar Corporation              |  104.90 |            27.01 |     143.63 |            -26.96 |          183.95 |       -42.97 | False         | False    |
+| CRM      | Salesforce, Inc.                |  266.08 |           202.10 |     364.71 |            -27.04 |          366.19 |       -27.34 | False         | False    |
+| DXCM     | DexCom, Inc.                    |   67.57 |            28.64 |      93.25 |            -27.54 |          164.86 |       -59.01 | False         | False    |
+| LII      | Lennox International, Inc.      |  496.85 |            17.36 |     685.91 |            -27.56 |          685.91 |       -27.56 | False         | False    |
+| GIS      | General Mills, Inc.             |   46.40 |            24.68 |      64.14 |            -27.66 |           81.29 |       -42.93 | False         | False    |
+| PAYX     | Paychex, Inc.                   |  113.01 |            37.02 |     156.86 |            -27.95 |          156.86 |       -27.95 | False         | False    |
+| ZTS      | Zoetis Inc.                     |  125.69 |            55.32 |     174.86 |            -28.12 |          238.61 |       -47.32 | False         | False    |
+| TGT      | Target Corporation              |   99.55 |            47.93 |     138.95 |            -28.36 |          236.52 |       -57.91 | False         | False    |
+| FTNT     | Fortinet, Inc.                  |   81.56 |            62.27 |     114.82 |            -28.97 |          114.82 |       -28.97 | False         | False    |
+| SW       | Smurfit WestRock plc            |   38.74 |            21.74 |      54.55 |            -28.98 |           55.46 |       -30.15 | False         | False    |
+| GPN      | Global Payments Inc.            |   80.35 |            20.09 |     113.83 |            -29.41 |          211.60 |       -62.03 | False         | False    |
+| NFLX     | Netflix, Inc.                   |   94.47 |           354.16 |     134.12 |            -29.56 |          134.12 |       -29.56 | False         | False    |
+| KVUE     | Kenvue Inc.                     |   17.19 |            33.34 |      24.41 |            -29.57 |           25.18 |       -31.74 | False         | False    |
+| XYZ      | Block, Inc.                     |   66.27 |            36.84 |      94.25 |            -29.69 |          289.23 |       -77.09 | False         | False    |
+| SWKS     | Skyworks Solutions, Inc.        |   64.21 |             8.36 |      91.61 |            -29.91 |          179.75 |       -64.28 | False         | False    |
+| TYL      | Tyler Technologies, Inc.        |  461.06 |            15.98 |     661.31 |            -30.28 |          661.31 |       -30.28 | False         | False    |
+| KMB      | Kimberly-Clark Corporation      |  101.00 |            33.19 |     145.82 |            -30.74 |          145.82 |       -30.74 | False         | False    |
+| GNRC     | Generac Holdlings Inc.          |  140.56 |             9.86 |     203.25 |            -30.84 |          524.31 |       -73.19 | False         | False    |
+| OKE      | ONEOK, Inc.                     |   72.85 |            49.87 |     105.47 |            -30.93 |          112.17 |       -35.05 | False         | False    |
+| IP       | International Paper Company     |   39.89 |            21.29 |      57.79 |            -30.98 |           57.99 |       -31.22 | False         | False    |
+| HPQ      | HP Inc.                         |   23.26 |            18.17 |      33.78 |            -31.15 |           37.80 |       -38.46 | False         | False    |
+| CSGP     | CoStar Group, Inc.              |   67.01 |            26.07 |      97.43 |            -31.22 |          101.05 |       -33.69 | False         | False    |
+| ACN      | Accenture plc                   |  271.09 |           163.49 |     394.41 |            -31.27 |          394.41 |       -31.27 | False         | False    |
+| VRSK     | Verisk Analytics, Inc.          |  220.34 |            30.38 |     321.24 |            -31.41 |          321.24 |       -31.41 | False         | False    |
+| DDOG     | Datadog, Inc.                   |  138.32 |            45.35 |     201.69 |            -31.42 |          201.69 |       -31.42 | False         | False    |
+| BF-B     | Brown Forman Inc                |   26.19 |            12.68 |      38.74 |            -32.39 |           75.38 |       -65.25 | False         | False    |
+| ALGN     | Align Technology, Inc.          |  158.37 |            11.82 |     237.23 |            -33.24 |          737.45 |       -78.52 | False         | False    |
+| CPB      | The Campbell's Company          |   27.73 |             8.34 |      41.73 |            -33.55 |           51.14 |       -45.77 | False         | False    |
+| CARR     | Carrier Global Corporation      |   53.36 |            50.70 |      80.43 |            -33.66 |           81.65 |       -34.64 | False         | False    |
+| AXON     | Axon Enterprise, Inc.           |  583.84 |            38.41 |     885.92 |            -34.10 |          885.92 |       -34.10 | False         | False    |
+| PSKY     | Paramount Skydance Corporation  |   13.59 |            12.37 |      20.78 |            -34.60 |           90.92 |       -85.05 | False         | False    |
+| MOS      | Mosaic Company (The)            |   24.31 |             8.73 |      37.63 |            -35.39 |          119.76 |       -79.70 | False         | False    |
+| BRO      | Brown & Brown, Inc.             |   80.78 |            24.62 |     125.05 |            -35.40 |          125.05 |       -35.40 | False         | False    |
+| PYPL     | PayPal Holdings, Inc.           |   59.97 |            50.34 |      93.03 |            -35.54 |          309.44 |       -80.62 | False         | False    |
+| NOW      | ServiceNow, Inc.                |  153.89 |           123.46 |     239.62 |            -35.78 |          239.62 |       -35.78 | False         | False    |
+| MRNA     | Moderna, Inc.                   |   31.20 |            17.22 |      48.92 |            -36.22 |          497.49 |       -93.73 | False         | False    |
+| CAG      | ConAgra Brands, Inc.            |   16.91 |             8.85 |      26.52 |            -36.26 |           34.70 |       -51.27 | False         | False    |
+| CDW      | CDW Corporation                 |  139.71 |            16.56 |     219.61 |            -36.38 |          257.18 |       -45.68 | False         | False    |
+| DVA      | DaVita Inc.                     |  113.98 |             7.82 |     179.60 |            -36.54 |          179.60 |       -36.54 | False         | False    |
+| POOL     | Pool Corporation                |  232.49 |             9.48 |     368.69 |            -36.94 |          552.98 |       -57.96 | False         | False    |
+| LW       | Lamb Weston Holdings, Inc.      |   41.80 |             6.40 |      66.32 |            -36.97 |          110.73 |       -62.25 | False         | False    |
+| ERIE     | Erie Indemnity Company          |  280.93 |            14.80 |     449.25 |            -37.47 |          534.74 |       -47.46 | False         | False    |
+| STZ      | Constellation Brands, Inc.      |  138.51 |            27.28 |     221.78 |            -37.55 |          263.04 |       -47.34 | False         | False    |
+| CLX      | Clorox Company (The)            |   97.45 |            13.76 |     156.73 |            -37.82 |          201.55 |       -51.65 | False         | False    |
+| CPRT     | Copart, Inc.                    |   39.30 |            39.28 |      63.85 |            -38.45 |           64.38 |       -38.96 | False         | False    |
+| CMG      | Chipotle Mexican Grill, Inc.    |   37.81 |            52.12 |      62.11 |            -39.12 |           69.26 |       -45.41 | False         | False    |
+| CNC      | Centene Corporation             |   40.51 |            21.29 |      66.81 |            -39.37 |           98.53 |       -58.89 | False         | False    |
+| PAYC     | Paycom Software, Inc.           |  160.41 |             7.58 |     266.71 |            -39.86 |          547.87 |       -70.72 | False         | False    |
+| FDS      | FactSet Research Systems Inc.   |  292.13 |             9.52 |     487.33 |            -40.06 |          493.07 |       -40.75 | False         | False    |
+| LYB      | LyondellBasell Industries NV    |   43.25 |            15.77 |      72.64 |            -40.46 |           93.28 |       -53.63 | False         | False    |
+| BLDR     | Builders FirstSource, Inc.      |  103.99 |            12.65 |     175.12 |            -40.62 |          214.70 |       -51.56 | False         | False    |
+| DOW      | Dow Inc.                        |   23.29 |            19.76 |      39.24 |            -40.65 |           57.91 |       -59.78 | False         | False    |
+| TPL      | Texas Pacific Land Corporation  |  287.54 |            24.02 |     485.16 |            -40.73 |          585.53 |       -50.89 | False         | False    |
+| GDDY     | GoDaddy Inc.                    |  127.07 |            13.92 |     216.00 |            -41.17 |          216.00 |       -41.17 | False         | False    |
+| ZBRA     | Zebra Technologies Corporation  |  246.27 |            11.95 |     427.76 |            -42.43 |          615.00 |       -59.96 | False         | False    |
+| ORCL     | Oracle Corporation              |  197.47 |           472.86 |     344.21 |            -42.63 |          344.21 |       -42.63 | False         | False    |
+| UNH      | UnitedHealth Group Incorporated |  331.83 |           259.91 |     594.32 |            -44.17 |          613.22 |       -45.89 | False         | False    |
+| COIN     | Coinbase Global, Inc. - 3       |  236.90 |            52.51 |     444.65 |            -46.72 |          444.65 |       -46.72 | False         | False    |
+| BAX      | Baxter International Inc.       |   19.38 |            10.32 |      37.25 |            -47.97 |           84.80 |       -77.15 | False         | False    |
+| LULU     | lululemon athletica inc.        |  208.97 |            20.69 |     423.32 |            -50.64 |          516.39 |       -59.53 | False         | False    |
+| ARE      | Alexandria Real Estate Equities |   47.89 |             9.47 |      98.77 |            -51.51 |          187.41 |       -74.44 | False         | False    |
+| CHTR     | Charter Communications, Inc.    |  207.16 |            26.67 |     437.06 |            -52.60 |          825.62 |       -74.91 | False         | False    |
+| SMCI     | Super Micro Computer, Inc.      |   30.64 |            17.38 |      66.44 |            -53.88 |          122.90 |       -75.07 | False         | False    |
+| DECK     | Deckers Outdoor Corporation     |  103.09 |            17.70 |     223.98 |            -53.97 |          223.98 |       -53.97 | False         | False    |
+| MOH      | Molina Healthcare Inc           |  164.84 |             9.73 |     359.97 |            -54.21 |          423.92 |       -61.12 | False         | False    |
+| IT       | Gartner, Inc.                   |  252.61 |            15.87 |     584.01 |            -56.75 |          584.01 |       -56.75 | False         | False    |
+| TTD      | The Trade Desk, Inc.            |   38.31 |            14.83 |     127.59 |            -69.97 |          141.53 |       -72.93 | False         | False    |
+| FISV     | Fiserv, Inc.                    |   67.50 |            34.64 |     238.59 |            -71.71 |          238.59 |       -71.71 | False         | False    |
+=======
+Generated: 2026-01-24 10:33:19 UTC
+Total stocks: 503
+================================================================================
+
+| Ticker   | Name                            |   Price |   52W High |   % From 52W High |   All-Time High |   % From ATH | At 52W High   | At ATH   |
+|----------|---------------------------------|---------|------------|-------------------|-----------------|--------------|---------------|----------|
+| MNST     | Monster Beverage Corporation    |   82.00 |      82.19 |             -0.23 |           82.19 |        -0.23 | True          | True     |
+| NEM      | Newmont Corporation             |  124.31 |     124.64 |             -0.26 |          124.64 |        -0.26 | True          | True     |
+| GILD     | Gilead Sciences, Inc.           |  135.93 |     136.30 |             -0.27 |          136.30 |        -0.27 | True          | True     |
+| BG       | Bunge Limited                   |  113.60 |     114.00 |             -0.35 |          115.54 |        -1.68 | True          | True     |
+| EA       | Electronic Arts Inc.            |  204.00 |     204.89 |             -0.43 |          204.89 |        -0.43 | True          | True     |
+| NOC      | Northrop Grumman Corporation    |  672.95 |     677.30 |             -0.64 |          677.30 |        -0.64 | True          | True     |
+| XOM      | Exxon Mobil Corporation         |  134.97 |     135.98 |             -0.74 |          135.98 |        -0.74 | True          | True     |
+| CBOE     | Cboe Global Markets, Inc.       |  276.39 |     278.50 |             -0.76 |          278.50 |        -0.76 | True          | True     |
+| STLD     | Steel Dynamics, Inc.            |  181.32 |     182.81 |             -0.82 |          182.81 |        -0.82 | True          | True     |
+| WMB      | Williams Companies, Inc. (The)  |   64.96 |      65.55 |             -0.90 |           65.15 |        -0.29 | True          | True     |
+| LMT      | Lockheed Martin Corporation     |  590.82 |     596.23 |             -0.91 |          597.48 |        -1.11 | True          | True     |
+| JNJ      | Johnson & Johnson               |  220.14 |     222.17 |             -0.91 |          222.17 |        -0.91 | True          | True     |
+| ROL      | Rollins, Inc.                   |   62.91 |      63.56 |             -1.02 |           63.56 |        -1.02 | True          | True     |
+| STX      | Seagate Technology Holdings PLC |  346.10 |     350.05 |             -1.13 |          350.05 |        -1.13 | True          | True     |
+| IBKR     | Interactive Brokers Group, Inc. |   77.58 |      78.56 |             -1.25 |           78.56 |        -1.25 | True          | True     |
+| ULTA     | Ulta Beauty, Inc.               |  686.12 |     695.34 |             -1.33 |          695.34 |        -1.33 | True          | True     |
+| ECL      | Ecolab Inc.                     |  281.90 |     286.04 |             -1.45 |          284.56 |        -0.93 | True          | True     |
+| AMGN     | Amgen Inc.                      |  344.75 |     349.98 |             -1.49 |          349.98 |        -1.49 | True          | True     |
+| NDSN     | Nordson Corporation             |  271.28 |     275.43 |             -1.51 |          275.43 |        -1.51 | True          | True     |
+| CVX      | Chevron Corporation             |  166.72 |     169.37 |             -1.56 |          169.37 |        -1.56 | True          | True     |
+| PFG      | Principal Financial Group Inc   |   91.21 |      92.69 |             -1.60 |           92.69 |        -1.60 | True          | True     |
+| AME      | AMETEK, Inc.                    |  220.74 |     224.37 |             -1.62 |          224.37 |        -1.62 | True          | True     |
+| SNA      | Snap-On Incorporated            |  369.10 |     375.17 |             -1.62 |          375.17 |        -1.62 | True          | True     |
+| LOW      | Lowe's Companies, Inc.          |  276.73 |     281.36 |             -1.65 |          281.36 |        -1.65 | True          | True     |
+| GD       | General Dynamics Corporation    |  363.27 |     369.70 |             -1.74 |          369.70 |        -1.74 | True          | True     |
+| DD       | DuPont de Nemours, Inc.         |   44.14 |      44.96 |             -1.82 |           44.96 |        -1.82 | True          | True     |
+| LHX      | L3Harris Technologies, Inc.     |  354.73 |     361.59 |             -1.90 |          361.59 |        -1.90 | True          | True     |
+| CHRW     | C.H. Robinson Worldwide, Inc.   |  176.66 |     180.21 |             -1.97 |          180.21 |        -1.97 | True          | True     |
+| HOLX     | Hologic, Inc.                   |   75.05 |      75.34 |             -0.38 |           87.88 |       -14.60 | True          | False    |
+| HAS      | Hasbro, Inc.                    |   88.68 |      89.20 |             -0.58 |           99.25 |       -10.65 | True          | False    |
+| NUE      | Nucor Corporation               |  181.65 |     183.00 |             -0.74 |          197.39 |        -7.97 | True          | False    |
+| BA       | Boeing Company (The)            |  252.15 |     254.14 |             -0.78 |          435.56 |       -42.11 | True          | False    |
+| ADM      | Archer-Daniels-Midland Company  |   67.51 |      68.06 |             -0.81 |           89.08 |       -24.22 | True          | False    |
+| ALB      | Albemarle Corporation           |  189.51 |     191.97 |             -1.28 |          319.45 |       -40.68 | True          | False    |
+| DVN      | Devon Energy Corporation        |   38.64 |      39.19 |             -1.40 |           80.38 |       -51.93 | True          | False    |
+| O        | Realty Income Corporation       |   60.74 |      61.95 |             -1.95 |           62.41 |        -2.68 | True          | False    |
+| KO       | Coca-Cola Company (The)         |   72.88 |      74.38 |             -2.02 |           73.06 |        -0.25 | False         | True     |
+| CME      | CME Group Inc.                  |  282.74 |     290.79 |             -2.77 |          286.76 |        -1.40 | False         | True     |
+| HON      | Honeywell International Inc.    |  221.46 |     227.82 |             -2.79 |          225.29 |        -1.70 | False         | True     |
+| PNW      | Pinnacle West Capital Corporati |   92.17 |      96.50 |             -4.49 |           94.01 |        -1.96 | False         | True     |
+| KMI      | Kinder Morgan, Inc.             |   29.57 |      30.18 |             -2.02 |           30.18 |        -2.02 | False         | False    |
+| PCAR     | PACCAR Inc.                     |  122.00 |     124.53 |             -2.03 |          124.53 |        -2.03 | False         | False    |
+| TXT      | Textron Inc.                    |   95.00 |      96.98 |             -2.04 |           97.17 |        -2.24 | False         | False    |
+| VTRS     | Viatris Inc.                    |   13.21 |      13.49 |             -2.08 |           62.69 |       -78.93 | False         | False    |
+| EL       | Estee Lauder Companies, Inc. (T |  117.69 |     120.27 |             -2.15 |          350.69 |       -66.44 | False         | False    |
+| USB      | U.S. Bancorp                    |   55.47 |      56.70 |             -2.17 |           56.70 |        -2.17 | False         | False    |
+| CBRE     | CBRE Group Inc                  |  169.23 |     173.05 |             -2.21 |          173.05 |        -2.21 | False         | False    |
+| CSX      | CSX Corporation                 |   36.64 |      37.55 |             -2.42 |           38.95 |        -5.94 | False         | False    |
+| JBHT     | J.B. Hunt Transport Services, I |  206.75 |     212.00 |             -2.48 |          215.39 |        -4.01 | False         | False    |
+| HUBB     | Hubbell Inc                     |  485.53 |     497.95 |             -2.49 |          497.95 |        -2.49 | False         | False    |
+| WAB      | Westinghouse Air Brake Technolo |  230.11 |     236.00 |             -2.50 |          236.00 |        -2.50 | False         | False    |
+| BKR      | Baker Hughes Company            |   53.92 |      55.31 |             -2.51 |           55.31 |        -2.51 | False         | False    |
+| CVS      | CVS Health Corporation          |   83.01 |      85.15 |             -2.51 |           96.73 |       -14.19 | False         | False    |
+| ADI      | Analog Devices, Inc.            |  305.60 |     313.54 |             -2.53 |          313.54 |        -2.53 | False         | False    |
+| HLT      | Hilton Worldwide Holdings Inc.  |  298.11 |     306.28 |             -2.67 |          306.28 |        -2.67 | False         | False    |
+| EMR      | Emerson Electric Company        |  147.68 |     151.74 |             -2.68 |          151.74 |        -2.68 | False         | False    |
+| CMI      | Cummins Inc.                    |  571.78 |     587.55 |             -2.68 |          587.55 |        -2.68 | False         | False    |
+| ROK      | Rockwell Automation, Inc.       |  417.84 |     429.58 |             -2.73 |          429.58 |        -2.73 | False         | False    |
+| PH       | Parker-Hannifin Corporation     |  927.99 |     954.30 |             -2.76 |          954.30 |        -2.76 | False         | False    |
+| FCX      | Freeport-McMoRan, Inc.          |   60.41 |      62.13 |             -2.77 |           62.13 |        -2.77 | False         | False    |
+| AMD      | Advanced Micro Devices, Inc.    |  259.68 |     267.08 |             -2.77 |          267.08 |        -2.77 | False         | False    |
+| CVNA     | Carvana Co.                     |  473.31 |     486.89 |             -2.79 |          486.89 |        -2.79 | False         | False    |
+| TMO      | Thermo Fisher Scientific Inc    |  625.98 |     643.99 |             -2.80 |          664.90 |        -5.85 | False         | False    |
+| SPG      | Simon Property Group, Inc.      |  184.73 |     190.14 |             -2.85 |          189.05 |        -2.29 | False         | False    |
+| MLM      | Martin Marietta Materials, Inc. |  649.48 |     668.83 |             -2.89 |          668.83 |        -2.89 | False         | False    |
+| EIX      | Edison International            |   60.77 |      62.62 |             -2.95 |           82.53 |       -26.36 | False         | False    |
+| PWR      | Quanta Services, Inc.           |  468.76 |     483.29 |             -3.01 |          483.29 |        -3.01 | False         | False    |
+| MU       | Micron Technology, Inc.         |  399.65 |     412.43 |             -3.10 |          412.43 |        -3.10 | False         | False    |
+| HII      | Huntington Ingalls Industries,  |  418.58 |     432.00 |             -3.11 |          432.00 |        -3.11 | False         | False    |
+| NEE      | NextEra Energy, Inc.            |   84.81 |      87.53 |             -3.11 |           86.94 |        -2.45 | False         | False    |
+| HST      | Host Hotels & Resorts, Inc.     |   18.70 |      19.30 |             -3.11 |           19.30 |        -3.11 | False         | False    |
+| TDY      | Teledyne Technologies Incorpora |  610.66 |     630.76 |             -3.19 |          630.76 |        -3.19 | False         | False    |
+| AMAT     | Applied Materials, Inc.         |  322.38 |     333.03 |             -3.20 |          333.03 |        -3.20 | False         | False    |
+| WMT      | Walmart Inc.                    |  117.73 |     121.62 |             -3.20 |          121.62 |        -3.20 | False         | False    |
+| EXPD     | Expeditors International of Was |  159.21 |     164.48 |             -3.20 |          164.48 |        -3.20 | False         | False    |
+| KEYS     | Keysight Technologies Inc.      |  212.94 |     220.12 |             -3.26 |          220.12 |        -3.26 | False         | False    |
+| ROST     | Ross Stores, Inc.               |  188.55 |     194.92 |             -3.27 |          194.92 |        -3.27 | False         | False    |
+| NI       | NiSource Inc                    |   43.41 |      44.88 |             -3.28 |           44.58 |        -2.63 | False         | False    |
+| CAH      | Cardinal Health, Inc.           |  208.33 |     215.48 |             -3.32 |          215.48 |        -3.32 | False         | False    |
+| RL       | Ralph Lauren Corporation        |  367.37 |     380.00 |             -3.32 |          379.04 |        -3.08 | False         | False    |
+| FE       | FirstEnergy Corp.               |   46.56 |      48.20 |             -3.40 |           47.73 |        -2.46 | False         | False    |
+| SCHW     | Charles Schwab Corporation (The |  102.18 |     105.81 |             -3.43 |          105.81 |        -3.43 | False         | False    |
+| MAR      | Marriott International          |  319.70 |     331.09 |             -3.44 |          331.09 |        -3.44 | False         | False    |
+| GLW      | Corning Incorporated            |   93.30 |      96.64 |             -3.46 |           96.64 |        -3.46 | False         | False    |
+| RTX      | RTX Corporation                 |  195.93 |     203.03 |             -3.50 |          203.03 |        -3.50 | False         | False    |
+| BEN      | Franklin Resources, Inc.        |   25.31 |      26.25 |             -3.58 |           35.73 |       -29.16 | False         | False    |
+| DE       | Deere & Company                 |  514.43 |     533.78 |             -3.63 |          532.61 |        -3.41 | False         | False    |
+| PSX      | Phillips 66                     |  141.54 |     146.88 |             -3.64 |          163.64 |       -13.50 | False         | False    |
+| NDAQ     | Nasdaq, Inc.                    |   98.05 |     101.79 |             -3.67 |          101.79 |        -3.67 | False         | False    |
+| STE      | STERIS plc (Ireland)            |  259.52 |     269.44 |             -3.68 |          269.44 |        -3.68 | False         | False    |
+| PNC      | PNC Financial Services Group, I |  219.39 |     227.78 |             -3.68 |          227.78 |        -3.68 | False         | False    |
+| GOOGL    | Alphabet Inc.                   |  327.93 |     340.49 |             -3.69 |          340.49 |        -3.69 | False         | False    |
+| VLO      | Valero Energy Corporation       |  187.09 |     194.35 |             -3.74 |          194.35 |        -3.74 | False         | False    |
+| GOOG     | Alphabet Inc.                   |  328.43 |     341.20 |             -3.74 |          341.20 |        -3.74 | False         | False    |
+| MTB      | M&T Bank Corporation            |  213.82 |     222.18 |             -3.76 |          222.18 |        -3.76 | False         | False    |
+| TFC      | Truist Financial Corporation    |   49.57 |      51.52 |             -3.78 |           56.29 |       -11.94 | False         | False    |
+| FOX      | Fox Corporation                 |   65.53 |      68.18 |             -3.88 |           68.18 |        -3.88 | False         | False    |
+| TJX      | TJX Companies, Inc. (The)       |  153.24 |     159.48 |             -3.91 |          159.48 |        -3.91 | False         | False    |
+| CRL      | Charles River Laboratories Inte |  219.61 |     228.88 |             -4.05 |          460.21 |       -52.28 | False         | False    |
+| TER      | Teradyne, Inc.                  |  229.18 |     238.92 |             -4.08 |          238.92 |        -4.08 | False         | False    |
+| GPC      | Genuine Parts Company           |  137.63 |     143.48 |             -4.08 |          172.26 |       -20.11 | False         | False    |
+| IVZ      | Invesco Ltd                     |   28.40 |      29.61 |             -4.09 |           29.61 |        -4.09 | False         | False    |
+| AEE      | Ameren Corporation              |  102.32 |     106.73 |             -4.13 |          105.97 |        -3.44 | False         | False    |
+| APH      | Amphenol Corporation            |  150.99 |     157.54 |             -4.16 |          157.54 |        -4.16 | False         | False    |
+| MCO      | Moody's Corporation             |  524.04 |     546.88 |             -4.18 |          546.88 |        -4.18 | False         | False    |
+| MRK      | Merck & Company, Inc.           |  108.18 |     112.90 |             -4.18 |          127.87 |       -15.40 | False         | False    |
+| LNT      | Alliant Energy Corporation      |   66.83 |      69.75 |             -4.19 |           69.59 |        -3.97 | False         | False    |
+| TSN      | Tyson Foods, Inc.               |   61.66 |      64.36 |             -4.20 |           88.63 |       -30.43 | False         | False    |
+| VMC      | Vulcan Materials Company (Holdi |  300.07 |     313.37 |             -4.24 |          313.37 |        -4.24 | False         | False    |
+| CNP      | CenterPoint Energy, Inc (Holdin |   38.78 |      40.50 |             -4.25 |           40.28 |        -3.71 | False         | False    |
+| AIZ      | Assurant, Inc.                  |  233.39 |     243.76 |             -4.25 |          243.76 |        -4.25 | False         | False    |
+| KLAC     | KLA Corporation                 | 1512.78 |    1581.34 |             -4.34 |         1581.34 |        -4.34 | False         | False    |
+| KEY      | KeyCorp                         |   21.10 |      22.07 |             -4.40 |           22.12 |        -4.60 | False         | False    |
+| TPR      | Tapestry, Inc.                  |  130.04 |     136.04 |             -4.41 |          136.04 |        -4.41 | False         | False    |
+| CAT      | Caterpillar, Inc.               |  626.62 |     655.78 |             -4.45 |          655.78 |        -4.45 | False         | False    |
+| HAL      | Halliburton Company             |   33.95 |      35.55 |             -4.50 |           59.79 |       -43.22 | False         | False    |
+| AVY      | Avery Dennison Corporation      |  187.43 |     196.41 |             -4.57 |          226.70 |       -17.32 | False         | False    |
+| EVRG     | Evergy, Inc.                    |   75.69 |      79.32 |             -4.58 |           78.59 |        -3.69 | False         | False    |
+| FDX      | FedEx Corporation               |  304.21 |     318.83 |             -4.59 |          318.83 |        -4.59 | False         | False    |
+| FOXA     | Fox Corporation                 |   72.88 |      76.39 |             -4.59 |           76.39 |        -4.59 | False         | False    |
+| WDC      | Western Digital Corporation     |  236.39 |     247.94 |             -4.66 |          247.94 |        -4.66 | False         | False    |
+| WBD      | Warner Bros. Discovery, Inc. -  |   28.58 |      30.00 |             -4.73 |           78.14 |       -63.42 | False         | False    |
+| IQV      | IQVIA Holdings, Inc.            |  235.31 |     247.05 |             -4.75 |          285.61 |       -17.61 | False         | False    |
+| ACGL     | Arch Capital Group Ltd.         |   92.96 |      97.60 |             -4.75 |          110.75 |       -16.06 | False         | False    |
+| FIX      | Comfort Systems USA, Inc.       | 1121.44 |    1177.87 |             -4.79 |         1177.87 |        -4.79 | False         | False    |
+| EW       | Edwards Lifesciences Corporatio |   83.66 |      87.89 |             -4.81 |          131.73 |       -36.49 | False         | False    |
+| FITB     | Fifth Third Bancorp             |   50.74 |      53.33 |             -4.86 |           53.33 |        -4.86 | False         | False    |
+| RJF      | Raymond James Financial, Inc.   |  169.03 |     177.66 |             -4.86 |          176.55 |        -4.26 | False         | False    |
+| BALL     | Ball Corporation                |   57.36 |      60.29 |             -4.86 |           96.39 |       -40.49 | False         | False    |
+| SLB      | SLB Limited                     |   49.15 |      51.67 |             -4.88 |           86.48 |       -43.17 | False         | False    |
+| NSC      | Norfolk Southern Corporation    |  287.41 |     302.24 |             -4.91 |          300.79 |        -4.45 | False         | False    |
+| CFG      | Citizens Financial Group, Inc.  |   62.64 |      65.88 |             -4.92 |           65.88 |        -4.92 | False         | False    |
+| CB       | Chubb Limited                   |  300.91 |     316.94 |             -5.06 |          316.94 |        -5.06 | False         | False    |
+| DG       | Dollar General Corporation      |  146.92 |     154.75 |             -5.06 |          245.55 |       -40.17 | False         | False    |
+| MDT      | Medtronic plc.                  |  100.88 |     106.33 |             -5.13 |          119.06 |       -15.27 | False         | False    |
+| D        | Dominion Energy, Inc.           |   59.60 |      62.87 |             -5.20 |           74.37 |       -19.86 | False         | False    |
+| MCD      | McDonald's Corporation          |  309.25 |     326.32 |             -5.23 |          321.79 |        -3.90 | False         | False    |
+| HWM      | Howmet Aerospace Inc.           |  214.89 |     226.87 |             -5.28 |          226.87 |        -5.28 | False         | False    |
+| HSY      | The Hershey Company             |  191.20 |     201.86 |             -5.28 |          256.47 |       -25.45 | False         | False    |
+| MPWR     | Monolithic Power Systems, Inc.  | 1063.74 |    1123.38 |             -5.31 |         1121.48 |        -5.15 | False         | False    |
+| PPL      | PPL Corporation                 |   36.21 |      38.27 |             -5.38 |           37.96 |        -4.61 | False         | False    |
+| ETR      | Entergy Corporation             |   93.19 |      98.58 |             -5.47 |           97.93 |        -4.84 | False         | False    |
+| WM       | Waste Management, Inc.          |  229.23 |     242.58 |             -5.50 |          239.91 |        -4.45 | False         | False    |
+| JKHY     | Jack Henry & Associates, Inc.   |  185.11 |     196.00 |             -5.56 |          203.32 |        -8.96 | False         | False    |
+| PNR      | Pentair plc.                    |  107.55 |     113.95 |             -5.62 |          113.41 |        -5.17 | False         | False    |
+| NTRS     | Northern Trust Corporation      |  148.63 |     157.60 |             -5.69 |          157.60 |        -5.69 | False         | False    |
+| ON       | ON Semiconductor Corporation    |   61.98 |      65.77 |             -5.76 |          111.35 |       -44.34 | False         | False    |
+| PLD      | Prologis, Inc.                  |  127.15 |     134.94 |             -5.77 |          155.57 |       -18.27 | False         | False    |
+| JBL      | Jabil Inc.                      |  243.14 |     258.05 |             -5.78 |          258.05 |        -5.78 | False         | False    |
+| VTR      | Ventas, Inc.                    |   76.99 |      81.89 |             -5.98 |           81.39 |        -5.41 | False         | False    |
+| MCHP     | Microchip Technology Incorporat |   74.71 |      79.50 |             -6.03 |           96.30 |       -22.42 | False         | False    |
+| TKO      | TKO Group Holdings, Inc.        |  204.91 |     218.11 |             -6.05 |          218.11 |        -6.05 | False         | False    |
+| RF       | Regions Financial Corporation   |   27.48 |      29.26 |             -6.08 |           29.26 |        -6.08 | False         | False    |
+| LLY      | Eli Lilly and Company           | 1064.29 |    1133.95 |             -6.14 |         1133.95 |        -6.14 | False         | False    |
+| AOS      | A.O. Smith Corporation          |   72.46 |      77.31 |             -6.27 |           89.84 |       -19.35 | False         | False    |
+| YUM      | Yum! Brands, Inc.               |  152.97 |     163.30 |             -6.33 |          161.06 |        -5.02 | False         | False    |
+| COR      | Cencora, Inc.                   |  353.48 |     377.54 |             -6.37 |          377.54 |        -6.37 | False         | False    |
+| HSIC     | Henry Schein, Inc.              |   77.21 |      82.49 |             -6.40 |           92.68 |       -16.69 | False         | False    |
+| TRV      | The Travelers Companies, Inc.   |  277.72 |     296.85 |             -6.44 |          295.68 |        -6.07 | False         | False    |
+| GM       | General Motors Company          |   79.68 |      85.18 |             -6.46 |           85.18 |        -6.46 | False         | False    |
+| F        | Ford Motor Company              |   13.56 |      14.50 |             -6.48 |           19.73 |       -31.26 | False         | False    |
+| AEP      | American Electric Power Company |  116.63 |     124.80 |             -6.55 |          124.80 |        -6.55 | False         | False    |
+| BK       | The Bank of New York Mellon Cor |  117.61 |     125.89 |             -6.58 |          125.33 |        -6.16 | False         | False    |
+| DTE      | DTE Energy Company              |  134.33 |     143.79 |             -6.58 |          142.50 |        -5.73 | False         | False    |
+| L        | Loews Corporation               |  101.86 |     109.06 |             -6.60 |          109.06 |        -6.60 | False         | False    |
+| CRH      | CRH PLC                         |  122.84 |     131.55 |             -6.62 |          131.55 |        -6.62 | False         | False    |
+| AXP      | American Express Company        |  361.69 |     387.49 |             -6.66 |          386.63 |        -6.45 | False         | False    |
+| GS       | Goldman Sachs Group, Inc. (The) |  918.88 |     984.70 |             -6.68 |          984.70 |        -6.68 | False         | False    |
+| LUV      | Southwest Airlines Company      |   41.95 |      45.02 |             -6.82 |           60.59 |       -30.77 | False         | False    |
+| PKG      | Packaging Corporation of Americ |  225.39 |     241.96 |             -6.85 |          243.29 |        -7.36 | False         | False    |
+| MMM      | 3M Company                      |  162.68 |     174.69 |             -6.88 |          174.69 |        -6.88 | False         | False    |
+| APA      | APA Corporation                 |   25.80 |      27.72 |             -6.93 |          107.76 |       -76.06 | False         | False    |
+| SNDK     | Sandisk Corporation             |  473.83 |     509.50 |             -7.00 |          509.50 |        -7.00 | False         | False    |
+| DOV      | Dover Corporation               |  206.71 |     222.31 |             -7.02 |          219.84 |        -5.97 | False         | False    |
+| WSM      | Williams-Sonoma, Inc.           |  204.50 |     219.98 |             -7.04 |          219.54 |        -6.85 | False         | False    |
+| LDOS     | Leidos Holdings, Inc.           |  191.23 |     205.77 |             -7.07 |          205.30 |        -6.86 | False         | False    |
+| MS       | Morgan Stanley                  |  179.00 |     192.68 |             -7.10 |          192.68 |        -7.10 | False         | False    |
+| DAL      | Delta Air Lines, Inc.           |   67.96 |      73.16 |             -7.11 |           73.16 |        -7.11 | False         | False    |
+| MSCI     | MSCI Inc.                       |  589.76 |     634.99 |             -7.12 |          650.23 |        -9.30 | False         | False    |
+| GWW      | W.W. Grainger, Inc.             | 1057.86 |    1139.15 |             -7.14 |         1216.77 |       -13.06 | False         | False    |
+| ITW      | Illinois Tool Works Inc.        |  258.26 |     278.13 |             -7.14 |          271.32 |        -4.81 | False         | False    |
+| LIN      | Linde plc                       |  451.57 |     486.38 |             -7.16 |          483.05 |        -6.52 | False         | False    |
+| TTWO     | Take-Two Interactive Software,  |  245.73 |     264.79 |             -7.20 |          264.79 |        -7.20 | False         | False    |
+| CTSH     | Cognizant Technology Solutions  |   84.18 |      90.82 |             -7.31 |           89.37 |        -5.81 | False         | False    |
+| PM       | Philip Morris International Inc |  173.02 |     186.69 |             -7.32 |          181.91 |        -4.89 | False         | False    |
+| PFE      | Pfizer, Inc.                    |   25.65 |      27.69 |             -7.37 |           49.42 |       -48.10 | False         | False    |
+| CTVA     | Corteva, Inc.                   |   71.70 |      77.41 |             -7.38 |           77.02 |        -6.90 | False         | False    |
+| WAT      | Waters Corporation              |  392.31 |     423.56 |             -7.38 |          428.22 |        -8.39 | False         | False    |
+| BLK      | BlackRock, Inc.                 | 1129.91 |    1219.94 |             -7.38 |         1214.03 |        -6.93 | False         | False    |
+| COP      | ConocoPhillips                  |   98.35 |     106.20 |             -7.39 |          128.01 |       -23.17 | False         | False    |
+| EBAY     | eBay Inc.                       |   93.61 |     101.15 |             -7.45 |          100.76 |        -7.10 | False         | False    |
+| AMZN     | Amazon.com, Inc.                |  239.16 |     258.60 |             -7.52 |          258.60 |        -7.52 | False         | False    |
+| CMS      | CMS Energy Corporation          |   70.70 |      76.45 |             -7.52 |           75.54 |        -6.41 | False         | False    |
+| ES       | Eversource Energy (D/B/A)       |   69.58 |      75.25 |             -7.53 |           81.42 |       -14.54 | False         | False    |
+| CINF     | Cincinnati Financial Corporatio |  157.03 |     169.86 |             -7.55 |          168.98 |        -7.07 | False         | False    |
+| AFL      | AFLAC Incorporated              |  107.09 |     115.84 |             -7.55 |          115.24 |        -7.07 | False         | False    |
+| DAY      | Dayforce, Inc.                  |   69.42 |      75.14 |             -7.61 |          130.37 |       -46.75 | False         | False    |
+| GL       | Globe Life Inc.                 |  136.50 |     147.83 |             -7.66 |          147.26 |        -7.30 | False         | False    |
+| ALLE     | Allegion plc                    |  166.80 |     180.68 |             -7.68 |          180.68 |        -7.68 | False         | False    |
+| WEC      | WEC Energy Group, Inc.          |  109.10 |     118.19 |             -7.69 |          117.25 |        -6.95 | False         | False    |
+| LRCX     | Lam Research Corporation        |  217.94 |     236.10 |             -7.69 |          236.10 |        -7.69 | False         | False    |
+| CSCO     | Cisco Systems, Inc.             |   74.59 |      80.82 |             -7.71 |           80.39 |        -7.21 | False         | False    |
+| MTD      | Mettler-Toledo International, I | 1406.36 |    1525.17 |             -7.79 |         1714.75 |       -17.98 | False         | False    |
+| SPGI     | S&P Global Inc.                 |  533.61 |     579.05 |             -7.85 |          576.91 |        -7.51 | False         | False    |
+| VLTO     | Veralto Corp                    |  101.31 |     110.11 |             -7.99 |          114.35 |       -11.41 | False         | False    |
+| STT      | State Street Corporation        |  126.09 |     137.05 |             -8.00 |          137.05 |        -8.00 | False         | False    |
+| CTRA     | Coterra Energy Inc.             |   27.42 |      29.82 |             -8.05 |           31.16 |       -12.00 | False         | False    |
+| AES      | The AES Corporation             |   14.25 |      15.51 |             -8.12 |           47.02 |       -69.69 | False         | False    |
+| SHW      | Sherwin-Williams Company (The)  |  348.52 |     379.65 |             -8.20 |          396.88 |       -12.19 | False         | False    |
+| REGN     | Regeneron Pharmaceuticals, Inc. |  753.55 |     821.11 |             -8.23 |         1204.52 |       -37.44 | False         | False    |
+| HBAN     | Huntington Bancshares Incorpora |   17.35 |      18.91 |             -8.25 |           18.91 |        -8.25 | False         | False    |
+| AKAM     | Akamai Technologies, Inc.       |   95.08 |     103.75 |             -8.36 |          345.50 |       -72.48 | False         | False    |
+| DGX      | Quest Diagnostics Incorporated  |  181.02 |     197.55 |             -8.37 |          196.65 |        -7.95 | False         | False    |
+| MCK      | McKesson Corporation            |  820.23 |     895.58 |             -8.41 |          894.75 |        -8.33 | False         | False    |
+| JCI      | Johnson Controls International  |  113.59 |     124.07 |             -8.45 |          124.07 |        -8.45 | False         | False    |
+| XYL      | Xylem Inc.                      |  141.23 |     154.27 |             -8.45 |          153.83 |        -8.19 | False         | False    |
+| HIG      | The Hartford Insurance Group, I |  128.62 |     140.50 |             -8.46 |          140.50 |        -8.46 | False         | False    |
+| ATO      | Atmos Energy Corporation        |  165.34 |     180.65 |             -8.47 |          179.62 |        -7.95 | False         | False    |
+| WTW      | Willis Towers Watson Public Lim |  322.81 |     352.79 |             -8.50 |          351.82 |        -8.24 | False         | False    |
+| C        | Citigroup, Inc.                 |  113.59 |     124.17 |             -8.52 |          382.43 |       -70.30 | False         | False    |
+| ICE      | Intercontinental Exchange Inc.  |  172.93 |     189.35 |             -8.67 |          188.26 |        -8.14 | False         | False    |
+| SYY      | Sysco Corporation               |   76.21 |      83.47 |             -8.70 |           82.75 |        -7.90 | False         | False    |
+| ORLY     | O'Reilly Automotive, Inc.       |   99.23 |     108.72 |             -8.73 |          108.72 |        -8.73 | False         | False    |
+| COST     | Costco Wholesale Corporation    |  983.25 |    1078.23 |             -8.81 |         1073.82 |        -8.43 | False         | False    |
+| FRT      | Federal Realty Investment Trust |  101.77 |     111.82 |             -8.99 |          118.75 |       -14.30 | False         | False    |
+| NXPI     | NXP Semiconductors N.V.         |  232.48 |     255.45 |             -8.99 |          288.03 |       -19.29 | False         | False    |
+| DHR      | Danaher Corporation             |  235.01 |     258.23 |             -8.99 |          290.14 |       -19.00 | False         | False    |
+| REG      | Regency Centers Corporation     |   71.14 |      78.18 |             -9.00 |           75.09 |        -5.25 | False         | False    |
+| RVTY     | Revvity, Inc.                   |  116.73 |     128.29 |             -9.01 |          201.11 |       -41.96 | False         | False    |
+| IR       | Ingersoll Rand Inc.             |   87.21 |      95.85 |             -9.01 |          105.92 |       -17.67 | False         | False    |
+| INCY     | Incyte Corporation              |  101.99 |     112.29 |             -9.17 |          153.15 |       -33.41 | False         | False    |
+| EXC      | Exelon Corporation              |   44.06 |      48.51 |             -9.17 |           48.09 |        -8.38 | False         | False    |
+| LH       | Labcorp Holdings Inc.           |  266.66 |     293.72 |             -9.21 |          292.94 |        -8.97 | False         | False    |
+| SWK      | Stanley Black & Decker, Inc.    |   82.48 |      91.06 |             -9.42 |          191.51 |       -56.93 | False         | False    |
+| HCA      | HCA Healthcare, Inc.            |  470.88 |     520.00 |             -9.45 |          519.23 |        -9.31 | False         | False    |
+| DLTR     | Dollar Tree, Inc.               |  128.92 |     142.40 |             -9.47 |          177.19 |       -27.24 | False         | False    |
+| ED       | Consolidated Edison, Inc.       |  103.87 |     114.87 |             -9.58 |          112.03 |        -7.29 | False         | False    |
+| TRGP     | Targa Resources, Inc.           |  191.50 |     211.87 |             -9.61 |          213.78 |       -10.42 | False         | False    |
+| UAL      | United Airlines Holdings, Inc.  |  107.74 |     119.21 |             -9.62 |          119.21 |        -9.62 | False         | False    |
+| XEL      | Xcel Energy Inc.                |   75.01 |      83.01 |             -9.64 |           82.37 |        -8.94 | False         | False    |
+| DRI      | Darden Restaurants, Inc.        |  206.17 |     228.27 |             -9.68 |          223.20 |        -7.63 | False         | False    |
+| DUK      | Duke Energy Corporation (Holdin |  117.43 |     130.03 |             -9.69 |          128.91 |        -8.91 | False         | False    |
+| PEP      | Pepsico, Inc.                   |  144.58 |     160.15 |             -9.72 |          179.53 |       -19.47 | False         | False    |
+| MO       | Altria Group, Inc.              |   61.91 |      68.60 |             -9.75 |           66.30 |        -6.62 | False         | False    |
+| BIIB     | Biogen Inc.                     |  171.59 |     190.20 |             -9.78 |          480.18 |       -64.27 | False         | False    |
+| VRTX     | Vertex Pharmaceuticals Incorpor |  468.41 |     519.68 |             -9.87 |          519.88 |        -9.90 | False         | False    |
+| IDXX     | IDEXX Laboratories, Inc.        |  693.85 |     769.98 |             -9.89 |          769.98 |        -9.89 | False         | False    |
+| PPG      | PPG Industries, Inc.            |  112.29 |     124.66 |             -9.92 |          166.98 |       -32.75 | False         | False    |
+| TSLA     | Tesla, Inc.                     |  449.06 |     498.83 |             -9.98 |          498.83 |        -9.98 | False         | False    |
+| IBM      | International Business Machines |  292.44 |     324.90 |             -9.99 |          324.90 |        -9.99 | False         | False    |
+| GEV      | GE Vernova Inc.                 |  657.78 |     731.00 |            -10.02 |          730.46 |        -9.95 | False         | False    |
+| URI      | United Rentals, Inc.            |  919.03 |    1021.47 |            -10.03 |         1019.33 |        -9.84 | False         | False    |
+| HD       | Home Depot, Inc. (The)          |  383.77 |     426.75 |            -10.07 |          426.44 |       -10.01 | False         | False    |
+| BAC      | Bank of America Corporation     |   51.72 |      57.55 |            -10.13 |           57.55 |       -10.13 | False         | False    |
+| SRE      | DBA Sempra                      |   85.94 |      95.72 |            -10.22 |           95.03 |        -9.56 | False         | False    |
+| ALL      | Allstate Corporation (The)      |  193.65 |     215.89 |            -10.30 |          215.00 |        -9.93 | False         | False    |
+| ABBV     | AbbVie Inc.                     |  219.26 |     244.81 |            -10.44 |          241.12 |        -9.07 | False         | False    |
+| SOLV     | Solventum Corporation           |   78.91 |      88.20 |            -10.53 |           96.05 |       -17.84 | False         | False    |
+| UNP      | Union Pacific Corporation       |  229.65 |     256.84 |            -10.59 |          255.44 |       -10.09 | False         | False    |
+| OMC      | Omnicom Group Inc.              |   79.79 |      89.35 |            -10.70 |          102.31 |       -22.01 | False         | False    |
+| TEL      | TE Connectivity plc             |  223.84 |     250.67 |            -10.70 |          250.67 |       -10.70 | False         | False    |
+| TROW     | T. Rowe Price Group, Inc.       |  105.63 |     118.32 |            -10.73 |          185.32 |       -43.00 | False         | False    |
+| EXPE     | Expedia Group, Inc.             |  271.14 |     303.80 |            -10.75 |          303.80 |       -10.75 | False         | False    |
+| EQT      | EQT Corporation                 |   55.52 |      62.23 |            -10.78 |           62.23 |       -10.78 | False         | False    |
+| EME      | EMCOR Group, Inc.               |  694.21 |     778.64 |            -10.84 |          778.18 |       -10.79 | False         | False    |
+| Q        | Qnity Electronics, Inc.         |   96.11 |     107.84 |            -10.88 |          107.84 |       -10.88 | False         | False    |
+| DIS      | Walt Disney Company (The)       |  110.98 |     124.69 |            -11.00 |          198.35 |       -44.05 | False         | False    |
+| WFC      | Wells Fargo & Company           |   86.96 |      97.76 |            -11.05 |           97.76 |       -11.05 | False         | False    |
+| NVR      | NVR, Inc.                       | 7645.15 |    8618.28 |            -11.29 |         9964.77 |       -23.28 | False         | False    |
+| KIM      | Kimco Realty Corporation (HC)   |   20.96 |      23.65 |            -11.37 |           24.38 |       -14.04 | False         | False    |
+| NVDA     | NVIDIA Corporation              |  187.67 |     212.19 |            -11.56 |          212.18 |       -11.55 | False         | False    |
+| CF       | CF Industries Holdings, Inc.    |   92.38 |     104.45 |            -11.56 |          111.10 |       -16.85 | False         | False    |
+| BRK-B    | Berkshire Hathaway Inc. New     |  478.97 |     542.07 |            -11.64 |          542.07 |       -11.64 | False         | False    |
+| GE       | GE Aerospace                    |  293.87 |     332.79 |            -11.70 |          332.79 |       -11.70 | False         | False    |
+| JPM      | JP Morgan Chase & Co.           |  297.72 |     337.25 |            -11.72 |          335.87 |       -11.36 | False         | False    |
+| MRNA     | Moderna, Inc.                   |   48.71 |      55.20 |            -11.76 |          497.49 |       -90.21 | False         | False    |
+| PHM      | PulteGroup, Inc.                |  125.16 |     142.11 |            -11.93 |          148.01 |       -15.44 | False         | False    |
+| WELL     | Welltower Inc.                  |  183.68 |     209.05 |            -12.14 |          209.05 |       -12.14 | False         | False    |
+| FANG     | Diamondback Energy, Inc.        |  154.02 |     175.69 |            -12.33 |          205.08 |       -24.90 | False         | False    |
+| PSA      | Public Storage                  |  282.63 |     322.49 |            -12.36 |          351.71 |       -19.64 | False         | False    |
+| NWS      | News Corporation                |   31.10 |      35.58 |            -12.59 |           35.47 |       -12.32 | False         | False    |
+| SYK      | Stryker Corporation             |  355.04 |     406.19 |            -12.59 |          402.95 |       -11.89 | False         | False    |
+| TDG      | Transdigm Group Incorporated    | 1419.19 |    1623.83 |            -12.60 |         1519.36 |        -6.59 | False         | False    |
+| BKNG     | Booking Holdings Inc. Common St | 5098.50 |    5839.41 |            -12.69 |         5818.24 |       -12.37 | False         | False    |
+| DLR      | Digital Realty Trust, Inc.      |  159.16 |     182.48 |            -12.78 |          190.83 |       -16.59 | False         | False    |
+| MA       | Mastercard Incorporated         |  524.74 |     601.77 |            -12.80 |          600.08 |       -12.55 | False         | False    |
+| TXN      | Texas Instruments Incorporated  |  193.31 |     221.69 |            -12.80 |          218.15 |       -11.39 | False         | False    |
+| EXR      | Extra Space Storage Inc         |  141.52 |     162.77 |            -13.06 |          194.10 |       -27.09 | False         | False    |
+| FTV      | Fortive Corporation             |   54.59 |      62.79 |            -13.06 |           65.14 |       -16.19 | False         | False    |
+| PRU      | Prudential Financial, Inc.      |  107.69 |     123.88 |            -13.07 |          124.11 |       -13.23 | False         | False    |
+| V        | Visa Inc.                       |  326.18 |     375.51 |            -13.14 |          374.11 |       -12.81 | False         | False    |
+| SO       | Southern Company (The)          |   87.54 |     100.84 |            -13.19 |          100.02 |       -12.48 | False         | False    |
+| CCL      | Carnival Corporation            |   28.55 |      32.89 |            -13.20 |           66.92 |       -57.34 | False         | False    |
+| EG       | Everest Group, Ltd.             |  323.57 |     373.23 |            -13.31 |          404.12 |       -19.93 | False         | False    |
+| MPC      | Marathon Petroleum Corporation  |  175.38 |     202.30 |            -13.31 |          213.02 |       -17.67 | False         | False    |
+| FAST     | Fastenal Company                |   43.89 |      50.63 |            -13.31 |           50.37 |       -12.86 | False         | False    |
+| IRM      | Iron Mountain Incorporated (Del |   93.59 |     108.15 |            -13.46 |          124.90 |       -25.07 | False         | False    |
+| CL       | Colgate-Palmolive Company       |   86.66 |     100.18 |            -13.50 |          105.54 |       -17.89 | False         | False    |
+| EXE      | Expand Energy Corporation       |  109.49 |     126.62 |            -13.53 |          126.62 |       -13.53 | False         | False    |
+| IEX      | IDEX Corporation                |  195.27 |     226.05 |            -13.62 |          239.44 |       -18.45 | False         | False    |
+| SYF      | Synchrony Financial             |   76.61 |      88.77 |            -13.70 |           88.77 |       -13.70 | False         | False    |
+| BMY      | Bristol-Myers Squibb Company    |   54.65 |      63.33 |            -13.71 |           70.48 |       -22.45 | False         | False    |
+| MET      | MetLife, Inc.                   |   75.81 |      87.94 |            -13.79 |           86.54 |       -12.40 | False         | False    |
+| ISRG     | Intuitive Surgical, Inc.        |  523.99 |     609.08 |            -13.97 |          616.00 |       -14.94 | False         | False    |
+| APTV     | Aptiv PLC                       |   76.47 |      88.93 |            -14.01 |          180.81 |       -57.71 | False         | False    |
+| TECH     | Bio-Techne Corp                 |   68.16 |      79.28 |            -14.03 |          133.47 |       -48.93 | False         | False    |
+| AAPL     | Apple Inc.                      |  248.04 |     288.62 |            -14.06 |          288.62 |       -14.06 | False         | False    |
+| RMD      | ResMed Inc.                     |  252.38 |     293.81 |            -14.10 |          293.11 |       -13.90 | False         | False    |
+| KR       | Kroger Company (The)            |   64.25 |      74.90 |            -14.22 |           74.13 |       -13.32 | False         | False    |
+| PEG      | Public Service Enterprise Group |   78.28 |      91.26 |            -14.22 |           91.62 |       -14.56 | False         | False    |
+| TSCO     | Tractor Supply Company          |   54.69 |      63.99 |            -14.53 |           63.47 |       -13.84 | False         | False    |
+| AMP      | Ameriprise Financial, Inc.      |  496.60 |     582.05 |            -14.68 |          574.69 |       -13.59 | False         | False    |
+| CPT      | Camden Property Trust           |  107.86 |     126.55 |            -14.77 |          156.27 |       -30.98 | False         | False    |
+| OTIS     | Otis Worldwide Corporation      |   90.98 |     106.83 |            -14.84 |          105.37 |       -13.66 | False         | False    |
+| GNRC     | Generac Holdlings Inc.          |  173.01 |     203.25 |            -14.88 |          524.31 |       -67.00 | False         | False    |
+| LVS      | Las Vegas Sands Corp.           |   59.95 |      70.45 |            -14.90 |           94.73 |       -36.71 | False         | False    |
+| WRB      | W.R. Berkley Corporation        |   67.12 |      78.96 |            -14.99 |           77.72 |       -13.64 | False         | False    |
+| DOC      | Healthpeak Properties, Inc.     |   18.08 |      21.28 |            -15.04 |           29.36 |       -38.41 | False         | False    |
+| NWSA     | News Corporation                |   26.83 |      31.61 |            -15.12 |           31.61 |       -15.12 | False         | False    |
+| AMCR     | Amcor plc                       |   44.28 |      52.25 |            -15.25 |           58.78 |       -24.67 | False         | False    |
+| FSLR     | First Solar, Inc.               |  242.15 |     285.99 |            -15.33 |          317.00 |       -23.61 | False         | False    |
+| CDNS     | Cadence Design Systems, Inc.    |  318.32 |     376.45 |            -15.44 |          376.45 |       -15.44 | False         | False    |
+| HUM      | Humana Inc.                     |  266.50 |     315.35 |            -15.49 |          552.08 |       -51.73 | False         | False    |
+| BSX      | Boston Scientific Corporation   |   92.51 |     109.50 |            -15.52 |          109.50 |       -15.52 | False         | False    |
+| SJM      | The J.M. Smucker Company        |  102.53 |     121.48 |            -15.60 |          146.54 |       -30.03 | False         | False    |
+| AZO      | AutoZone, Inc.                  | 3700.00 |    4388.11 |            -15.68 |         4388.11 |       -15.68 | False         | False    |
+| WYNN     | Wynn Resorts, Limited           |  113.55 |     134.72 |            -15.71 |          208.24 |       -45.47 | False         | False    |
+| A        | Agilent Technologies, Inc.      |  135.05 |     160.27 |            -15.74 |          174.04 |       -22.40 | False         | False    |
+| WY       | Weyerhaeuser Company            |   26.67 |      31.66 |            -15.76 |           37.68 |       -29.22 | False         | False    |
+| CTAS     | Cintas Corporation              |  192.96 |     229.24 |            -15.83 |          228.23 |       -15.45 | False         | False    |
+| GEHC     | GE HealthCare Technologies Inc. |   79.77 |      94.80 |            -15.85 |           94.63 |       -15.70 | False         | False    |
+| RSG      | Republic Services, Inc.         |  217.61 |     258.75 |            -15.90 |          256.67 |       -15.22 | False         | False    |
+| MSFT     | Microsoft Corporation           |  465.95 |     555.45 |            -16.11 |          553.50 |       -15.82 | False         | False    |
+| OXY      | Occidental Petroleum Corporatio |   44.10 |      52.58 |            -16.13 |           73.50 |       -40.00 | False         | False    |
+| VICI     | VICI Properties Inc.            |   28.54 |      34.03 |            -16.13 |           33.01 |       -13.53 | False         | False    |
+| LYV      | Live Nation Entertainment, Inc. |  146.97 |     175.25 |            -16.14 |          175.25 |       -16.14 | False         | False    |
+| COF      | Capital One Financial Corporati |  217.30 |     259.64 |            -16.31 |          259.64 |       -16.31 | False         | False    |
+| MAS      | Masco Corporation               |   68.73 |      82.18 |            -16.37 |           84.80 |       -18.95 | False         | False    |
+| VZ       | Verizon Communications Inc.     |   39.52 |      47.36 |            -16.55 |           45.13 |       -12.43 | False         | False    |
+| PG       | Procter & Gamble Company (The)  |  150.15 |     179.99 |            -16.58 |          175.18 |       -14.29 | False         | False    |
+| AWK      | American Water Works Company, I |  129.71 |     155.50 |            -16.59 |          174.41 |       -25.63 | False         | False    |
+| PCG      | Pacific Gas & Electric Co.      |   14.95 |      17.95 |            -16.71 |           70.20 |       -78.70 | False         | False    |
+| UHS      | Universal Health Services, Inc. |  205.09 |     246.33 |            -16.74 |          246.13 |       -16.67 | False         | False    |
+| ODFL     | Old Dominion Freight Line, Inc. |  174.30 |     209.61 |            -16.85 |          231.32 |       -24.65 | False         | False    |
+| IFF      | International Flavors & Fragran |   73.23 |      88.09 |            -16.87 |          138.89 |       -47.27 | False         | False    |
+| SBUX     | Starbucks Corporation           |   97.62 |     117.46 |            -16.89 |          115.04 |       -15.14 | False         | False    |
+| EQIX     | Equinix, Inc.                   |  791.27 |     953.41 |            -17.01 |          971.74 |       -18.57 | False         | False    |
+| ETN      | Eaton Corporation, PLC          |  331.22 |     399.56 |            -17.10 |          398.40 |       -16.86 | False         | False    |
+| META     | Meta Platforms, Inc.            |  658.76 |     796.25 |            -17.27 |          795.06 |       -17.14 | False         | False    |
+| NRG      | NRG Energy, Inc.                |  149.30 |     180.54 |            -17.30 |          180.08 |       -17.09 | False         | False    |
+| ANET     | Arista Networks, Inc.           |  136.34 |     164.94 |            -17.34 |          164.94 |       -17.34 | False         | False    |
+| BXP      | BXP, Inc.                       |   65.49 |      79.33 |            -17.45 |          109.70 |       -40.30 | False         | False    |
+| INTC     | Intel Corporation               |   45.07 |      54.60 |            -17.45 |           62.29 |       -27.65 | False         | False    |
+| MGM      | MGM Resorts International       |   34.03 |      41.32 |            -17.64 |           94.92 |       -64.15 | False         | False    |
+| DPZ      | Domino's Pizza Inc              |  411.50 |     500.55 |            -17.79 |          537.18 |       -23.40 | False         | False    |
+| AIG      | American International Group, I |   72.32 |      88.07 |            -17.88 |         1224.78 |       -94.10 | False         | False    |
+| MDLZ     | Mondelez International, Inc.    |   58.40 |      71.15 |            -17.92 |           72.90 |       -19.89 | False         | False    |
+| ADSK     | Autodesk, Inc.                  |  270.00 |     329.09 |            -17.96 |          344.39 |       -21.60 | False         | False    |
+| AON      | Aon plc                         |  338.69 |     412.97 |            -17.99 |          411.24 |       -17.64 | False         | False    |
+| J        | Jacobs Solutions Inc.           |  137.89 |     168.44 |            -18.14 |          168.03 |       -17.94 | False         | False    |
+| EQR      | Equity Residential              |   62.09 |      75.86 |            -18.15 |           80.96 |       -23.31 | False         | False    |
+| PLTR     | Palantir Technologies Inc.      |  169.60 |     207.52 |            -18.27 |          207.52 |       -18.27 | False         | False    |
+| MSI      | Motorola Solutions, Inc.        |  401.66 |     492.22 |            -18.40 |          501.17 |       -19.85 | False         | False    |
+| DHI      | D.R. Horton, Inc.               |  150.51 |     184.55 |            -18.44 |          197.03 |       -23.61 | False         | False    |
+| CMCSA    | Comcast Corporation             |   29.30 |      35.99 |            -18.59 |           50.46 |       -41.93 | False         | False    |
+| TRMB     | Trimble Inc.                    |   71.19 |      87.50 |            -18.64 |           96.49 |       -26.22 | False         | False    |
+| UDR      | UDR, Inc.                       |   37.72 |      46.47 |            -18.83 |           51.50 |       -26.76 | False         | False    |
+| EPAM     | EPAM Systems, Inc.              |  218.21 |     269.00 |            -18.88 |          725.40 |       -69.92 | False         | False    |
+| TT       | Trane Technologies plc          |  386.22 |     476.19 |            -18.89 |          475.11 |       -18.71 | False         | False    |
+| COO      | The Cooper Companies, Inc.      |   81.29 |     100.24 |            -18.90 |          115.86 |       -29.84 | False         | False    |
+| ELV      | Elevance Health, Inc.           |  371.06 |     458.75 |            -19.11 |          552.56 |       -32.85 | False         | False    |
+| UBER     | Uber Technologies, Inc.         |   82.31 |     101.99 |            -19.30 |          101.99 |       -19.30 | False         | False    |
+| VRSN     | VeriSign, Inc.                  |  250.60 |     310.60 |            -19.32 |          308.75 |       -18.83 | False         | False    |
+| STZ      | Constellation Brands, Inc.      |  158.78 |     196.91 |            -19.36 |          264.76 |       -40.03 | False         | False    |
+| ABNB     | Airbnb, Inc.                    |  132.15 |     163.93 |            -19.39 |          219.94 |       -39.92 | False         | False    |
+| PANW     | Palo Alto Networks, Inc.        |  180.18 |     223.61 |            -19.42 |          223.61 |       -19.42 | False         | False    |
+| ESS      | Essex Property Trust, Inc.      |  254.08 |     316.29 |            -19.67 |          315.02 |       -19.34 | False         | False    |
+| BDX      | Becton, Dickinson and Company   |  201.79 |     251.99 |            -19.92 |          274.48 |       -26.48 | False         | False    |
+| CPAY     | Corpay, Inc.                    |  320.52 |     400.81 |            -20.03 |          400.81 |       -20.03 | False         | False    |
+| CRWD     | CrowdStrike Holdings, Inc.      |  452.49 |     566.90 |            -20.18 |          566.90 |       -20.18 | False         | False    |
+| CI       | The Cigna Group                 |  279.20 |     350.00 |            -20.23 |          361.84 |       -22.84 | False         | False    |
+| EOG      | EOG Resources, Inc.             |  108.33 |     135.87 |            -20.27 |          132.93 |       -18.51 | False         | False    |
+| HPE      | Hewlett Packard Enterprise Comp |   21.05 |      26.44 |            -20.39 |           26.28 |       -19.91 | False         | False    |
+| CHD      | Church & Dwight Company, Inc.   |   92.43 |     116.46 |            -20.63 |          115.32 |       -19.85 | False         | False    |
+| MTCH     | Match Group, Inc.               |   31.08 |      39.20 |            -20.71 |          176.78 |       -82.42 | False         | False    |
+| T        | AT&T Inc.                       |   23.59 |      29.79 |            -20.81 |           29.13 |       -19.02 | False         | False    |
+| BX       | Blackstone Inc.                 |  150.48 |     190.09 |            -20.84 |          194.94 |       -22.81 | False         | False    |
+| NKE      | Nike, Inc.                      |   65.04 |      82.44 |            -21.11 |          167.74 |       -61.22 | False         | False    |
+| GEN      | Gen Digital Inc.                |   25.41 |      32.22 |            -21.14 |           31.94 |       -20.45 | False         | False    |
+| UPS      | United Parcel Service, Inc.     |  107.98 |     136.99 |            -21.18 |          194.22 |       -44.40 | False         | False    |
+| GRMN     | Garmin Ltd.                     |  206.17 |     261.69 |            -21.22 |          260.57 |       -20.88 | False         | False    |
+| SW       | Smurfit WestRock plc            |   43.80 |      55.82 |            -21.53 |           55.46 |       -21.03 | False         | False    |
+| MAA      | Mid-America Apartment Communiti |  135.79 |     173.38 |            -21.68 |          197.60 |       -31.28 | False         | False    |
+| ADP      | Automatic Data Processing, Inc. |  257.87 |     329.93 |            -21.84 |          324.50 |       -20.53 | False         | False    |
+| DXCM     | DexCom, Inc.                    |   72.86 |      93.25 |            -21.87 |          164.86 |       -55.81 | False         | False    |
+| RCL      | Royal Caribbean Cruises Ltd.    |  286.11 |     366.50 |            -21.93 |          364.14 |       -21.43 | False         | False    |
+| APO      | Apollo Global Management, Inc.  |  136.31 |     174.91 |            -22.07 |          186.86 |       -27.05 | False         | False    |
+| ARES     | Ares Management Corporation     |  155.89 |     200.49 |            -22.24 |          195.10 |       -20.10 | False         | False    |
+| AVB      | AvalonBay Communities, Inc.     |  178.77 |     230.21 |            -22.34 |          229.18 |       -22.00 | False         | False    |
+| LEN      | Lennar Corporation              |  111.84 |     144.24 |            -22.46 |          183.95 |       -39.20 | False         | False    |
+| AVGO     | Broadcom Inc.                   |  320.05 |     414.61 |            -22.81 |          413.82 |       -22.66 | False         | False    |
+| SNPS     | Synopsys, Inc.                  |  501.39 |     651.73 |            -23.07 |          651.73 |       -23.07 | False         | False    |
+| KDP      | Keurig Dr Pepper Inc.           |   27.76 |      36.12 |            -23.15 |           37.59 |       -26.15 | False         | False    |
+| HRL      | Hormel Foods Corporation        |   24.60 |      32.07 |            -23.29 |           48.46 |       -49.24 | False         | False    |
+| APD      | Air Products and Chemicals, Inc |  261.35 |     341.14 |            -23.39 |          332.28 |       -21.35 | False         | False    |
+| PODD     | Insulet Corporation             |  271.60 |     354.88 |            -23.47 |          354.88 |       -23.47 | False         | False    |
+| SBAC     | SBA Communications Corporation  |  187.16 |     245.16 |            -23.66 |          367.46 |       -49.07 | False         | False    |
+| BR       | Broadridge Financial Solutions, |  207.54 |     271.91 |            -23.67 |          269.71 |       -23.05 | False         | False    |
+| TAP      | Molson Coors Beverage Company   |   49.35 |      64.66 |            -23.68 |           88.81 |       -44.43 | False         | False    |
+| AMT      | American Tower Corporation (REI |  178.75 |     234.33 |            -23.72 |          264.88 |       -32.52 | False         | False    |
+| NTAP     | NetApp, Inc.                    |   97.42 |     127.78 |            -23.76 |          132.11 |       -26.26 | False         | False    |
+| ABT      | Abbott Laboratories             |  107.42 |     141.23 |            -23.94 |          138.63 |       -22.51 | False         | False    |
+| INVH     | Invitation Homes Inc.           |   27.19 |      35.80 |            -24.05 |           40.02 |       -32.07 | False         | False    |
+| ZBH      | Zimmer Biomet Holdings, Inc.    |   86.60 |     114.44 |            -24.33 |          168.35 |       -48.56 | False         | False    |
+| QCOM     | QUALCOMM Incorporated           |  155.82 |     205.95 |            -24.34 |          223.25 |       -30.20 | False         | False    |
+| MOS      | Mosaic Company (The)            |   28.79 |      38.23 |            -24.69 |          119.76 |       -75.96 | False         | False    |
+| OKE      | ONEOK, Inc.                     |   78.00 |     103.64 |            -24.74 |          112.17 |       -30.46 | False         | False    |
+| FFIV     | F5, Inc.                        |  259.26 |     346.00 |            -25.07 |          346.00 |       -25.07 | False         | False    |
+| CCI      | Crown Castle Inc.               |   86.60 |     115.76 |            -25.19 |          171.50 |       -49.50 | False         | False    |
+| EFX      | Equifax, Inc.                   |  209.74 |     281.07 |            -25.38 |          306.72 |       -31.62 | False         | False    |
+| TGT      | Target Corporation              |  108.10 |     145.08 |            -25.49 |          236.52 |       -54.30 | False         | False    |
+| LII      | Lennox International, Inc.      |  509.76 |     689.44 |            -26.06 |          685.91 |       -25.68 | False         | False    |
+| MRSH     | Marsh                           |  183.16 |     248.00 |            -26.15 |          245.83 |       -25.49 | False         | False    |
+| PTC      | PTC Inc.                        |  162.14 |     219.69 |            -26.20 |          219.69 |       -26.20 | False         | False    |
+| BBY      | Best Buy Co., Inc.              |   67.05 |      91.68 |            -26.87 |          116.84 |       -42.62 | False         | False    |
+| VST      | Vistra Corp.                    |  160.12 |     219.82 |            -27.16 |          219.51 |       -27.06 | False         | False    |
+| DASH     | DoorDash, Inc.                  |  207.23 |     285.50 |            -27.42 |          285.50 |       -27.42 | False         | False    |
+| AJG      | Arthur J. Gallagher & Co.       |  253.21 |     351.23 |            -27.91 |          348.85 |       -27.42 | False         | False    |
+| FIS      | Fidelity National Information S |   60.50 |      83.97 |            -27.95 |          140.20 |       -56.85 | False         | False    |
+| ALGN     | Align Technology, Inc.          |  168.73 |     234.19 |            -27.95 |          737.45 |       -77.12 | False         | False    |
+| IP       | International Paper Company     |   43.04 |      60.14 |            -28.43 |           57.99 |       -25.79 | False         | False    |
+| NCLH     | Norwegian Cruise Line Holdings  |   20.93 |      29.29 |            -28.54 |           64.27 |       -67.43 | False         | False    |
+| KKR      | KKR & Co. Inc.                  |  121.25 |     170.40 |            -28.84 |          169.44 |       -28.44 | False         | False    |
+| TPL      | Texas Pacific Land Corporation  |  346.94 |     487.59 |            -28.85 |          585.53 |       -40.75 | False         | False    |
+| FTNT     | Fortinet, Inc.                  |   81.64 |     114.82 |            -28.90 |          114.82 |       -28.90 | False         | False    |
+| BF-B     | Brown Forman Inc                |   27.57 |      38.85 |            -29.03 |           75.38 |       -63.42 | False         | False    |
+| XYZ      | Block, Inc.                     |   66.83 |      94.25 |            -29.09 |          289.23 |       -76.89 | False         | False    |
+| POOL     | Pool Corporation                |  265.02 |     374.74 |            -29.28 |          552.98 |       -52.07 | False         | False    |
+| KVUE     | Kenvue Inc.                     |   17.80 |      25.17 |            -29.28 |           25.18 |       -29.32 | False         | False    |
+| CARR     | Carrier Global Corporation      |   57.30 |      81.09 |            -29.34 |           81.65 |       -29.82 | False         | False    |
+| ACN      | Accenture plc                   |  281.07 |     398.35 |            -29.44 |          394.41 |       -28.74 | False         | False    |
+| MKC      | McCormick & Company, Incorporat |   60.79 |      86.24 |            -29.51 |           98.35 |       -38.19 | False         | False    |
+| APP      | Applovin Corporation            |  524.41 |     745.61 |            -29.67 |          745.61 |       -29.67 | False         | False    |
+| PGR      | Progressive Corporation (The)   |  206.03 |     292.99 |            -29.68 |          275.18 |       -25.13 | False         | False    |
+| CEG      | Constellation Energy Corporatio |  289.06 |     412.70 |            -29.96 |          412.23 |       -29.88 | False         | False    |
+| ZTS      | Zoetis Inc.                     |  124.05 |     177.40 |            -30.07 |          238.61 |       -48.01 | False         | False    |
+| BLDR     | Builders FirstSource, Inc.      |  122.36 |     175.12 |            -30.13 |          214.70 |       -43.01 | False         | False    |
+| FICO     | Fair Isaac Corporation          | 1544.69 |    2217.60 |            -30.34 |         2402.52 |       -35.71 | False         | False    |
+| KHC      | The Kraft Heinz Company         |   23.20 |      33.35 |            -30.43 |           64.84 |       -64.22 | False         | False    |
+| HOOD     | Robinhood Markets, Inc.         |  106.99 |     153.86 |            -30.46 |          153.86 |       -30.46 | False         | False    |
+| INTU     | Intuit Inc.                     |  563.97 |     813.70 |            -30.69 |          810.72 |       -30.44 | False         | False    |
+| AXON     | Axon Enterprise, Inc.           |  613.14 |     885.92 |            -30.79 |          885.92 |       -30.79 | False         | False    |
+| CLX      | Clorox Company (The)            |  113.48 |     164.22 |            -30.90 |          203.78 |       -44.31 | False         | False    |
+| CNC      | Centene Corporation             |   46.09 |      66.81 |            -31.01 |           98.53 |       -53.22 | False         | False    |
+| DELL     | Dell Technologies Inc.          |  115.43 |     168.08 |            -31.32 |          174.49 |       -33.85 | False         | False    |
+| CMG      | Chipotle Mexican Grill, Inc.    |   40.87 |      59.57 |            -31.39 |           69.26 |       -40.99 | False         | False    |
+| ROP      | Roper Technologies, Inc.        |  407.61 |     595.17 |            -31.51 |          591.26 |       -31.06 | False         | False    |
+| KMB      | Kimberly-Clark Corporation      |  102.23 |     150.45 |            -32.05 |          145.82 |       -29.89 | False         | False    |
+| WST      | West Pharmaceutical Services, I |  236.66 |     348.90 |            -32.17 |          470.24 |       -49.67 | False         | False    |
+| VRSK     | Verisk Analytics, Inc.          |  218.04 |     322.92 |            -32.48 |          321.24 |       -32.12 | False         | False    |
+| CSGP     | CoStar Group, Inc.              |   65.60 |      97.43 |            -32.67 |          101.05 |       -35.08 | False         | False    |
+| TMUS     | T-Mobile US, Inc.               |  186.03 |     276.49 |            -32.72 |          273.15 |       -31.90 | False         | False    |
+| DOW      | Dow Inc.                        |   28.25 |      42.17 |            -33.02 |           57.91 |       -51.21 | False         | False    |
+| WDAY     | Workday, Inc.                   |  189.26 |     283.68 |            -33.28 |          311.28 |       -39.20 | False         | False    |
+| GIS      | General Mills, Inc.             |   44.56 |      67.35 |            -33.84 |           81.29 |       -45.19 | False         | False    |
+| PAYX     | Paychex, Inc.                   |  106.63 |     161.24 |            -33.87 |          158.49 |       -32.72 | False         | False    |
+| GPN      | Global Payments Inc.            |   75.21 |     114.17 |            -34.12 |          211.60 |       -64.46 | False         | False    |
+| TYL      | Tyler Technologies, Inc.        |  434.76 |     661.31 |            -34.26 |          661.31 |       -34.26 | False         | False    |
+| LW       | Lamb Weston Holdings, Inc.      |   43.72 |      67.07 |            -34.81 |          111.65 |       -60.84 | False         | False    |
+| CPRT     | Copart, Inc.                    |   41.40 |      63.85 |            -35.16 |           64.38 |       -35.69 | False         | False    |
+| ADBE     | Adobe Inc.                      |  301.07 |     465.70 |            -35.35 |          699.54 |       -56.96 | False         | False    |
+| DDOG     | Datadog, Inc.                   |  130.13 |     201.69 |            -35.48 |          201.69 |       -35.48 | False         | False    |
+| LYB      | LyondellBasell Industries NV    |   50.99 |      79.39 |            -35.77 |           93.28 |       -45.33 | False         | False    |
+| NFLX     | Netflix, Inc.                   |   86.12 |     134.12 |            -35.79 |          134.12 |       -35.79 | False         | False    |
+| SWKS     | Skyworks Solutions, Inc.        |   58.96 |      93.33 |            -36.83 |          179.75 |       -67.20 | False         | False    |
+| BRO      | Brown & Brown, Inc.             |   79.18 |     125.68 |            -37.00 |          125.05 |       -36.68 | False         | False    |
+| PYPL     | PayPal Holdings, Inc.           |   56.62 |      90.93 |            -37.73 |          309.44 |       -81.70 | False         | False    |
+| CRM      | Salesforce, Inc.                |  228.05 |     367.09 |            -37.88 |          366.19 |       -37.72 | False         | False    |
+| CAG      | ConAgra Brands, Inc.            |   17.50 |      28.52 |            -38.64 |           35.38 |       -50.54 | False         | False    |
+| CPB      | The Campbell's Company          |   26.79 |      43.85 |            -38.91 |           51.14 |       -47.61 | False         | False    |
+| ERIE     | Erie Indemnity Company          |  275.85 |     456.93 |            -39.63 |          534.74 |       -48.41 | False         | False    |
+| DVA      | DaVita Inc.                     |  108.12 |     179.60 |            -39.80 |          179.60 |       -39.80 | False         | False    |
+| FDS      | FactSet Research Systems Inc.   |  286.68 |     477.92 |            -40.02 |          493.07 |       -41.86 | False         | False    |
+| ZBRA     | Zebra Technologies Corporation  |  240.54 |     408.11 |            -41.06 |          615.00 |       -60.89 | False         | False    |
+| UNH      | UnitedHealth Group Incorporated |  356.26 |     606.36 |            -41.25 |          613.22 |       -41.90 | False         | False    |
+| PAYC     | Paycom Software, Inc.           |  152.29 |     267.76 |            -43.12 |          547.87 |       -72.20 | False         | False    |
+| ARE      | Alexandria Real Estate Equities |   59.69 |     105.14 |            -43.23 |          187.41 |       -68.15 | False         | False    |
+| CDW      | CDW Corporation                 |  126.00 |     222.92 |            -43.48 |          257.18 |       -51.01 | False         | False    |
+| PSKY     | Paramount Skydance Corporation  |   11.70 |      20.86 |            -43.91 |           90.92 |       -87.13 | False         | False    |
+| MOH      | Molina Healthcare Inc           |  201.89 |     359.97 |            -43.91 |          423.92 |       -52.38 | False         | False    |
+| NOW      | ServiceNow, Inc.                |  133.11 |     239.62 |            -44.45 |          239.62 |       -44.45 | False         | False    |
+| HPQ      | HP Inc.                         |   19.43 |      35.28 |            -44.93 |           37.80 |       -48.59 | False         | False    |
+| BAX      | Baxter International Inc.       |   19.84 |      37.74 |            -47.43 |           84.80 |       -76.60 | False         | False    |
+| ORCL     | Oracle Corporation              |  177.16 |     345.72 |            -48.76 |          344.21 |       -48.53 | False         | False    |
+| COIN     | Coinbase Global, Inc. - 3       |  216.95 |     444.65 |            -51.21 |          444.65 |       -51.21 | False         | False    |
+| GDDY     | GoDaddy Inc.                    |  103.70 |     216.00 |            -51.99 |          216.00 |       -51.99 | False         | False    |
+| SMCI     | Super Micro Computer, Inc.      |   31.70 |      66.44 |            -52.29 |          122.90 |       -74.21 | False         | False    |
+| LULU     | lululemon athletica inc.        |  191.07 |     423.32 |            -54.86 |          516.39 |       -63.00 | False         | False    |
+| DECK     | Deckers Outdoor Corporation     |   99.98 |     223.98 |            -55.36 |          223.98 |       -55.36 | False         | False    |
+| CHTR     | Charter Communications, Inc.    |  191.69 |     437.06 |            -56.14 |          825.62 |       -76.78 | False         | False    |
+| IT       | Gartner, Inc.                   |  231.76 |     584.01 |            -60.32 |          584.01 |       -60.32 | False         | False    |
+| TTD      | The Trade Desk, Inc.            |   36.55 |     125.80 |            -70.95 |          141.53 |       -74.18 | False         | False    |
+| FISV     | Fiserv, Inc.                    |   67.56 |     238.59 |            -71.68 |          238.59 |       -71.68 | False         | False    |
+
