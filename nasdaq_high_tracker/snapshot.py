@@ -2,13 +2,14 @@
 """
 Snapshot module for NASDAQ High Tracker.
 Fetches current quotes, 52-week high, and all-time high data for S&P 500 stocks.
+Supports historical date fetching for backfilling data.
 """
 
 import os
 import yfinance as yf
 import pandas as pd
 from tabulate import tabulate
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 # Get the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -40,9 +41,15 @@ def load_tickers() -> list:
 TICKERS = load_tickers()
 
 
-def fetch_quote(ticker: str) -> dict:
+def fetch_quote(ticker: str, target_date: datetime = None) -> dict:
     """
-    Fetch current price, 52-week high, and all-time high for a ticker.
+    Fetch price, 52-week high, and all-time high for a ticker.
+    
+    Args:
+        ticker: Stock ticker symbol
+        target_date: If provided, fetch historical data for this date.
+                     If None, fetch current/latest data.
+    
     Returns a dict with all relevant high-tracking metrics.
     """
     t = yf.Ticker(ticker)
@@ -53,38 +60,72 @@ def fetch_quote(ticker: str) -> dict:
     all_time_high = None
     company_name = None
 
-    # Try fast_info first (faster)
-    try:
-        fi = t.fast_info
-        price = getattr(fi, "last_price", None) or getattr(fi, "last_close", None)
-        market_cap = getattr(fi, "market_cap", None)
-        yr_high = getattr(fi, "year_high", None)
-        yr_low = getattr(fi, "year_low", None)
-    except Exception:
-        pass
-
-    # Get company name and fallback values from info
+    # Get company name from info (always current)
     try:
         info = t.info
         company_name = info.get("shortName") or info.get("longName")
-        if price is None:
-            price = info.get("regularMarketPrice")
-        if market_cap is None:
-            market_cap = info.get("marketCap")
-        if yr_high is None:
-            yr_high = info.get("fiftyTwoWeekHigh")
-        if yr_low is None:
-            yr_low = info.get("fiftyTwoWeekLow")
+        market_cap = info.get("marketCap")
     except Exception:
         pass
 
-    # Fetch all-time high from historical data (max available)
-    try:
-        hist = t.history(period="max")
-        if not hist.empty:
-            all_time_high = hist["High"].max()
-    except Exception:
-        pass
+    if target_date is not None:
+        # HISTORICAL MODE: Fetch data for specific date
+        try:
+            # Get price for target date
+            start_date = target_date
+            end_date = target_date + timedelta(days=1)
+            hist_day = t.history(start=start_date.strftime("%Y-%m-%d"), 
+                                  end=end_date.strftime("%Y-%m-%d"))
+            if not hist_day.empty:
+                price = hist_day["Close"].iloc[-1]
+            
+            # Get 52-week high/low as of target date (look back 252 trading days)
+            year_ago = target_date - timedelta(days=365)
+            hist_year = t.history(start=year_ago.strftime("%Y-%m-%d"), 
+                                   end=end_date.strftime("%Y-%m-%d"))
+            if not hist_year.empty:
+                yr_high = hist_year["High"].max()
+                yr_low = hist_year["Low"].min()
+            
+            # Get all-time high as of target date
+            hist_all = t.history(start="1900-01-01", 
+                                  end=end_date.strftime("%Y-%m-%d"))
+            if not hist_all.empty:
+                all_time_high = hist_all["High"].max()
+                
+        except Exception:
+            pass
+    else:
+        # CURRENT MODE: Fetch latest data
+        # Try fast_info first (faster)
+        try:
+            fi = t.fast_info
+            price = getattr(fi, "last_price", None) or getattr(fi, "last_close", None)
+            if market_cap is None:
+                market_cap = getattr(fi, "market_cap", None)
+            yr_high = getattr(fi, "year_high", None)
+            yr_low = getattr(fi, "year_low", None)
+        except Exception:
+            pass
+
+        # Fallback to info for missing values
+        try:
+            if price is None:
+                price = info.get("regularMarketPrice")
+            if yr_high is None:
+                yr_high = info.get("fiftyTwoWeekHigh")
+            if yr_low is None:
+                yr_low = info.get("fiftyTwoWeekLow")
+        except Exception:
+            pass
+
+        # Fetch all-time high from historical data (max available)
+        try:
+            hist = t.history(period="max")
+            if not hist.empty:
+                all_time_high = hist["High"].max()
+        except Exception:
+            pass
 
     # Calculate percentages from highs
     pct_from_52w_high = None
@@ -115,17 +156,33 @@ def fetch_quote(ticker: str) -> dict:
     }
 
 
-def main() -> pd.DataFrame:
+def main(date_str: str = None) -> pd.DataFrame:
     """
     Fetch quotes for all tickers and return a DataFrame.
-    Also exports a styled PNG table.
+    
+    Args:
+        date_str: Optional date string (YYYY-MM-DD) for historical data.
+                  If None, fetches current/latest data.
+    
+    Returns:
+        DataFrame with stock data
     """
-    print(f"Fetching quotes for {len(TICKERS)} NASDAQ stocks...")
+    # Parse date string if provided
+    target_date = None
+    if date_str:
+        try:
+            target_date = datetime.strptime(date_str, "%Y-%m-%d")
+            print(f"Fetching HISTORICAL quotes for {len(TICKERS)} stocks for date: {date_str}...")
+        except ValueError:
+            print(f"Error: Invalid date format '{date_str}'. Use YYYY-MM-DD.")
+            exit(1)
+    else:
+        print(f"Fetching quotes for {len(TICKERS)} S&P 500 stocks...")
     
     rows = []
     for symbol in TICKERS:
         print(f"  {symbol}...", end=" ", flush=True)
-        quote = fetch_quote(symbol)
+        quote = fetch_quote(symbol, target_date=target_date)
         rows.append(quote)
         print("✓")
 
@@ -139,7 +196,7 @@ def main() -> pd.DataFrame:
 
     # Print table (selected columns for readability)
     display_cols = [
-        "Ticker", "Name", "Price", "52W High", "% From 52W High", 
+        "Ticker", "Name", "Price", "Market Cap (B)", "52W High", "% From 52W High", 
         "All-Time High", "% From ATH", "At 52W High", "At ATH"
     ]
     
@@ -162,6 +219,8 @@ def main() -> pd.DataFrame:
     
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(f"S&P 500 High Tracker Snapshot\n")
+        if date_str:
+            f.write(f"Data Date: {date_str}\n")
         f.write(f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
         f.write(f"Total stocks: {len(df)}\n")
         f.write("=" * 80 + "\n\n")
