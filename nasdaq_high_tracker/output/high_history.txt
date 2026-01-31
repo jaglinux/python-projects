@@ -1,0 +1,134 @@
+S&P 500 Momentum Tracker - High History
+Generated: 2026-01-31 08:58:40 UTC
+==========================================================================================
+
+Stocks ranked by number of times hitting 52-Week High or All-Time High
+Higher hits = stronger momentum
+
+Total unique stocks tracked: 120
+🚀 High momentum (3+ hits): 69
+📈 Building momentum (2 hits): 12
+✨ New breakouts (1 hit): 39
+
+|   # | Ticker   | Name                           |   Hits | Last Hit   | 2nd Last   | 3rd Last   |
+|-----|----------|--------------------------------|--------|------------|------------|------------|
+|   1 | FDX      | FedEx Corporation              |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   2 | EA       | Electronic Arts Inc.           |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   3 | SPG      | Simon Property Group, Inc.     |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   4 | MTB      | M&T Bank Corporation           |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   5 | XOM      | Exxon Mobil Corporation        |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   6 | USB      | U.S. Bancorp                   |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   7 | AME      | AMETEK, Inc.                   |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   8 | SCHW     | Charles Schwab Corporation (Th |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|   9 | PCAR     | PACCAR Inc.                    |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  10 | PNC      | PNC Financial Services Group,  |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  11 | TFC      | Truist Financial Corporation   |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  12 | HOLX     | Hologic, Inc.                  |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  13 | ACGL     | Arch Capital Group Ltd.        |      4 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  14 | ROL      | Rollins, Inc.                  |      3 | 2025-12-24 | 2025-12-23 | 2025-12-22 |
+|  15 | COF      | Capital One Financial Corporat |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  16 | WFC      | Wells Fargo & Company          |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  17 | CB       | Chubb Limited                  |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  18 | NDAQ     | Nasdaq, Inc.                   |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  19 | BAC      | Bank of America Corporation    |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  20 | NEM      | Newmont Corporation            |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  21 | STT      | State Street Corporation       |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  22 | JPM      | JP Morgan Chase & Co.          |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  23 | TPR      | Tapestry, Inc.                 |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  24 | STLD     | Steel Dynamics, Inc.           |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  25 | GE       | GE Aerospace                   |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  26 | NTRS     | Northern Trust Corporation     |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  27 | SYF      | Synchrony Financial            |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  28 | AIZ      | Assurant, Inc.                 |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  29 | MNST     | Monster Beverage Corporation   |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  30 | MAR      | Marriott International         |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  31 | TKO      | TKO Group Holdings, Inc.       |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  32 | JBL      | Jabil Inc.                     |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  33 | CFG      | Citizens Financial Group, Inc. |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  34 | HIG      | The Hartford Insurance Group,  |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  35 | KLAC     | KLA Corporation                |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  36 | HWM      | Howmet Aerospace Inc.          |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  37 | TRV      | The Travelers Companies, Inc.  |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  38 | GM       | General Motors Company         |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  39 | RTX      | RTX Corporation                |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  40 | HLT      | Hilton Worldwide Holdings Inc. |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  41 | LRCX     | Lam Research Corporation       |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  42 | TJX      | TJX Companies, Inc. (The)      |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  43 | HBAN     | Huntington Bancshares Incorpor |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  44 | FOXA     | Fox Corporation                |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  45 | FITB     | Fifth Third Bancorp            |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  46 | WAB      | Westinghouse Air Brake Technol |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  47 | FOX      | Fox Corporation                |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  48 | MS       | Morgan Stanley                 |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  49 | AXP      | American Express Company       |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  50 | IVZ      | Invesco Ltd                    |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  51 | RF       | Regions Financial Corporation  |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  52 | CMI      | Cummins Inc.                   |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  53 | CRH      | CRH PLC                        |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  54 | BK       | The Bank of New York Mellon Co |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  55 | GS       | Goldman Sachs Group, Inc. (The |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  56 | DD       | DuPont de Nemours, Inc.        |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  57 | CHRW     | C.H. Robinson Worldwide, Inc.  |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  58 | ULTA     | Ulta Beauty, Inc.              |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  59 | MRK      | Merck & Company, Inc.          |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  60 | AIG      | American International Group,  |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  61 | C        | Citigroup, Inc.                |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  62 | FCX      | Freeport-McMoRan, Inc.         |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  63 | CRL      | Charles River Laboratories Int |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  64 | TXT      | Textron Inc.                   |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  65 | KEY      | KeyCorp                        |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  66 | REGN     | Regeneron Pharmaceuticals, Inc |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  67 | SNA      | Snap-On Incorporated           |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  68 | EW       | Edwards Lifesciences Corporati |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  69 | HST      | Host Hotels & Resorts, Inc.    |      3 | 2025-12-26 | 2025-12-24 | 2025-12-23 |
+|  70 | GILD     | Gilead Sciences, Inc.          |      2 | 2025-12-24 | 2025-12-22 |            |
+|  71 | L        | Loews Corporation              |      2 | 2025-12-24 | 2025-12-23 |            |
+|  72 | EXPE     | Expedia Group, Inc.            |      2 | 2025-12-26 | 2025-12-23 |            |
+|  73 | HII      | Huntington Ingalls Industries, |      2 | 2025-12-24 | 2025-12-23 |            |
+|  74 | CINF     | Cincinnati Financial Corporati |      2 | 2025-12-24 | 2025-12-23 |            |
+|  75 | MU       | Micron Technology, Inc.        |      2 | 2025-12-24 | 2025-12-23 |            |
+|  76 | VTRS     | Viatris Inc.                   |      2 | 2025-12-26 | 2025-12-23 |            |
+|  77 | UAL      | United Airlines Holdings, Inc. |      2 | 2025-12-26 | 2025-12-24 |            |
+|  78 | JCI      | Johnson Controls International |      2 | 2025-12-26 | 2025-12-24 |            |
+|  79 | PLD      | Prologis, Inc.                 |      2 | 2025-12-26 | 2025-12-24 |            |
+|  80 | ALB      | Albemarle Corporation          |      2 | 2025-12-26 | 2025-12-24 |            |
+|  81 | NUE      | Nucor Corporation              |      2 | 2025-12-26 | 2025-12-24 |            |
+|  82 | KO       | Coca-Cola Company (The)        |      1 | 2025-12-22 |            |            |
+|  83 | CVX      | Chevron Corporation            |      1 | 2025-12-22 |            |            |
+|  84 | KMI      | Kinder Morgan, Inc.            |      1 | 2025-12-22 |            |            |
+|  85 | NDSN     | Nordson Corporation            |      1 | 2025-12-22 |            |            |
+|  86 | PFG      | Principal Financial Group Inc  |      1 | 2025-12-22 |            |            |
+|  87 | CAH      | Cardinal Health, Inc.          |      1 | 2025-12-22 |            |            |
+|  88 | HON      | Honeywell International Inc.   |      1 | 2025-12-22 |            |            |
+|  89 | CME      | CME Group Inc.                 |      1 | 2025-12-22 |            |            |
+|  90 | GOOG     | Alphabet Inc.                  |      1 | 2025-12-22 |            |            |
+|  91 | JNJ      | Johnson & Johnson              |      1 | 2025-12-22 |            |            |
+|  92 | GOOGL    | Alphabet Inc.                  |      1 | 2025-12-22 |            |            |
+|  93 | O        | Realty Income Corporation      |      1 | 2025-12-22 |            |            |
+|  94 | ECL      | Ecolab Inc.                    |      1 | 2025-12-22 |            |            |
+|  95 | NEE      | NextEra Energy, Inc.           |      1 | 2025-12-22 |            |            |
+|  96 | NI       | NiSource Inc                   |      1 | 2025-12-22 |            |            |
+|  97 | WMB      | Williams Companies, Inc. (The) |      1 | 2025-12-22 |            |            |
+|  98 | CBRE     | CBRE Group Inc                 |      1 | 2025-12-22 |            |            |
+|  99 | TDY      | Teledyne Technologies Incorpor |      1 | 2025-12-22 |            |            |
+| 100 | DE       | Deere & Company                |      1 | 2025-12-22 |            |            |
+| 101 | SYY      | Sysco Corporation              |      1 | 2025-12-22 |            |            |
+| 102 | LMT      | Lockheed Martin Corporation    |      1 | 2025-12-22 |            |            |
+| 103 | FE       | FirstEnergy Corp.              |      1 | 2025-12-22 |            |            |
+| 104 | ROK      | Rockwell Automation, Inc.      |      1 | 2025-12-22 |            |            |
+| 105 | NOC      | Northrop Grumman Corporation   |      1 | 2025-12-22 |            |            |
+| 106 | CSX      | CSX Corporation                |      1 | 2025-12-22 |            |            |
+| 107 | TSN      | Tyson Foods, Inc.              |      1 | 2025-12-22 |            |            |
+| 108 | BEN      | Franklin Resources, Inc.       |      1 | 2025-12-22 |            |            |
+| 109 | EIX      | Edison International           |      1 | 2025-12-22 |            |            |
+| 110 | HAS      | Hasbro, Inc.                   |      1 | 2025-12-22 |            |            |
+| 111 | COP      | ConocoPhillips                 |      1 | 2025-12-22 |            |            |
+| 112 | MSCI     | MSCI Inc.                      |      1 | 2025-12-22 |            |            |
+| 113 | CNP      | CenterPoint Energy, Inc (Holdi |      1 | 2025-12-22 |            |            |
+| 114 | PNW      | Pinnacle West Capital Corporat |      1 | 2025-12-22 |            |            |
+| 115 | PM       | Philip Morris International In |      1 | 2025-12-22 |            |            |
+| 116 | VZ       | Verizon Communications Inc.    |      1 | 2025-12-22 |            |            |
+| 117 | DAL      | Delta Air Lines, Inc.          |      1 | 2025-12-24 |            |            |
+| 118 | MCO      | Moody's Corporation            |      1 | 2025-12-26 |            |            |
+| 119 | EXPD     | Expeditors International of Wa |      1 | 2025-12-26 |            |            |
+| 120 | DG       | Dollar General Corporation     |      1 | 2025-12-26 |            |            |
