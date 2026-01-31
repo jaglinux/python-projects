@@ -1,0 +1,1005 @@
+{
+  "KO": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Coca-Cola Company (The)"
+  },
+  "FDX": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "FedEx Corporation"
+  },
+  "GILD": {
+    "count": 2,
+    "dates": [
+      "2025-12-22",
+      "2025-12-24"
+    ],
+    "name": "Gilead Sciences, Inc."
+  },
+  "CVX": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Chevron Corporation"
+  },
+  "KMI": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Kinder Morgan, Inc."
+  },
+  "NDSN": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Nordson Corporation"
+  },
+  "EA": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Electronic Arts Inc."
+  },
+  "SPG": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Simon Property Group, Inc."
+  },
+  "MTB": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "M&T Bank Corporation"
+  },
+  "XOM": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Exxon Mobil Corporation"
+  },
+  "PFG": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Principal Financial Group Inc"
+  },
+  "CAH": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Cardinal Health, Inc."
+  },
+  "ROL": {
+    "count": 3,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24"
+    ],
+    "name": "Rollins, Inc."
+  },
+  "HON": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Honeywell International Inc."
+  },
+  "CME": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "CME Group Inc."
+  },
+  "USB": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "U.S. Bancorp"
+  },
+  "GOOG": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Alphabet Inc."
+  },
+  "JNJ": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Johnson & Johnson"
+  },
+  "GOOGL": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Alphabet Inc."
+  },
+  "O": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Realty Income Corporation"
+  },
+  "ECL": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Ecolab Inc."
+  },
+  "NEE": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "NextEra Energy, Inc."
+  },
+  "NI": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "NiSource Inc"
+  },
+  "WMB": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Williams Companies, Inc. (The)"
+  },
+  "CBRE": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "CBRE Group Inc"
+  },
+  "TDY": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Teledyne Technologies Incorpora"
+  },
+  "AME": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "AMETEK, Inc."
+  },
+  "DE": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Deere & Company"
+  },
+  "SYY": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Sysco Corporation"
+  },
+  "LMT": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Lockheed Martin Corporation"
+  },
+  "FE": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "FirstEnergy Corp."
+  },
+  "SCHW": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Charles Schwab Corporation (The"
+  },
+  "ROK": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Rockwell Automation, Inc."
+  },
+  "NOC": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Northrop Grumman Corporation"
+  },
+  "PCAR": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "PACCAR Inc."
+  },
+  "PNC": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "PNC Financial Services Group, I"
+  },
+  "TFC": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Truist Financial Corporation"
+  },
+  "HOLX": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Hologic, Inc."
+  },
+  "CSX": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "CSX Corporation"
+  },
+  "TSN": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Tyson Foods, Inc."
+  },
+  "BEN": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Franklin Resources, Inc."
+  },
+  "EIX": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Edison International"
+  },
+  "ACGL": {
+    "count": 4,
+    "dates": [
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Arch Capital Group Ltd."
+  },
+  "HAS": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Hasbro, Inc."
+  },
+  "COP": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "ConocoPhillips"
+  },
+  "MSCI": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "MSCI Inc."
+  },
+  "CNP": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "CenterPoint Energy, Inc (Holdin"
+  },
+  "PNW": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Pinnacle West Capital Corporati"
+  },
+  "PM": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Philip Morris International Inc"
+  },
+  "VZ": {
+    "count": 1,
+    "dates": [
+      "2025-12-22"
+    ],
+    "name": "Verizon Communications Inc."
+  },
+  "COF": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Capital One Financial Corporati"
+  },
+  "WFC": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Wells Fargo & Company"
+  },
+  "CB": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Chubb Limited"
+  },
+  "NDAQ": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Nasdaq, Inc."
+  },
+  "BAC": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Bank of America Corporation"
+  },
+  "NEM": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Newmont Corporation"
+  },
+  "STT": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "State Street Corporation"
+  },
+  "JPM": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "JP Morgan Chase & Co."
+  },
+  "TPR": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Tapestry, Inc."
+  },
+  "STLD": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Steel Dynamics, Inc."
+  },
+  "GE": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "GE Aerospace"
+  },
+  "NTRS": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Northern Trust Corporation"
+  },
+  "SYF": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Synchrony Financial"
+  },
+  "AIZ": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Assurant, Inc."
+  },
+  "MNST": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Monster Beverage Corporation"
+  },
+  "MAR": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Marriott International"
+  },
+  "TKO": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "TKO Group Holdings, Inc."
+  },
+  "JBL": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Jabil Inc."
+  },
+  "CFG": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Citizens Financial Group, Inc."
+  },
+  "HIG": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "The Hartford Insurance Group, I"
+  },
+  "KLAC": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "KLA Corporation"
+  },
+  "HWM": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Howmet Aerospace Inc."
+  },
+  "TRV": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "The Travelers Companies, Inc."
+  },
+  "GM": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "General Motors Company"
+  },
+  "RTX": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "RTX Corporation"
+  },
+  "HLT": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Hilton Worldwide Holdings Inc."
+  },
+  "LRCX": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Lam Research Corporation"
+  },
+  "TJX": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "TJX Companies, Inc. (The)"
+  },
+  "HBAN": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Huntington Bancshares Incorpora"
+  },
+  "FOXA": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Fox Corporation"
+  },
+  "FITB": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Fifth Third Bancorp"
+  },
+  "WAB": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Westinghouse Air Brake Technolo"
+  },
+  "FOX": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Fox Corporation"
+  },
+  "MS": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Morgan Stanley"
+  },
+  "AXP": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "American Express Company"
+  },
+  "IVZ": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Invesco Ltd"
+  },
+  "L": {
+    "count": 2,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24"
+    ],
+    "name": "Loews Corporation"
+  },
+  "EXPE": {
+    "count": 2,
+    "dates": [
+      "2025-12-23",
+      "2025-12-26"
+    ],
+    "name": "Expedia Group, Inc."
+  },
+  "RF": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Regions Financial Corporation"
+  },
+  "HII": {
+    "count": 2,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24"
+    ],
+    "name": "Huntington Ingalls Industries, "
+  },
+  "CMI": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Cummins Inc."
+  },
+  "CRH": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "CRH PLC"
+  },
+  "BK": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "The Bank of New York Mellon Cor"
+  },
+  "CINF": {
+    "count": 2,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24"
+    ],
+    "name": "Cincinnati Financial Corporatio"
+  },
+  "GS": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Goldman Sachs Group, Inc. (The)"
+  },
+  "DD": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "DuPont de Nemours, Inc."
+  },
+  "CHRW": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "C.H. Robinson Worldwide, Inc."
+  },
+  "MU": {
+    "count": 2,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24"
+    ],
+    "name": "Micron Technology, Inc."
+  },
+  "ULTA": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Ulta Beauty, Inc."
+  },
+  "MRK": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Merck & Company, Inc."
+  },
+  "AIG": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "American International Group, I"
+  },
+  "C": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Citigroup, Inc."
+  },
+  "FCX": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Freeport-McMoRan, Inc."
+  },
+  "CRL": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Charles River Laboratories Inte"
+  },
+  "TXT": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Textron Inc."
+  },
+  "VTRS": {
+    "count": 2,
+    "dates": [
+      "2025-12-23",
+      "2025-12-26"
+    ],
+    "name": "Viatris Inc."
+  },
+  "KEY": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "KeyCorp"
+  },
+  "REGN": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Regeneron Pharmaceuticals, Inc."
+  },
+  "SNA": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Snap-On Incorporated"
+  },
+  "EW": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Edwards Lifesciences Corporatio"
+  },
+  "HST": {
+    "count": 3,
+    "dates": [
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Host Hotels & Resorts, Inc."
+  },
+  "UAL": {
+    "count": 2,
+    "dates": [
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "United Airlines Holdings, Inc."
+  },
+  "DAL": {
+    "count": 1,
+    "dates": [
+      "2025-12-24"
+    ],
+    "name": "Delta Air Lines, Inc."
+  },
+  "JCI": {
+    "count": 2,
+    "dates": [
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Johnson Controls International "
+  },
+  "PLD": {
+    "count": 2,
+    "dates": [
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Prologis, Inc."
+  },
+  "ALB": {
+    "count": 2,
+    "dates": [
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Albemarle Corporation"
+  },
+  "NUE": {
+    "count": 2,
+    "dates": [
+      "2025-12-24",
+      "2025-12-26"
+    ],
+    "name": "Nucor Corporation"
+  },
+  "MCO": {
+    "count": 1,
+    "dates": [
+      "2025-12-26"
+    ],
+    "name": "Moody's Corporation"
+  },
+  "EXPD": {
+    "count": 1,
+    "dates": [
+      "2025-12-26"
+    ],
+    "name": "Expeditors International of Was"
+  },
+  "DG": {
+    "count": 1,
+    "dates": [
+      "2025-12-26"
+    ],
+    "name": "Dollar General Corporation"
+  }
+}
