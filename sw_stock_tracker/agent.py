@@ -44,7 +44,7 @@ def load_recommendation_history(path: str = RECOMMENDATIONS_FILE) -> str:
     return "\n".join(lines).strip()
 
 
-def generate_recommendation(df_latest: Pd.DataFrame) -> str:
+def generate_recommendation(df_latest: pd.DataFrame) -> str:
     """
     Use LangChain + GPT to analyze the latest stock data and generate
     buy recommendations based on sentiment, market cap, price changes, etc.
