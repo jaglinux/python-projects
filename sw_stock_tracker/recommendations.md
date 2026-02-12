@@ -1,5 +1,14 @@
 # Daily Stock Recommendations
 
+- 2026-02-12 06:01 UTC — **BUY:**
+- ZETA ($16.01): Positive sentiment and a lower market cap suggest strong upside potential.
+- DUOL ($109.30): Positive sentiment with significant room for recovery.
+- GTLB ($30.02): Positive sentiment and a lower market cap indicate potential growth.
+- KVYO ($20.34): Positive sentiment and strong momentum make it an attractive buy.
+- PATH ($11.69): Positive sentiment and a lower price point offer good upside.
+
+**SHORT SELL:**
+- ADBE ($257.16): Negative sentiment and a high market cap could lead to further declines.
 - 2026-02-11 06:06 UTC — Today, I recommend the following stocks for a BUY:
 
 1. ZETA ($17.17) - Continues to show positive sentiment and a low market cap, indicating strong growth potential.
