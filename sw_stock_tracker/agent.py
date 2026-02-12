@@ -47,17 +47,13 @@ def load_recommendation_history(path: str = RECOMMENDATIONS_FILE) -> str:
 def generate_recommendation(df_latest: pd.DataFrame) -> str:
     """
     Use LangChain + GPT to analyze the latest stock data and generate
-    buy recommendations based on sentiment, market cap, price changes, etc.
-    The model is free to recommend any number of stocks and use its own style.
+    buy and short-sell recommendations based on sentiment, market cap,
+    price changes, etc.
     """
     if df_latest.empty:
         return "No data available for analysis."
 
-    # Latest snapshot as markdown table
     table_md = df_latest.to_markdown(index=False)
-
-    # Load prior recommendation history (optional context)
-    history_text = load_recommendation_history()
 
     prompt_template = ChatPromptTemplate.from_messages(
         [
@@ -67,22 +63,23 @@ def generate_recommendation(df_latest: pd.DataFrame) -> str:
 
 You are given:
 1) A table with today's data for a small set of stocks.
-2) A history of past daily recommendations (if any).
 
 Your task:
 - Recommend any number of BUY ideas you think make sense today (including zero, if nothing is attractive).
+- Recommend any number of SHORT SELL ideas you think make sense today (including zero).
 - Focus especially on:
-  - Positive sentiment.
-  - Lower market cap (more upside potential).
+  - Positive sentiment for BUY, negative/weak sentiment for SHORT SELL.
+  - Lower market cap (more upside/downside potential).
   - Strong recent momentum in daily/weekly % changes when available.
 - You do NOT need to consider the 52-week high distance as a constraint.
-  - Even if a stock is far below its 52-week high, it can still be a good BUY if sentiment and other factors are strong.
 
-Style:
-- You are free to choose your own clear, concise style.
+Output format:
+- First, a \"BUY\" section.
+- Then, a \"SHORT SELL\" section.
+- Within each section, you are free to choose your own clear, concise style.
 - Always include the current price in parentheses next to each ticker symbol, e.g. KVYO ($25.62).
-- Keep the whole answer under about 120 words.
-- It is okay to recommend only one stock or even none if you think nothing meets the bar.""",
+- Keep the whole answer under about 120 words total.
+- It is okay to recommend only one stock or even none in either section if nothing meets the bar.""",
             ),
             (
                 "human",
@@ -90,27 +87,16 @@ Style:
 
 {table}
 
-Here is the history of previous daily recommendations (most recent first, may be empty):
-
-{history}
-
-Please provide today's BUY recommendation(s) now.""",
+Please provide today's BUY and SHORT SELL recommendation(s) now.""",
             ),
         ]
     )
 
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-
     chain = prompt_template | llm
-    response = chain.invoke(
-        {
-            "table": table_md,
-            "history": history_text or "No prior recommendations available.",
-        }
-    )
+    response = chain.invoke({"table": table_md})
 
     return response.content.strip()
-
 
 def append_recommendation_md(
     recommendation_text: str, path: str = RECOMMENDATIONS_FILE
