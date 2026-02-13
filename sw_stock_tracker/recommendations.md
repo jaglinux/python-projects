@@ -1,5 +1,12 @@
 # Daily Stock Recommendations
 
+- 2026-02-13 05:56 UTC — **BUY:**
+- ZETA ($14.98): Positive sentiment and a lower market cap suggest strong upside potential.
+- GTLB ($29.58): Positive sentiment with significant room for growth.
+- DDOG ($126.13): Positive sentiment and solid momentum.
+
+**SHORT SELL:**
+- PLTR ($129.13): Negative sentiment indicates potential for further decline.
 - 2026-02-12 06:01 UTC — **BUY:**
 - ZETA ($16.01): Positive sentiment and a lower market cap suggest strong upside potential.
 - DUOL ($109.30): Positive sentiment with significant room for recovery.
