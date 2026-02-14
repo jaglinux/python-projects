@@ -1,5 +1,15 @@
 # Daily Stock Recommendations
 
+- 2026-02-14 05:41 UTC — **BUY:**
+- MNDY ($72.38) - Positive sentiment and strong potential upside.
+- ZETA ($15.46) - Attractive market cap with positive sentiment.
+- KVYO ($18.60) - Positive sentiment and lower market cap.
+- PATH ($11.32) - Strong momentum and positive sentiment.
+
+**SHORT SELL:**
+- TEAM ($84.38) - Negative sentiment and high market cap.
+- CSU.TO ($2356.67) - Negative sentiment with significant downside potential.
+- INTU ($399.40) - Negative sentiment and high market cap.
 - 2026-02-13 05:56 UTC — **BUY:**
 - ZETA ($14.98): Positive sentiment and a lower market cap suggest strong upside potential.
 - GTLB ($29.58): Positive sentiment with significant room for growth.
