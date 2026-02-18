@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+- 2026-02-18 05:58 UTC — **BUY**  
+- ZETA ($15.31): Positive sentiment and a lower market cap suggest strong upside potential.  
+- KVYO ($17.77): Positive sentiment with room for growth.  
+- PATH ($10.94): Positive sentiment and a low price point make it attractive.  
+- FIG ($23.10): Positive sentiment and significant upside potential.  
+- TEAM ($82.15): Positive sentiment with strong momentum.  
+
+**SHORT SELL**  
+- MNDY ($74.34): Negative sentiment and a high market cap indicate potential downside.  
+- HUBS ($247.31): Negative sentiment suggests weakness.  
+- NOW ($105.91): Negative sentiment and high valuation make it a candidate for shorting.  
+- PLTR ($133.02): Negative sentiment and high market cap present shorting opportunities.
 - 2026-02-14 05:41 UTC — **BUY:**
 - MNDY ($72.38) - Positive sentiment and strong potential upside.
 - ZETA ($15.46) - Attractive market cap with positive sentiment.
