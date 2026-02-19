@@ -1,5 +1,14 @@
 # Daily Stock Recommendations
 
+- 2026-02-19 05:56 UTC — **BUY:**
+- ZETA ($15.84) - Positive sentiment and strong potential upside.
+- GTLB ($28.98) - Positive sentiment with room for growth.
+- KVYO ($18.22) - Positive sentiment and attractive market cap.
+- PATH ($11.10) - Positive sentiment and strong recent momentum.
+
+**SHORT SELL:**
+- MNDY ($77.00) - Negative sentiment and significant distance from 52W high.
+- ADBE ($263.17) - Negative sentiment and underperforming compared to peers.
 - 2026-02-18 05:58 UTC — **BUY**  
 - ZETA ($15.31): Positive sentiment and a lower market cap suggest strong upside potential.  
 - KVYO ($17.77): Positive sentiment with room for growth.  
