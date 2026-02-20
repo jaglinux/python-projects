@@ -1,5 +1,12 @@
 # Daily Stock Recommendations
 
+- 2026-02-20 05:50 UTC — **BUY**  
+- ZETA ($15.68): Positive sentiment and a lower market cap suggest strong upside potential.  
+- GTLB ($28.74): Positive sentiment with significant room for growth.  
+- PATH ($11.21): Attractive price and positive sentiment indicate potential for gains.  
+
+**SHORT SELL**  
+- None: All stocks show positive sentiment, making short selling unattractive today.
 - 2026-02-19 05:56 UTC — **BUY:**
 - ZETA ($15.84) - Positive sentiment and strong potential upside.
 - GTLB ($28.98) - Positive sentiment with room for growth.
