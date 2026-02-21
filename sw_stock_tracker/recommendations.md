@@ -1,5 +1,14 @@
 # Daily Stock Recommendations
 
+- 2026-02-21 05:38 UTC — **BUY**  
+- ZETA ($16.31): Positive sentiment and a lower market cap suggest strong upside potential.  
+- KVYO ($17.32): Positive sentiment with significant room for growth.  
+- GTLB ($26.39): Positive sentiment and a favorable market cap for potential gains.  
+
+**SHORT SELL**  
+- MSFT ($397.23): Negative sentiment and a high market cap may indicate overvaluation risks.  
+
+No other stocks show weak sentiment or strong short-selling potential today.
 - 2026-02-20 05:50 UTC — **BUY**  
 - ZETA ($15.68): Positive sentiment and a lower market cap suggest strong upside potential.  
 - GTLB ($28.74): Positive sentiment with significant room for growth.  
