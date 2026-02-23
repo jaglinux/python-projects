@@ -7,7 +7,8 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-from snapshot import TICKERS  # import from snapshot.py
+from pathlib import Path
+from snapshot import load_tickers
 
 # Download VADER lexicon if not present
 try:
@@ -68,11 +69,19 @@ def fetch_sentiment_for_ticker(ticker: str, max_headlines: int = 5) -> tuple:
         return "Neutral", []
 
 
+def fetch_company_name(ticker: str) -> str:
+    try:
+        info = yf.Ticker(ticker).info
+        return info.get("shortName") or info.get("longName") or ticker
+    except Exception:
+        return ticker
+
+
 def fetch_sentiment(tickers: list) -> tuple:
     """
     Fetch sentiment scores for a list of tickers.
     Returns (DataFrame, news_dict).
-    DataFrame: columns Ticker, Sentiment
+    DataFrame: columns Ticker, Company, Sentiment
     news_dict: {ticker: [headlines]}
     """
     results = []
@@ -80,21 +89,27 @@ def fetch_sentiment(tickers: list) -> tuple:
     
     for ticker in tickers:
         label, headlines = fetch_sentiment_for_ticker(ticker)
-        results.append({"Ticker": ticker, "Sentiment": label})
+        results.append(
+            {
+                "Ticker": ticker,
+                "Company": fetch_company_name(ticker),
+                "Sentiment": label,
+            }
+        )
         news_dict[ticker] = headlines
     
     return pd.DataFrame(results), news_dict
 
 
-def create_news_image(news_dict: dict, filename: str = "news_summary.png"):
+def create_news_image(news_dict: dict, companies: dict, tickers: list, filename: str = "news_summary.png"):
     """
     Create a WhatsApp-shareable image with news headlines per ticker.
     """
-    fig, ax = plt.subplots(figsize=(12, len(TICKERS) * 1.2))
+    fig, ax = plt.subplots(figsize=(12, len(tickers) * 1.2))
     ax.axis('off')
     
     y_pos = 0.98
-    line_height = 1.0 / (len(TICKERS) + 2)
+    line_height = 1.0 / (len(tickers) + 2)
     
     # Title
     ax.text(0.5, y_pos, "📰 Stock News Summary", 
@@ -102,11 +117,12 @@ def create_news_image(news_dict: dict, filename: str = "news_summary.png"):
             transform=ax.transAxes)
     y_pos -= line_height * 1.5
     
-    for ticker in TICKERS:
+    for ticker in tickers:
         headlines = news_dict.get(ticker, [])
+        company = companies.get(ticker, ticker)
         
-        # Ticker name
-        ax.text(0.02, y_pos, f"{ticker}:", 
+        # Ticker + company name
+        ax.text(0.02, y_pos, f"{ticker} ({company}):",
                 fontsize=11, weight='bold', va='top',
                 transform=ax.transAxes)
         y_pos -= line_height * 0.6
@@ -136,12 +152,16 @@ def create_news_image(news_dict: dict, filename: str = "news_summary.png"):
 
 
 def main() -> pd.DataFrame:
+    ticker_file = Path(__file__).with_name("ticker.txt")
+    tickers = load_tickers(ticker_file)
+
     print("Fetching sentiment scores (VADER)...")
-    df, news_dict = fetch_sentiment(TICKERS)
+    df, news_dict = fetch_sentiment(tickers)
     print(df)
     
     # Create shareable news image
-    create_news_image(news_dict)
+    companies = dict(zip(df["Ticker"], df["Company"]))
+    create_news_image(news_dict, companies, tickers)
     
     return df
 

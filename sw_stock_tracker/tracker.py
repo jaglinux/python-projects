@@ -20,6 +20,7 @@ def load_history() -> pd.DataFrame:
             columns=[
                 "timestamp",
                 "Ticker",
+                "Company",
                 "Price",
                 "Market Cap (B)",
                 "52W High",
@@ -111,6 +112,7 @@ def compute_changes(df_hist: pd.DataFrame) -> pd.DataFrame:
         results.append(
             {
                 "Ticker": ticker,
+                "Company": last_row.get("Company"),
                 "Latest Price": last_price,
                 "Market Cap (B)": last_row.get("Market Cap (B)"),
                 "Daily Change %": daily_change,
@@ -141,20 +143,24 @@ def main():
     df_sentiment = sentiment.main()  # calls sentiment.main() which creates news_summary.png
 
     # 4) Merge price + sentiment
-    df_snap = df_prices.merge(df_sentiment, on="Ticker", how="left")
+    df_snap = df_prices.merge(df_sentiment, on="Ticker", how="left", suffixes=("", "_sent"))
+    if "Company_sent" in df_snap.columns:
+        df_snap["Company"] = df_snap["Company"].fillna(df_snap["Company_sent"])
+        df_snap = df_snap.drop(columns=["Company_sent"])
 
     # 5) Append merged snapshot (price + sentiment)
     now = datetime.now(timezone.utc)
     df_append = df_snap.copy()
     df_append["timestamp"] = now
 
-    for col in ["Ticker", "Price", "Market Cap (B)", "52W High", "% From 52W High", "Sentiment"]:
+    for col in ["Ticker", "Company", "Price", "Market Cap (B)", "52W High", "% From 52W High", "Sentiment"]:
         if col not in df_append.columns:
             df_append[col] = pd.NA
 
     cols = [
         "timestamp",
         "Ticker",
+        "Company",
         "Price",
         "Market Cap (B)",
         "52W High",

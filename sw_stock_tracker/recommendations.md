@@ -1,28 +1,34 @@
 # Daily Stock Recommendations
 
-- 2026-02-21 05:38 UTC — **BUY**  
-- ZETA ($16.31): Positive sentiment and a lower market cap suggest strong upside potential.  
-- KVYO ($17.32): Positive sentiment with significant room for growth.  
-- GTLB ($26.39): Positive sentiment and a favorable market cap for potential gains.  
+## 2026-02-21 05:38 UTC
 
-**SHORT SELL**  
-- MSFT ($397.23): Negative sentiment and a high market cap may indicate overvaluation risks.  
+BUY
+- ZETA ($16.31): Positive sentiment and a lower market cap suggest strong upside potential.
+- KVYO ($17.32): Positive sentiment with significant room for growth.
+- GTLB ($26.39): Positive sentiment and a favorable market cap for potential gains.
 
-No other stocks show weak sentiment or strong short-selling potential today.
-- 2026-02-20 05:50 UTC — **BUY**  
-- ZETA ($15.68): Positive sentiment and a lower market cap suggest strong upside potential.  
-- GTLB ($28.74): Positive sentiment with significant room for growth.  
-- PATH ($11.21): Attractive price and positive sentiment indicate potential for gains.  
+SHORT SELL
+- MSFT ($397.23): Negative sentiment and a high market cap may indicate overvaluation risks.
 
-**SHORT SELL**  
+## 2026-02-20 05:50 UTC
+
+BUY
+- ZETA ($15.68): Positive sentiment and a lower market cap suggest strong upside potential.
+- GTLB ($28.74): Positive sentiment with significant room for growth.
+- PATH ($11.21): Attractive price and positive sentiment indicate potential for gains.
+
+SHORT SELL
 - None: All stocks show positive sentiment, making short selling unattractive today.
-- 2026-02-19 05:56 UTC — **BUY:**
+
+## 2026-02-19 05:56 UTC
+
+BUY
 - ZETA ($15.84) - Positive sentiment and strong potential upside.
 - GTLB ($28.98) - Positive sentiment with room for growth.
 - KVYO ($18.22) - Positive sentiment and attractive market cap.
 - PATH ($11.10) - Positive sentiment and strong recent momentum.
 
-**SHORT SELL:**
+SHORT SELL
 - MNDY ($77.00) - Negative sentiment and significant distance from 52W high.
 - ADBE ($263.17) - Negative sentiment and underperforming compared to peers.
 - 2026-02-18 05:58 UTC — **BUY**  

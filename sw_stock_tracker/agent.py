@@ -76,8 +76,15 @@ Your task:
 Output format:
 - First, a \"BUY\" section.
 - Then, a \"SHORT SELL\" section.
-- Within each section, you are free to choose your own clear, concise style.
-- Always include the current price in parentheses next to each ticker symbol, e.g. KVYO ($25.62).
+- Use this exact markdown structure:
+  BUY
+  - <TICKER> (<Company>) ($<price>): <reason>
+  - <TICKER> (<Company>) ($<price>): <reason>
+
+  SHORT SELL
+  - <TICKER> (<Company>) ($<price>): <reason>
+- If a section has no picks, write exactly: `- None`.
+- Always include ticker, company name, and current price together, e.g. KVYO (Klaviyo, Inc.) ($25.62).
 - Keep the whole answer under about 120 words total.
 - It is okay to recommend only one stock or even none in either section if nothing meets the bar.""",
             ),
@@ -107,26 +114,25 @@ def append_recommendation_md(
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     p = Path(path)
 
-    new_line = f"- {now} — {recommendation_text}\n"
+    entry = f"## {now}\n\n{recommendation_text.strip()}\n"
 
     if not p.exists():
-        p.write_text("# Daily Stock Recommendations\n\n" + new_line, encoding="utf-8")
+        p.write_text("# Daily Stock Recommendations\n\n" + entry, encoding="utf-8")
         return
 
-    existing = p.read_text(encoding="utf-8")
-    lines = existing.splitlines(keepends=True)
-
-    if not lines:
-        p.write_text("# Daily Stock Recommendations\n\n" + new_line, encoding="utf-8")
+    existing = p.read_text(encoding="utf-8").strip()
+    if not existing:
+        p.write_text("# Daily Stock Recommendations\n\n" + entry, encoding="utf-8")
         return
 
-    header = lines[0]
-    rest = lines[1:]
+    header = "# Daily Stock Recommendations"
+    body = existing
+    if existing.startswith(header):
+        body = existing[len(header):].strip()
 
-    if rest and rest[0].strip() != "":
-        rest = ["\n"] + rest
-
-    new_content = header + "\n" + new_line + "".join(rest[1:])
+    new_content = header + "\n\n" + entry
+    if body:
+        new_content += "\n" + body + "\n"
     p.write_text(new_content, encoding="utf-8")
 
 

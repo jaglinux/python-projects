@@ -4,15 +4,23 @@ import yfinance as yf
 import pandas as pd
 import dataframe_image as dfi
 from tabulate import tabulate
+from pathlib import Path
 
-TICKERS = [
-    "DUOL", "HUBS", "MNDY", "TEAM", "GTLB", "KVYO", "CSU.TO",
-    "DDOG", "CRM", "ADBE", "WDAY", "INTU", "FICO", "PATH", "ADSK",
-    "ZETA", "MDB", "FIG", "ASAN", "DOCU", "INTA", "BRZE", "U", "APP", "NOW"
-]
+def load_tickers(path: Path) -> list[str]:
+    if not path.exists():
+        raise FileNotFoundError(f"Ticker file not found: {path}")
+
+    tickers: list[str] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        value = line.strip()
+        if not value or value.startswith("#"):
+            continue
+        tickers.extend([item.strip() for item in value.split(",") if item.strip()])
+    return tickers
 
 def fetch_quote(ticker: str):
     t = yf.Ticker(ticker)
+    company = ticker
     price = None
     market_cap = None
     yr_high = None
@@ -27,9 +35,16 @@ def fetch_quote(ticker: str):
         pass
 
     # fallback to info
-    if price is None or market_cap is None or yr_high is None:
+    if price is None or market_cap is None or yr_high is None or company == ticker:
         try:
             info = t.info
+            if company == ticker:
+                company = (
+                    info.get("shortName")
+                    or info.get("longName")
+                    or info.get("displayName")
+                    or ticker
+                )
             if price is None:
                 price = info.get("regularMarketPrice")
             if market_cap is None:
@@ -43,15 +58,19 @@ def fetch_quote(ticker: str):
     if price is not None and yr_high not in (None, 0):
         pct_from_high = (price / yr_high - 1.0) * 100.0
 
-    return price, market_cap, yr_high, pct_from_high
+    return company, price, market_cap, yr_high, pct_from_high
 
 def main() -> pd.DataFrame:
+    ticker_file = Path(__file__).with_name("ticker.txt")
+    tickers = load_tickers(ticker_file)
+
     rows = []
-    for symbol in TICKERS:
-        price, mcap, yr_high, pct_from_high = fetch_quote(symbol)
+    for symbol in tickers:
+        company, price, mcap, yr_high, pct_from_high = fetch_quote(symbol)
         rows.append(
             {
                 "Ticker": symbol,
+                "Company": company,
                 "Price": price,
                 "Market Cap (B)": None if mcap is None else mcap / 1e9,
                 "52W High": yr_high,
