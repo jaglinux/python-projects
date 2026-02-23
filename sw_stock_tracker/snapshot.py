@@ -6,9 +6,9 @@ import dataframe_image as dfi
 from tabulate import tabulate
 
 TICKERS = [
-    "DUOL", "HUBS", "MNDY", "TEAM", "GTLB", "KVYO", "NOW", "CSU.TO",
+    "DUOL", "HUBS", "MNDY", "TEAM", "GTLB", "KVYO", "CSU.TO",
     "DDOG", "CRM", "ADBE", "WDAY", "INTU", "FICO", "PATH", "ADSK",
-    "ZETA", "MSFT", "PLTR", "MDB", "FIG",
+    "ZETA", "MDB", "FIG", "ASAN", "DOCU", "INTA", "BRZE", "U", "APP", "NOW"
 ]
 
 def fetch_quote(ticker: str):
