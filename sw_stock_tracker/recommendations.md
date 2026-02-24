@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-02-24 05:56 UTC
+
+BUY
+- INTA (Intapp, Inc.) ($19.47): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($15.79): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($15.88): Positive sentiment and strong recent performance indicate potential for growth.
+
+SHORT SELL
+- ASAN (Asana, Inc.) ($6.58): Negative sentiment and a significant drop from its 52-week high suggest further downside risk.
+- DDOG (Datadog, Inc.) ($102.615): Negative sentiment and a considerable distance from its peak indicate potential for decline.
+
 ## 2026-02-21 05:38 UTC
 
 BUY
