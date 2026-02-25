@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-02-25 05:57 UTC
+
+BUY
+- INTA (Intapp, Inc.) ($21.32): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($17.315): Positive sentiment and recent momentum make it an attractive buy.
+- ZETA (Zeta Global Holdings Corp.) ($16.98): Positive sentiment and lower market cap suggest good upside potential.
+
+SHORT SELL
+- ASAN (Asana, Inc.) ($7.02): Negative sentiment and significant distance from 52-week high indicate potential for further decline.
+- TEAM (Atlassian Corporation) ($71.18): Negative sentiment and weak performance suggest it may continue to underperform.
+
 ## 2026-02-24 05:56 UTC
 
 BUY
