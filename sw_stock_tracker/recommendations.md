@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-02-26 05:55 UTC
+
+BUY
+- INTA (Intapp, Inc.) ($21.63): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($17.59): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($17.24): Positive sentiment and potential for growth in a lower market cap stock.
+- PATH (UiPath, Inc.) ($9.94): Positive sentiment and strong recent momentum.
+
+SHORT SELL
+- ASAN (Asana, Inc.) ($7.16): Negative sentiment and significant distance from 52-week high indicate potential for further decline.
+- WDAY (Workday, Inc.) ($133.15): Negative sentiment and weak performance suggest it may continue to underperform.
+
 ## 2026-02-25 05:57 UTC
 
 BUY
