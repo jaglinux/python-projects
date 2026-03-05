@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-03-05 05:43 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($7.75): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($27.24): Positive sentiment and strong recent momentum, making it an attractive buy.
+- BRZE (Braze, Inc.) ($19.36): Positive sentiment and a lower market cap suggest good upside potential.
+
+SHORT SELL
+- GTLB (GitLab Inc.) ($25.05): Negative sentiment and a significant drop from its 52-week high indicate potential for further decline.
+- U (Unity Software Inc.) ($20.38): Negative sentiment and a large distance from its 52-week high suggest weakness.
+
 ## 2026-02-28 05:30 UTC
 
 BUY
