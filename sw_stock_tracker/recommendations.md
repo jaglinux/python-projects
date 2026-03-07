@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-03-07 05:35 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($7.96): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($27.81): Positive sentiment and a low market cap suggest good growth potential.
+- BRZE (Braze, Inc.) ($20.14): Positive sentiment and a favorable market cap position for upside.
+
+SHORT SELL
+- HUBS (HubSpot, Inc.) ($296.56): Negative sentiment and a high market cap indicate potential for decline.
+- WDAY (Workday, Inc.) ($151.04): Negative sentiment and a significant distance from its 52-week high suggest weakness.
+
 ## 2026-03-06 05:42 UTC
 
 BUY
