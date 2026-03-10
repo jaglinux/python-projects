@@ -1,5 +1,18 @@
 # Daily Stock Recommendations
 
+## 2026-03-10 05:42 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($7.90): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($20.02): Positive sentiment and recent momentum make it an attractive buy.
+- ZETA (Zeta Global Holdings Corp.) ($19.08): Positive sentiment and lower market cap suggest good upside potential.
+- KVYO (Klaviyo, Inc. Series A) ($20.50): Positive sentiment and strong recent performance indicate potential for growth.
+- PATH (UiPath, Inc.) ($11.97): Positive sentiment and a low price point present a good buying opportunity.
+
+SHORT SELL
+- GTLB (GitLab Inc.) ($24.58): Negative sentiment and a high market cap suggest potential for decline.
+- DUOL (Duolingo, Inc.) ($100.42): Negative sentiment and significant distance from its 52-week high indicate weakness.
+
 ## 2026-03-07 05:35 UTC
 
 BUY
