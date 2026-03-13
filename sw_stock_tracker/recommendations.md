@@ -1,5 +1,18 @@
 # Daily Stock Recommendations
 
+## 2026-03-13 05:45 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.85): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($18.58): Positive sentiment and recent momentum make it an attractive buy.
+- ZETA (Zeta Global Holdings Corp.) ($18.05): Positive sentiment and lower market cap suggest good growth potential.
+- PATH (UiPath, Inc.) ($11.37): Positive sentiment and strong recent momentum indicate potential for upside.
+
+SHORT SELL
+- GTLB (GitLab Inc.) ($22.82): Negative sentiment and a high market cap suggest potential for decline.
+- FIG (Figma, Inc.) ($26.17): Negative sentiment and significant distance from 52-week high indicate weakness.
+- TEAM (Atlassian Corporation) ($73.34): Negative sentiment and a high market cap suggest potential for further decline.
+
 ## 2026-03-12 05:47 UTC
 
 BUY
