@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-03-14 05:42 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($7.01): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($18.77): Positive sentiment and strong recent momentum make it an attractive buy.
+- GTLB (GitLab Inc.) ($22.69): Positive sentiment and a lower market cap suggest good growth potential.
+
+SHORT SELL
+- TEAM (Atlassian Corporation) ($75.21): Negative sentiment and significant distance from its 52-week high indicate potential for further decline.
+- MDB (MongoDB, Inc.) ($260.50): Negative sentiment and a high market cap may lead to downward pressure.
+
 ## 2026-03-13 05:45 UTC
 
 BUY
