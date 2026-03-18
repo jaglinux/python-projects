@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-03-18 05:59 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.85): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($19.27): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($19.12): Positive sentiment and a lower market cap suggest good growth potential.
+
+SHORT SELL
+- ADBE (Adobe Inc.) ($254.20): Negative sentiment and a high market cap indicate potential downside risk.
+- INTU (Intuit Inc.) ($459.28): Negative sentiment and significant distance from its 52-week high suggest weakness.
+
 ## 2026-03-17 05:56 UTC
 
 BUY
