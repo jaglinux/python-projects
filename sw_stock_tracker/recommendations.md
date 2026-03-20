@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-03-20 05:48 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.68): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($19.21): Positive sentiment and recent momentum suggest potential for growth.
+- GTLB (GitLab Inc.) ($22.89): Positive sentiment and a lower market cap indicate good upside potential.
+
+SHORT SELL
+- DOCU (DocuSign, Inc.) ($47.75): Negative sentiment and a significant drop from its 52-week high suggest further downside risk.
+- TEAM (Atlassian Corporation) ($74.60): Negative sentiment and a large distance from its 52-week high indicate potential for decline.
+- NOW (ServiceNow, Inc.) ($113.27): Negative sentiment and a considerable drop from its 52-week high suggest weakness.
+
 ## 2026-03-19 05:55 UTC
 
 BUY
