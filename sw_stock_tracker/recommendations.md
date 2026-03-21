@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-03-21 05:37 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.65): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($18.33): Positive sentiment and recent momentum make it an attractive buy.
+- GTLB (GitLab Inc.) ($22.25): Positive sentiment and strong recent performance suggest potential for growth.
+- KVYO (Klaviyo, Inc. Series A) ($18.58): Positive sentiment and a lower market cap indicate good upside potential.
+
+SHORT SELL
+- DOCU (DocuSign, Inc.) ($47.23): Negative sentiment and a high market cap suggest potential for further decline.
+- TEAM (Atlassian Corporation) ($73.73): Negative sentiment and significant distance from 52-week high indicate weakness.
+
 ## 2026-03-20 05:48 UTC
 
 BUY
