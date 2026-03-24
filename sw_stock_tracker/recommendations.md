@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-03-24 05:57 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.61): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($18.92): Positive sentiment and recent momentum make it an attractive buy.
+- GTLB (GitLab Inc.) ($22.27): Positive sentiment and strong recent performance suggest potential for growth.
+- KVYO (Klaviyo, Inc. Series A) ($18.97): Positive sentiment and a lower market cap indicate good upside potential.
+
+SHORT SELL
+- CSU.TO (CONSTELLATION SOFTWARE INC.) ($2537.90): Negative sentiment and high market cap suggest potential for decline.
+- NOW (ServiceNow, Inc.) ($110.95): Negative sentiment and weak performance indicate a possible downturn.
+
 ## 2026-03-21 05:37 UTC
 
 BUY
