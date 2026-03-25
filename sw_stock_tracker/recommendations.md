@@ -1,5 +1,18 @@
 # Daily Stock Recommendations
 
+## 2026-03-25 05:58 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.24): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($18.02): Positive sentiment and recent momentum make it an attractive buy.
+- GTLB (GitLab Inc.) ($20.66): Positive sentiment and strong recent performance suggest potential for growth.
+- ZETA (Zeta Global Holdings Corp.) ($16.15): Positive sentiment and lower market cap indicate upside potential.
+
+SHORT SELL
+- TEAM (Atlassian Corporation) ($68.17): Negative sentiment and significant distance from 52-week high suggest potential for decline.
+- FICO (Fair Isaac Corporation) ($995): Negative sentiment and high valuation may lead to a correction.
+- NOW (ServiceNow, Inc.) ($104.65): Negative sentiment and weak performance indicate potential downside.
+
 ## 2026-03-24 05:57 UTC
 
 BUY
