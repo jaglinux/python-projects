@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-03-26 06:10 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.05): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($21.60): Positive sentiment and recent momentum make it an attractive buy.
+- GTLB (GitLab Inc.) ($20.67): Positive sentiment and strong recent performance suggest potential for growth.
+- ZETA (Zeta Global Holdings Corp.) ($16.36): Positive sentiment and a lower market cap indicate good upside potential.
+
+SHORT SELL
+- CSU.TO (CONSTELLATION SOFTWARE INC.) ($2406.75): Negative sentiment and high market cap suggest potential for decline.
+
 ## 2026-03-25 05:58 UTC
 
 BUY
