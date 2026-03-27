@@ -1,5 +1,15 @@
 # Daily Stock Recommendations
 
+## 2026-03-27 06:10 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.18): Strong positive sentiment and significant upside potential with a low market cap.
+- GTLB (GitLab Inc.) ($21.25): Positive sentiment and recent momentum, making it an attractive buy.
+- ZETA (Zeta Global Holdings Corp.) ($16.08): Positive sentiment and a lower market cap suggest good growth potential.
+
+SHORT SELL
+- DOCU (DocuSign, Inc.) ($47.18): Negative sentiment and a significant drop from its 52-week high indicate potential for further decline.
+
 ## 2026-03-26 06:10 UTC
 
 BUY
