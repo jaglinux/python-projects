@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-03-31 06:14 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.21): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($25.42): Positive sentiment and recent momentum make it an attractive buy.
+- BRZE (Braze, Inc.) ($23.49): Positive sentiment and a lower market cap suggest good growth potential.
+- KVYO (Klaviyo, Inc. Series A) ($18.97): Positive sentiment and strong recent performance indicate potential upside.
+
+SHORT SELL
+- DUOL (Duolingo, Inc.) ($94.12): Negative sentiment and high market cap suggest potential for decline.
+- NOW (ServiceNow, Inc.) ($104.97): Negative sentiment and significant distance from 52-week high indicate weakness.
+
 ## 2026-03-28 05:54 UTC
 
 BUY
