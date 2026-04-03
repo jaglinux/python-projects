@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-04-03 06:09 UTC
+
+BUY
+- INTA (Intapp, Inc.) ($24.78): Strong positive sentiment and significant upside potential with a lower market cap.
+- BRZE (Braze, Inc.) ($23.68): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($19.14): Positive sentiment and a lower market cap suggest good upside potential.
+
+SHORT SELL
+- CSU.TO (CONSTELLATION SOFTWARE INC.) ($2441.27): Negative sentiment and a high market cap indicate potential downside risk.
+- ADBE (Adobe Inc.) ($242.92): Negative sentiment and significant distance from the 52-week high suggest weakness.
+- NOW (ServiceNow, Inc.) ($102): Negative sentiment and a considerable drop from the 52-week high make it a candidate for short selling.
+
 ## 2026-04-02 06:09 UTC
 
 BUY
