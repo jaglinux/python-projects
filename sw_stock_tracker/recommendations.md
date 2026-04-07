@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-04-07 06:17 UTC
+
+BUY
+- INTA (Intapp, Inc.) ($24.82): Strong positive sentiment and significant upside potential with a lower market cap.
+- ZETA (Zeta Global Holdings Corp.) ($15.81): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($19.21): Positive sentiment and potential for growth in a lower market cap segment.
+- PATH (UiPath, Inc.) ($11.15): Positive sentiment and strong recent momentum.
+
+SHORT SELL
+- ASAN (Asana, Inc.) ($6.23): Negative sentiment and significant distance from 52-week high indicate potential for further decline.
+- GTLB (GitLab Inc.) ($22.76): Negative sentiment and weak performance suggest it may continue to underperform.
+
 ## 2026-04-03 06:09 UTC
 
 BUY
