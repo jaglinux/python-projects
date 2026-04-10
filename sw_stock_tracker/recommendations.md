@@ -1,5 +1,18 @@
 # Daily Stock Recommendations
 
+## 2026-04-10 06:52 UTC
+
+BUY
+- INTA (Intapp, Inc.) ($21.27): Strong positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($20.68): Positive sentiment and recent momentum make it an attractive buy.
+- ZETA (Zeta Global Holdings Corp.) ($15.32): Positive sentiment and lower market cap suggest good growth potential.
+- PATH (UiPath, Inc.) ($9.94): Positive sentiment and strong recent momentum indicate potential for upside.
+- KVYO (Klaviyo, Inc. Series A) ($17.79): Positive sentiment and a lower market cap provide upside potential.
+
+SHORT SELL
+- MNDY (monday.com Ltd.) ($62.39): Negative sentiment and significant distance from 52-week high suggest potential for decline.
+- GTLB (GitLab Inc.) ($19.67): Weak sentiment and a large drop from 52-week high indicate shorting potential.
+
 ## 2026-04-09 06:18 UTC
 
 BUY
