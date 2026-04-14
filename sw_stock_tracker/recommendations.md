@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-04-14 06:29 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($5.80): Strong positive sentiment and significant upside potential with a low market cap.
+- ZETA (Zeta Global Holdings Corp.) ($15.63): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($17.60): Positive sentiment and potential for growth with a lower market cap.
+
+SHORT SELL
+- GTLB (GitLab Inc.) ($20.03): Negative sentiment and a high distance from its 52-week high suggest potential downside.
+- DOCU (DocuSign, Inc.) ($45.42): Negative sentiment and significant distance from its 52-week high indicate weakness.
+
 ## 2026-04-11 05:57 UTC
 
 BUY
