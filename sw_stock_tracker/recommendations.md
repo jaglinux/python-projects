@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-04-15 06:52 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($5.49): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($21.32): Positive sentiment and strong recent momentum, making it an attractive buy.
+- BRZE (Braze, Inc.) ($20.51): Positive sentiment and a lower market cap suggest good growth potential.
+- ZETA (Zeta Global Holdings Corp.) ($16.20): Positive sentiment and recent momentum indicate potential for gains.
+
+SHORT SELL
+- GTLB (GitLab Inc.) ($20.08): Negative sentiment and a high distance from the 52-week high suggest potential for further declines.
+- DOCU (DocuSign, Inc.) ($44.63): Negative sentiment and significant distance from the 52-week high indicate weakness.
+
 ## 2026-04-14 06:29 UTC
 
 BUY
