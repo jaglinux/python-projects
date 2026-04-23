@@ -1,5 +1,15 @@
 # Daily Stock Recommendations
 
+## 2026-04-23 06:59 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.41): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($23.07): Positive sentiment and strong recent momentum, making it an attractive buy.
+- ZETA (Zeta Global Holdings Corp.) ($18.16): Positive sentiment and a lower market cap suggest good growth potential.
+
+SHORT SELL
+- NOW (ServiceNow, Inc.) ($103.07): Negative sentiment and a high market cap indicate potential downside risk.
+
 ## 2026-04-22 06:56 UTC
 
 BUY
