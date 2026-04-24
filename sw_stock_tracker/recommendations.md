@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-04-24 07:03 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.10): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($21.72): Positive sentiment and recent momentum make it an attractive buy.
+- BRZE (Braze, Inc.) ($22.46): Positive sentiment and a lower market cap suggest good growth potential.
+- PATH (UiPath, Inc.) ($10.09): Positive sentiment and a low price point indicate potential for upside.
+
+SHORT SELL
+- ZETA (Zeta Global Holdings Corp.) ($17.09): Negative sentiment and weak performance suggest it may decline further.
+- WDAY (Workday, Inc.) ($114.67): Negative sentiment and a high market cap could lead to a downturn.
+
 ## 2026-04-23 06:59 UTC
 
 BUY
