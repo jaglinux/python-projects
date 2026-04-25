@@ -1,5 +1,18 @@
 # Daily Stock Recommendations
 
+## 2026-04-25 06:18 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.39): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($22.25): Positive sentiment and a low market cap suggest good growth potential.
+- BRZE (Braze, Inc.) ($23.27): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($19.45): Positive sentiment and a lower market cap indicate potential for growth.
+
+SHORT SELL
+- ZETA (Zeta Global Holdings Corp.) ($17.53): Negative sentiment and weak performance suggest it may decline further.
+- HUBS (HubSpot, Inc.) ($223.32): Negative sentiment and a high market cap could lead to a downturn.
+- WDAY (Workday, Inc.) ($119.76): Negative sentiment and significant distance from its 52-week high indicate potential weakness.
+
 ## 2026-04-24 07:03 UTC
 
 BUY
