@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-04-28 07:29 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.24): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($22.14): Positive sentiment and strong recent momentum, making it an attractive buy.
+- BRZE (Braze, Inc.) ($23.25): Positive sentiment and a lower market cap suggest potential for growth.
+
+SHORT SELL
+- ZETA (Zeta Global Holdings Corp.) ($18.09): Negative sentiment and a weak outlook make it a candidate for short selling.
+- HUBS (HubSpot, Inc.) ($225.07): Negative sentiment and significant distance from its 52-week high indicate potential downside.
+
 ## 2026-04-25 06:18 UTC
 
 BUY
