@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-04-30 07:26 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.40): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($23.20): Positive sentiment and a lower market cap suggest good growth potential.
+- BRZE (Braze, Inc.) ($22.69): Positive sentiment and recent momentum make it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($19.89): Positive sentiment and strong recent performance indicate potential for growth.
+
+SHORT SELL
+- FIG (Figma, Inc.) ($16.86): Negative sentiment and a significant drop from its 52-week high suggest further downside risk.
+- HUBS (HubSpot, Inc.) ($227.25): Negative sentiment and a large gap from its 52-week high indicate potential for decline.
+
 ## 2026-04-29 07:20 UTC
 
 BUY
