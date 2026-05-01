@@ -1,5 +1,15 @@
 # Daily Stock Recommendations
 
+## 2026-05-01 07:24 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.32): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($22.45): Positive sentiment and recent momentum make it an attractive buy.
+- BRZE (Braze, Inc.) ($22.03): Positive sentiment and a lower market cap suggest good growth potential.
+
+SHORT SELL
+- FIG (Figma, Inc.) ($17.70): Negative sentiment and a significant drop from its 52-week high indicate potential for further decline.
+
 ## 2026-04-30 07:26 UTC
 
 BUY
