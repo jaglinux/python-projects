@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-05-07 07:40 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.83): Strong positive sentiment and significant upside potential with a low market cap.
+- INTA (Intapp, Inc.) ($23.07): Positive sentiment and a solid market cap with room for growth.
+- BRZE (Braze, Inc.) ($21.94): Positive sentiment and a favorable market cap for potential gains.
+
+SHORT SELL
+- TEAM (Atlassian Corporation) ($88.80): Negative sentiment and significant distance from its 52-week high suggests potential for further decline.
+- NOW (ServiceNow, Inc.) ($89.05): Negative sentiment and a large gap from its 52-week high indicate weakness.
+
 ## 2026-05-06 07:33 UTC
 
 BUY
