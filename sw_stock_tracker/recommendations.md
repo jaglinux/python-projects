@@ -1,5 +1,15 @@
 # Daily Stock Recommendations
 
+## 2026-05-08 06:29 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($7.05): Positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($22.60): Positive sentiment and strong recent momentum, making it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($15.77): Positive sentiment and a lower market cap suggest potential for growth.
+
+SHORT SELL
+- INTA (Intapp, Inc.) ($23.98): Negative sentiment and a high percentage from the 52-week high indicate potential for further decline.
+
 ## 2026-05-07 07:40 UTC
 
 BUY
