@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-05-13 07:46 UTC
+
+BUY
+- BRZE (Braze, Inc.) ($19.26): Positive sentiment and strong recent momentum make this a compelling buy.
+- ZETA (Zeta Global Holdings Corp.) ($16.25): Positive sentiment and lower market cap suggest significant upside potential.
+- KVYO (Klaviyo, Inc. Series A) ($14.45): Positive sentiment and strong recent performance indicate a good buying opportunity.
+
+SHORT SELL
+- ASAN (Asana, Inc.) ($6.01): Negative sentiment and significant distance from 52-week high suggest further downside potential.
+- WDAY (Workday, Inc.) ($118.62): Negative sentiment and weak performance indicate a potential for decline.
+
 ## 2026-05-12 07:40 UTC
 
 BUY
