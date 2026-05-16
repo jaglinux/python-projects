@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-05-16 07:11 UTC
+
+BUY
+- BRZE (Braze, Inc.) ($20.87): Positive sentiment and strong recent momentum make this a compelling buy.
+- GTLB (GitLab Inc.) ($23.66): Positive sentiment and lower market cap suggest significant upside potential.
+- ZETA (Zeta Global Holdings Corp.) ($17.19): Positive sentiment and recent momentum indicate a good buying opportunity.
+- KVYO (Klaviyo, Inc. Series A) ($14.38): Positive sentiment and strong potential for growth in a lower market cap.
+
+SHORT SELL
+- INTA (Intapp, Inc.) ($20.99): Negative sentiment and significant distance from 52-week high suggest further downside risk.
+
 ## 2026-05-14 07:40 UTC
 
 BUY
