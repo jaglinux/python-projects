@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-05-23 07:27 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.62): Positive sentiment and low market cap suggest significant upside potential.
+- KVYO (Klaviyo, Inc. Series A) ($14.87): Strong positive sentiment and recent momentum make it an attractive buy.
+- GTLB (GitLab Inc.) ($26.73): Positive sentiment and a lower market cap indicate potential for growth.
+- ZETA (Zeta Global Holdings Corp.) ($18.79): Positive sentiment and recent momentum support a buy recommendation.
+
+SHORT SELL
+- INTA (Intapp, Inc.) ($20.40): Negative sentiment and a significant drop from the 52-week high suggest further downside potential.
+
 ## 2026-05-22 08:19 UTC
 
 BUY
