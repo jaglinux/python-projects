@@ -1,5 +1,16 @@
 # Daily Stock Recommendations
 
+## 2026-05-27 08:36 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.58): Positive sentiment and strong potential upside with a low market cap.
+- BRZE (Braze, Inc.) ($25.45): Positive sentiment and recent momentum, making it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($14.46): Positive sentiment and significant upside potential with a lower market cap.
+- GTLB (GitLab Inc.) ($26.77): Positive sentiment and strong recent performance.
+
+SHORT SELL
+- INTA (Intapp, Inc.) ($19.83): Negative sentiment and significant distance from 52-week high suggests further downside potential.
+
 ## 2026-05-26 08:29 UTC
 
 BUY
