@@ -1,5 +1,17 @@
 # Daily Stock Recommendations
 
+## 2026-05-29 08:39 UTC
+
+BUY
+- ASAN (Asana, Inc.) ($6.66): Positive sentiment and significant upside potential with a low market cap.
+- BRZE (Braze, Inc.) ($23.36): Positive sentiment and strong recent momentum, making it an attractive buy.
+- KVYO (Klaviyo, Inc. Series A) ($14.74): Positive sentiment and potential for recovery from current lows.
+- ZETA (Zeta Global Holdings Corp.) ($20.18): Positive sentiment and a lower market cap suggest growth potential.
+
+SHORT SELL
+- INTA (Intapp, Inc.) ($20.60): Negative sentiment and a high distance from its 52-week high indicate potential for further decline.
+- CRM (Salesforce, Inc.) ($176.17): Negative sentiment and significant distance from its 52-week high suggest weakness.
+
 ## 2026-05-28 08:39 UTC
 
 BUY
